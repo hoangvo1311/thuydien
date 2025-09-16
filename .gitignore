@@ -1,0 +1,1636 @@
+# Compiled files
+*.dll
+*.exe
+*.pdb
+
+# NuGet packages
+*.nuget/
+
+# User-specific files
+*.userprefs
+*.suo
+*.csproj.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+obj/
+
+# Visual Studio files
+.vs/
+*.vscode/
+
+# Test results
+[Test]Results/
+
+# Setup
+DMPrintter/Setup/DMApplication/
+DMPrintter/Output/
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/adminlte.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/adminlte.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/adminlte.min.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/adminlte.min.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.components.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.components.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.components.min.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.components.min.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.core.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.core.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.core.min.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.core.min.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.extra-components.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.extra-components.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.extra-components.min.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.extra-components.min.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.pages.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.pages.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.pages.min.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.pages.min.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.plugins.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.plugins.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.plugins.min.css
+Indus-G Solutions - DakSrong/IndusG.Web/dist/css/alt/adminlte.plugins.min.css.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/img/Logo.png
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/adminlte.js
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/adminlte.js.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/adminlte.min.js
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/adminlte.min.js.map
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/demo.js
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/pages/dashboard.js
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/pages/dashboard2.js
+Indus-G Solutions - DakSrong/IndusG.Web/dist/js/pages/dashboard3.js
+Indus-G Solutions - DakSrong/IndusG.Web/logs/2020-10-26.log
+Indus-G Solutions - DakSrong/IndusG.Web/logs/2020-10-27.log
+Indus-G Solutions - DakSrong/IndusG.Web/logs/2020-10-29.log
+Indus-G Solutions - DakSrong/IndusG.Web/logs/2021-02-02.log
+Indus-G Solutions - DakSrong/packages/Antlr.3.5.0.2/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg
+Indus-G Solutions - DakSrong/packages/AutoMapper.7.0.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/AutoMapper.7.0.1/AutoMapper.7.0.1.nupkg
+Indus-G Solutions - DakSrong/packages/AutoMapper.7.0.1/lib/net45/AutoMapper.xml
+Indus-G Solutions - DakSrong/packages/AutoMapper.7.0.1/lib/netcoreapp2.0/AutoMapper.xml
+Indus-G Solutions - DakSrong/packages/AutoMapper.7.0.1/lib/netstandard1.3/AutoMapper.xml
+Indus-G Solutions - DakSrong/packages/AutoMapper.7.0.1/lib/netstandard2.0/AutoMapper.xml
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/bootstrap.3.4.1.nupkg
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/LICENSE.txt
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap.min.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap.min.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.min.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.min.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.eot
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.svg
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.ttf
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.woff
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.woff2
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Scripts/bootstrap.js
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/content/Scripts/bootstrap.min.js
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.min.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.min.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.min.css
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.min.css.map
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.eot
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.svg
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.ttf
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.woff
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.woff2
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Scripts/bootstrap.js
+Indus-G Solutions - DakSrong/packages/bootstrap.3.4.1/contentFiles/Scripts/bootstrap.min.js
+Indus-G Solutions - DakSrong/packages/EasyModbusTCP.5.6.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/EasyModbusTCP.5.6.0/EasyModbusTCP.5.6.0.nupkg
+Indus-G Solutions - DakSrong/packages/EasyModbusTCP.5.6.0/lib/net40/EasyModbus.xml
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/.signature.p7s
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/EntityFramework.6.4.4.nupkg
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/Icon.png
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/build/EntityFramework.DefaultItems.props
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/build/EntityFramework.props
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/build/EntityFramework.targets
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.props
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.targets
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.props
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.targets
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.props
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.targets
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/content/net40/App.config.install.xdt
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/content/net40/App.config.transform
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/content/net40/Web.config.install.xdt
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/content/net40/Web.config.transform
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.SqlServer.xml
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.xml
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.SqlServer.xml
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.xml
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.xml
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.xml
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/about_EntityFramework6.help.txt
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psd1
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psm1
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/EntityFramework6.psd1
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/EntityFramework6.psm1
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/init.ps1
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/install.ps1
+Indus-G Solutions - DakSrong/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.runtimeconfig.json
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/EPPlus.5.4.0.nupkg
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/EPPlusLogo.png
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/license.md
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/readme.txt
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/lib/net35/EPPlus.xml
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/lib/net40/EPPlus.xml
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/lib/net45/EPPlus.xml
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/lib/netstandard2.0/EPPlus.xml
+Indus-G Solutions - DakSrong/packages/EPPlus.5.4.0/lib/netstandard2.1/EPPlus.xml
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/jQuery.3.4.1.nupkg
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.js
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.js
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.map
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.js
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.js
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.map
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1-vsdoc.js
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Tools/common.ps1
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Tools/install.ps1
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Tools/jquery-3.4.1.intellisense.js
+Indus-G Solutions - DakSrong/packages/jQuery.3.4.1/Tools/uninstall.ps1
+Indus-G Solutions - DakSrong/packages/jQuery.Validation.1.17.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/jQuery.Validation.1.17.0/jQuery.Validation.1.17.0.nupkg
+Indus-G Solutions - DakSrong/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate.js
+Indus-G Solutions - DakSrong/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate.min.js
+Indus-G Solutions - DakSrong/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate-vsdoc.js
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Mvc.5.2.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Mvc.5.2.7/Microsoft.AspNet.Mvc.5.2.7.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Mvc.5.2.7/Content/Web.config.install.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Mvc.5.2.7/Content/Web.config.uninstall.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Mvc.5.2.7/lib/net45/System.Web.Mvc.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Razor.3.2.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Razor.3.2.7/Microsoft.AspNet.Razor.3.2.7.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Razor.3.2.7/lib/net45/System.Web.Razor.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.2.4.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.2.4.1/Microsoft.AspNet.SignalR.2.4.1.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.Core.2.4.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.Core.2.4.1/Microsoft.AspNet.SignalR.Core.2.4.1.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.Core.2.4.1/lib/net45/Microsoft.AspNet.SignalR.Core.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.JS.2.4.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.JS.2.4.1/Microsoft.AspNet.SignalR.JS.2.4.1.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.JS.2.4.1/content/Scripts/jquery.signalR-2.4.1.js
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.JS.2.4.1/content/Scripts/jquery.signalR-2.4.1.min.js
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.SystemWeb.2.4.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.SystemWeb.2.4.1/Microsoft.AspNet.SignalR.SystemWeb.2.4.1.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.SignalR.SystemWeb.2.4.1/lib/net45/Microsoft.AspNet.SignalR.SystemWeb.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Web.Optimization.1.1.3/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Web.Optimization.1.1.3/Microsoft.AspNet.Web.Optimization.1.1.3.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/system.web.optimization.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.5.2.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.5.2.7/Microsoft.AspNet.WebApi.5.2.7.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Client.5.2.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Client.5.2.7/Microsoft.AspNet.WebApi.Client.5.2.7.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Core.5.2.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Core.5.2.7/Microsoft.AspNet.WebApi.Core.5.2.7.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Core.5.2.7/Content/web.config.transform
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.Core.5.2.7/lib/net45/System.Web.Http.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.WebHost.5.2.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.WebHost.5.2.7/Microsoft.AspNet.WebApi.WebHost.5.2.7.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebApi.WebHost.5.2.7/lib/net45/System.Web.Http.WebHost.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/Microsoft.AspNet.WebPages.3.2.7.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/Content/Web.config.install.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/Content/Web.config.uninstall.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.Helpers.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Deployment.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Razor.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.install.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.uninstall.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.install.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.uninstall.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.install.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.uninstall.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.install.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.uninstall.xdt
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/install.ps1
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/uninstall.ps1
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe.config
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.rsp
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.rsp
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CSharp.Core.targets
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.VisualBasic.Core.targets
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe.config
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.rsp
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe.config
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe.config
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.rsp
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe.config
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.rsp
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CSharp.Core.targets
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Managed.Core.targets
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe.config
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.rsp
+Indus-G Solutions - DakSrong/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe.config
+Indus-G Solutions - DakSrong/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Microsoft.jQuery.Unobtrusive.Validation.3.2.11.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Content/Scripts/jquery.validate.unobtrusive.js
+Indus-G Solutions - DakSrong/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Content/Scripts/jquery.validate.unobtrusive.min.js
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.2.1.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.2.1.0/Microsoft.Owin.2.1.0.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.2.1.0/lib/net40/Microsoft.Owin.XML
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.2.1.0/lib/net45/Microsoft.Owin.XML
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/Microsoft.Owin.Host.SystemWeb.2.1.0.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/lib/net40/Microsoft.Owin.Host.SystemWeb.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/lib/net45/Microsoft.Owin.Host.SystemWeb.xml
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.Security.2.1.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.Security.2.1.0/Microsoft.Owin.Security.2.1.0.nupkg
+Indus-G Solutions - DakSrong/packages/Microsoft.Owin.Security.2.1.0/lib/net45/Microsoft.Owin.Security.XML
+Indus-G Solutions - DakSrong/packages/Microsoft.Web.Infrastructure.1.0.0.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nupkg
+Indus-G Solutions - DakSrong/packages/Modernizr.2.8.3/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Modernizr.2.8.3/Modernizr.2.8.3.nupkg
+Indus-G Solutions - DakSrong/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js
+Indus-G Solutions - DakSrong/packages/Modernizr.2.8.3/Tools/common.ps1
+Indus-G Solutions - DakSrong/packages/Modernizr.2.8.3/Tools/install.ps1
+Indus-G Solutions - DakSrong/packages/Modernizr.2.8.3/Tools/uninstall.ps1
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/LICENSE.md
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/Newtonsoft.Json.12.0.2.nupkg
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/.signature.p7s
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/NLog.4.7.5.nupkg
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/monoandroid44/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/net35/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/net40-client/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/net45/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/netstandard1.3/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/netstandard1.5/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/netstandard2.0/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/sl4/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/sl5/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/wp8/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.4.7.5/lib/xamarinios10/NLog.xml
+Indus-G Solutions - DakSrong/packages/NLog.Config.4.7.5/.signature.p7s
+Indus-G Solutions - DakSrong/packages/NLog.Config.4.7.5/NLog.Config.4.7.5.nupkg
+Indus-G Solutions - DakSrong/packages/NLog.Config.4.7.5/content/NLog.config
+Indus-G Solutions - DakSrong/packages/NLog.Config.4.7.5/contentFiles/any/any/NLog.config
+Indus-G Solutions - DakSrong/packages/NLog.Config.4.7.5/tools/Install.ps1
+Indus-G Solutions - DakSrong/packages/NLog.Schema.4.7.5/.signature.p7s
+Indus-G Solutions - DakSrong/packages/NLog.Schema.4.7.5/NLog.Schema.4.7.5.nupkg
+Indus-G Solutions - DakSrong/packages/NLog.Schema.4.7.5/content/NLog.xsd
+Indus-G Solutions - DakSrong/packages/NLog.Schema.4.7.5/contentFiles/any/any/NLog.xsd
+Indus-G Solutions - DakSrong/packages/Owin.1.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/Owin.1.0/Owin.1.0.nupkg
+Indus-G Solutions - DakSrong/packages/RestSharp.106.11.7/.signature.p7s
+Indus-G Solutions - DakSrong/packages/RestSharp.106.11.7/RestSharp.106.11.7.nupkg
+Indus-G Solutions - DakSrong/packages/RestSharp.106.11.7/restsharp.png
+Indus-G Solutions - DakSrong/packages/RestSharp.106.11.7/lib/net452/RestSharp.xml
+Indus-G Solutions - DakSrong/packages/RestSharp.106.11.7/lib/netstandard2.0/RestSharp.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/LICENSE.TXT
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/System.ComponentModel.Annotations.4.7.0.nupkg
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/THIRD-PARTY-NOTICES.TXT
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/useSharedDesignerContext.txt
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/version.txt
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/MonoAndroid10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/MonoTouch10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/net45/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/netstandard2.1/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/portable-net45+win8/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/win8/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarinios10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarinmac20/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarintvos10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarinwatchos10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/MonoAndroid10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/MonoTouch10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/net45/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/net461/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard2.0/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard2.1/System.ComponentModel.Annotations.xml
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/portable-net45+win8/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/win8/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarinios10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarinmac20/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarintvos10/_._
+Indus-G Solutions - DakSrong/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarinwatchos10/_._
+Indus-G Solutions - DakSrong/packages/System.Linq.Dynamic.1.0.8/.signature.p7s
+Indus-G Solutions - DakSrong/packages/System.Linq.Dynamic.1.0.8/System.Linq.Dynamic.1.0.8.nupkg
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/LICENSE.TXT
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/version.txt
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._
+Indus-G Solutions - DakSrong/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._
+Indus-G Solutions - DakSrong/packages/WebGrease.1.6.0/.signature.p7s
+Indus-G Solutions - DakSrong/packages/WebGrease.1.6.0/WebGrease.1.6.0.nupkg
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/adminlte.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/adminlte.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/adminlte.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/adminlte.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.components.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.components.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.components.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.components.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.core.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.core.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.core.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.core.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.extra-components.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.extra-components.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.extra-components.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.extra-components.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.pages.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.pages.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.pages.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.pages.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.plugins.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.plugins.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.plugins.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/css/alt/adminlte.plugins.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/img/Logo.png
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/adminlte.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/adminlte.js.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/adminlte.min.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/adminlte.min.js.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/demo.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/pages/dashboard.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/pages/dashboard2.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/bin/app.publish/dist/js/pages/dashboard3.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/adminlte.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/adminlte.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/adminlte.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/adminlte.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.components.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.components.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.components.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.components.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.core.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.core.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.core.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.core.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.extra-components.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.extra-components.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.extra-components.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.extra-components.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.pages.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.pages.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.pages.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.pages.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.plugins.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.plugins.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.plugins.min.css
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/css/alt/adminlte.plugins.min.css.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/img/Logo.png
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/adminlte.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/adminlte.js.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/adminlte.min.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/adminlte.min.js.map
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/demo.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/pages/dashboard.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/pages/dashboard2.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/dist/js/pages/dashboard3.js
+Indus-G Solutions/IndusG.Web - DakSrong4NM/logs/2020-10-26.log
+Indus-G Solutions/IndusG.Web - DakSrong4NM/logs/2020-10-27.log
+Indus-G Solutions/IndusG.Web - DakSrong4NM/logs/2020-10-29.log
+Indus-G Solutions/IndusG.Web - DakSrong4NM/logs/2021-02-02.log
+Indus-G Solutions/IndusG.Web/bin/AutoMapper.xml
+Indus-G Solutions/IndusG.Web/bin/EasyModbus.xml
+Indus-G Solutions/IndusG.Web/bin/EntityFramework.SqlServer.xml
+Indus-G Solutions/IndusG.Web/bin/EntityFramework.xml
+Indus-G Solutions/IndusG.Web/bin/EPPlus.xml
+Indus-G Solutions/IndusG.Web/bin/IndusG.DataAccess.dll.config
+Indus-G Solutions/IndusG.Web/bin/IndusG.Service.dll.config
+Indus-G Solutions/IndusG.Web/bin/IndusG.ServiceDeployment.exe.config
+Indus-G Solutions/IndusG.Web/bin/IndusG.Web.dll.config
+Indus-G Solutions/IndusG.Web/bin/Microsoft.AspNet.SignalR.Core.xml
+Indus-G Solutions/IndusG.Web/bin/Microsoft.AspNet.SignalR.SystemWeb.xml
+Indus-G Solutions/IndusG.Web/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Indus-G Solutions/IndusG.Web/bin/Microsoft.Owin.Host.SystemWeb.xml
+Indus-G Solutions/IndusG.Web/bin/Microsoft.Owin.Security.xml
+Indus-G Solutions/IndusG.Web/bin/Microsoft.Owin.xml
+Indus-G Solutions/IndusG.Web/bin/Newtonsoft.Json.xml
+Indus-G Solutions/IndusG.Web/bin/NLog.config
+Indus-G Solutions/IndusG.Web/bin/NLog.xml
+Indus-G Solutions/IndusG.Web/bin/RestSharp.xml
+Indus-G Solutions/IndusG.Web/bin/System.Net.Http.Formatting.xml
+Indus-G Solutions/IndusG.Web/bin/System.ValueTuple.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.Helpers.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.Http.WebHost.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.Http.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.Mvc.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.Optimization.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.Razor.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.WebPages.Deployment.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.WebPages.Razor.xml
+Indus-G Solutions/IndusG.Web/bin/System.Web.WebPages.xml
+Indus-G Solutions/IndusG.Web/bin/app.publish/app.publish.zip
+Indus-G Solutions/IndusG.Web/bin/app.publish/favicon.ico
+Indus-G Solutions/IndusG.Web/bin/app.publish/Global.asax
+Indus-G Solutions/IndusG.Web/bin/app.publish/Web.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/IndusG.DataAccess.dll.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/IndusG.Service.dll.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/IndusG.ServiceDeployment.exe.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/NLog.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/Documents/BM01 BC NGAY THANG NAM_Temp.xlsx
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/csc.exe.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/csc.rsp
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/csi.exe.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/csi.rsp
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/Microsoft.CSharp.Core.targets
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/Microsoft.Managed.Core.targets
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/Microsoft.VisualBasic.Core.targets
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/vbc.exe.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/vbc.rsp
+Indus-G Solutions/IndusG.Web/bin/app.publish/bin/roslyn/VBCSCompiler.exe.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap-theme.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap-theme.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap-theme.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/bootstrap-theme.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/main.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/Site.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/util.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/icons/congsuat.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/icons/luongmua.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/icons/luuluong.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/icons/luuluongnuoc.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/icons/mucnuoc.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/images/bg-01.jpg
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/animate/animate.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/animsition/css/animsition.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/animsition/css/animsition.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/animsition/js/animsition.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/animsition/js/animsition.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-grid.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-grid.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-grid.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-grid.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-reboot.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-reboot.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-reboot.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/css/bootstrap-reboot.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/js/bootstrap.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/js/bootstrap.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/js/popper.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/js/popper.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/bootstrap/js/tooltip.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/countdowntime/countdowntime.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/css-hamburgers/hamburgers.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/css-hamburgers/hamburgers.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/daterangepicker/daterangepicker.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/daterangepicker/daterangepicker.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/daterangepicker/moment.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/daterangepicker/moment.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/jquery/jquery-3.2.1.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/perfect-scrollbar/perfect-scrollbar.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/perfect-scrollbar/perfect-scrollbar.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/select2/select2.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/select2/select2.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/select2/select2.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/Content/vendor/select2/select2.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/adminlte.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/adminlte.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/adminlte.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/adminlte.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.components.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.components.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.components.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.components.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.core.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.core.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.core.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.core.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.extra-components.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.extra-components.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.extra-components.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.extra-components.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.pages.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.pages.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.pages.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.pages.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.plugins.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.plugins.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.plugins.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/css/alt/adminlte.plugins.min.css.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/img/Logo.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/adminlte.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/adminlte.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/adminlte.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/adminlte.min.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/demo.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/pages/dashboard.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/pages/dashboard2.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/dist/js/pages/dashboard3.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Documents/BM01 BC NGAY THANG NAM_Temp.xlsx
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/glyphicons-halflings-regular.eot
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/glyphicons-halflings-regular.svg
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/glyphicons-halflings-regular.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/glyphicons-halflings-regular.woff
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/glyphicons-halflings-regular.woff2
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/HELP-US-OUT.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/css/font-awesome.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/css/font-awesome.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/animated.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/bordered-pulled.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/core.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/fixed-width.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/font-awesome.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/icons.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/larger.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/list.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/mixins.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/path.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/rotated-flipped.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/screen-reader.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/stacked.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/less/variables.less
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_animated.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_core.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_fixed-width.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_icons.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_larger.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_list.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_mixins.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_path.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_screen-reader.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_stacked.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/_variables.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/font-awesome-4.7.0/scss/font-awesome.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/iconic/css/material-design-iconic-font.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/iconic/css/material-design-iconic-font.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/iconic/fonts/Material-Design-Iconic-Font.eot
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/iconic/fonts/Material-Design-Iconic-Font.svg
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/iconic/fonts/Material-Design-Iconic-Font.woff
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-Black.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-BlackItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-Bold.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-BoldItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-ExtraBold.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-ExtraBoldItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-ExtraLight.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-ExtraLightItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-Italic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-Light.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-LightItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-Medium.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-MediumItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-Regular.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-SemiBold.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-SemiBoldItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-Thin.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/fonts/poppins/Poppins-ThinItalic.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.bundle.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.bundle.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.bundle.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.bundle.min.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/bootstrap/js/bootstrap.min.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/chart.js/Chart.bundle.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/chart.js/Chart.bundle.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/chart.js/Chart.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/chart.js/Chart.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/chart.js/Chart.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/chart.js/Chart.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatable/jquery.dataTables.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatable/jquery.dataTables.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatable/images/sort_asc.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatable/images/sort_asc_disabled.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatable/images/sort_both.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatable/images/sort_desc.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatable/images/sort_desc_disabled.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-bs4/css/dataTables.bootstrap4.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-bs4/js/dataTables.bootstrap4.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-responsive/css/responsive.bootstrap4.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-responsive/css/responsive.bootstrap4.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-responsive/js/dataTables.responsive.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-responsive/js/dataTables.responsive.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-responsive/js/responsive.bootstrap4.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/datatables-responsive/js/responsive.bootstrap4.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/bower.json
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/daterangepicker.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/daterangepicker.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/drp.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/moment.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/package.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/website.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/website.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/example/amd/index.html
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/example/amd/main.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/example/amd/require.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/example/browserify/bundle.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/example/browserify/index.html
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/example/browserify/main.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/example/browserify/README.md
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/website/index.html
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/website/website.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/daterangepicker/website/website.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/all.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/all.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/brands.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/brands.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/fontawesome.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/fontawesome.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/regular.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/regular.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/solid.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/solid.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/svg-with-js.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/svg-with-js.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/v4-shims.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/css/v4-shims.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-brands-400.eot
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-brands-400.svg
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-brands-400.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-brands-400.woff
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-brands-400.woff2
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-regular-400.eot
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-regular-400.svg
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-regular-400.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-regular-400.woff
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-regular-400.woff2
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-solid-900.eot
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-solid-900.svg
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-solid-900.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-solid-900.woff
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/icheck-bootstrap/icheck-bootstrap.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/icheck-bootstrap/icheck-bootstrap.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/icheck-bootstrap/LICENSE
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/ionicons/ionicons.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-knob/jquery.knob.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/AUTHORS.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.structure.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.structure.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.theme.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/jquery-ui.theme.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/external/jquery/jquery.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/images/ui-icons_444444_256x240.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/images/ui-icons_555555_256x240.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/images/ui-icons_777620_256x240.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/images/ui-icons_777777_256x240.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/images/ui-icons_cc0000_256x240.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/jquery.vmap.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/jquery.vmap.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/jqvmap.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/jqvmap.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.algeria.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.argentina.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.brazil.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.canada.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.croatia.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.europe.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.france.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.germany.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.greece.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.indonesia.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.iran.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.iraq.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.new_regions_france.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.russia.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.serbia.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.tunisia.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.turkey.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.ukraine.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.usa.counties.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.usa.districts.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.usa.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/jquery.vmap.world.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/continents/jquery.vmap.africa.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/continents/jquery.vmap.asia.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/continents/jquery.vmap.australia.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/continents/jquery.vmap.europe.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/continents/jquery.vmap.north-america.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/jqvmap/maps/continents/jquery.vmap.south-america.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locales.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locales.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/moment.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/moment-with-locales.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/moment-with-locales.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/af.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ar.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ar-dz.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ar-kw.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ar-ly.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ar-ma.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ar-sa.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ar-tn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/az.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/be.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/bg.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/bm.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/bn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/bo.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/br.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/bs.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ca.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/cs.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/cv.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/cy.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/da.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/de.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/de-at.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/de-ch.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/dv.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/el.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/en-au.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/en-ca.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/en-gb.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/en-ie.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/en-il.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/en-nz.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/en-SG.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/eo.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/es.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/es-do.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/es-us.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/et.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/eu.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/fa.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/fi.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/fo.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/fr.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/fr-ca.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/fr-ch.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/fy.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ga.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/gd.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/gl.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/gom-latn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/gu.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/he.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/hi.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/hr.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/hu.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/hy-am.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/id.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/is.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/it.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/it-ch.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ja.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/jv.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ka.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/kk.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/km.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/kn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ko.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ku.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ky.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/lb.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/lo.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/lt.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/lv.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/me.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/mi.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/mk.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ml.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/mn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/mr.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ms.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ms-my.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/mt.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/my.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/nb.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ne.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/nl.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/nl-be.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/nn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/pa-in.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/pl.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/pt.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/pt-br.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ro.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ru.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sd.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/se.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/si.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sk.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sl.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sq.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sr.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sr-cyrl.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ss.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sv.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/sw.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ta.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/te.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tet.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tg.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/th.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tlh.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tl-ph.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tr.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tzl.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tzm.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/tzm-latn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ug-cn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/uk.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/ur.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/uz.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/uz-latn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/vi.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/x-pseudo.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/yo.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/zh-cn.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/zh-hk.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/moment/locale/zh-tw.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/multiselect/multiselect.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/multiselect/multiselect.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/overlayScrollbars/css/OverlayScrollbars.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/overlayScrollbars/js/jquery.overlayScrollbars.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/overlayScrollbars/js/OverlayScrollbars.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/overlayScrollbars/js/OverlayScrollbars.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sparklines/sparkline.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/spin/spin.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/spin/spin.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote.min.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-bs4.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-bs4.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-bs4.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-bs4.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-bs4.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-bs4.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-bs4.min.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-lite.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-lite.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-lite.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-lite.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-lite.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-lite.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/summernote-lite.min.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/font/summernote.eot
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/font/summernote.ttf
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/font/summernote.woff
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/font/summernote.woff2
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ar-AR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ar-AR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ar-AR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-az-AZ.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-az-AZ.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-az-AZ.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-bg-BG.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-bg-BG.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-bg-BG.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ca-ES.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ca-ES.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ca-ES.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-cs-CZ.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-cs-CZ.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-cs-CZ.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-da-DK.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-da-DK.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-da-DK.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-de-DE.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-de-DE.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-de-DE.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-el-GR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-el-GR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-el-GR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-es-ES.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-es-ES.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-es-ES.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-es-EU.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-es-EU.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-es-EU.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fa-IR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fa-IR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fa-IR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fi-FI.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fi-FI.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fi-FI.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fr-FR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fr-FR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-fr-FR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-gl-ES.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-gl-ES.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-gl-ES.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-he-IL.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-he-IL.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-he-IL.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-hr-HR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-hr-HR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-hr-HR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-hu-HU.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-hu-HU.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-hu-HU.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-id-ID.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-id-ID.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-id-ID.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-it-IT.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-it-IT.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-it-IT.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ja-JP.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ja-JP.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ja-JP.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ko-KR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ko-KR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ko-KR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-lt-LT.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-lt-LT.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-lt-LT.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-lt-LV.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-lt-LV.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-lt-LV.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-mn-MN.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-mn-MN.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-mn-MN.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-nb-NO.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-nb-NO.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-nb-NO.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-nl-NL.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-nl-NL.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-nl-NL.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pl-PL.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pl-PL.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pl-PL.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pt-BR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pt-BR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pt-BR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pt-PT.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pt-PT.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-pt-PT.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ro-RO.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ro-RO.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ro-RO.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ru-RU.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ru-RU.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ru-RU.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sk-SK.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sk-SK.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sk-SK.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sl-SI.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sl-SI.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sl-SI.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sr-RS.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sr-RS.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sr-RS.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sr-RS-Latin.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sr-RS-Latin.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sr-RS-Latin.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sv-SE.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sv-SE.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-sv-SE.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ta-IN.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ta-IN.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-ta-IN.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-th-TH.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-th-TH.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-th-TH.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-tr-TR.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-tr-TR.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-tr-TR.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-uk-UA.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-uk-UA.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-uk-UA.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-uz-UZ.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-uz-UZ.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-uz-UZ.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-vi-VN.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-vi-VN.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-vi-VN.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-zh-CN.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-zh-CN.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-zh-CN.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-zh-TW.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-zh-TW.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/lang/summernote-zh-TW.min.js.LICENSE.txt
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/plugin/databasic/summernote-ext-databasic.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/plugin/databasic/summernote-ext-databasic.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/plugin/hello/summernote-ext-hello.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/summernote/plugin/specialchars/summernote-ext-specialchars.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2/sweetalert2.all.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2/sweetalert2.all.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2/sweetalert2.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2/sweetalert2.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2/sweetalert2.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2/sweetalert2.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.scss
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/toastr/toastr.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/toastr/toastr.js.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/toastr/toastr.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/toastr/toastr.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/toggle/bootstrap-toggle.min.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/toggle/bootstrap-toggle.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/waitme/waitMe.css
+Indus-G Solutions/IndusG.Web/bin/app.publish/plugins/waitme/waitMe.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/bootbox.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/bootstrap.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/bootstrap.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/clock.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery.signalR-2.4.1.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery.signalR-2.4.1.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery.validate.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery.validate.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery.validate.unobtrusive.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery.validate.unobtrusive.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery-3.4.1.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery-3.4.1.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery-3.4.1.min.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery-3.4.1.slim.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery-3.4.1.slim.min.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/jquery-3.4.1.slim.min.map
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/main.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/modernizr-2.8.3.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Scripts/siteHelper.js
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/_ViewStart.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/Web.config
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/Dashboard/Index.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/Data/Index.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/IAMODashboard/Index.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/IAMOSetting/Index.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/Setting/Index.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/Shared/_Layout.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/Shared/Error.cshtml
+Indus-G Solutions/IndusG.Web/bin/app.publish/Views/User/Login.cshtml
+Indus-G Solutions/IndusG.Web/bin/Documents/BM01 BC NGAY THANG NAM_Temp.xlsx
+Indus-G Solutions/IndusG.Web/bin/roslyn/csc.exe.config
+Indus-G Solutions/IndusG.Web/bin/roslyn/csc.rsp
+Indus-G Solutions/IndusG.Web/bin/roslyn/csi.exe.config
+Indus-G Solutions/IndusG.Web/bin/roslyn/csi.rsp
+Indus-G Solutions/IndusG.Web/bin/roslyn/Microsoft.CSharp.Core.targets
+Indus-G Solutions/IndusG.Web/bin/roslyn/Microsoft.Managed.Core.targets
+Indus-G Solutions/IndusG.Web/bin/roslyn/Microsoft.VisualBasic.Core.targets
+Indus-G Solutions/IndusG.Web/bin/roslyn/vbc.exe.config
+Indus-G Solutions/IndusG.Web/bin/roslyn/vbc.rsp
+Indus-G Solutions/IndusG.Web/bin/roslyn/VBCSCompiler.exe.config
+Indus-G Solutions/IndusG.Web/dist/css/adminlte.css
+Indus-G Solutions/IndusG.Web/dist/css/adminlte.css.map
+Indus-G Solutions/IndusG.Web/dist/css/adminlte.min.css
+Indus-G Solutions/IndusG.Web/dist/css/adminlte.min.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.components.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.components.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.components.min.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.components.min.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.core.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.core.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.core.min.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.core.min.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.extra-components.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.extra-components.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.extra-components.min.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.extra-components.min.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.pages.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.pages.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.pages.min.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.pages.min.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.plugins.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.plugins.css.map
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.plugins.min.css
+Indus-G Solutions/IndusG.Web/dist/css/alt/adminlte.plugins.min.css.map
+Indus-G Solutions/IndusG.Web/dist/img/Logo.png
+Indus-G Solutions/IndusG.Web/dist/js/adminlte.js
+Indus-G Solutions/IndusG.Web/dist/js/adminlte.js.map
+Indus-G Solutions/IndusG.Web/dist/js/adminlte.min.js
+Indus-G Solutions/IndusG.Web/dist/js/adminlte.min.js.map
+Indus-G Solutions/IndusG.Web/dist/js/demo.js
+Indus-G Solutions/IndusG.Web/dist/js/pages/dashboard.js
+Indus-G Solutions/IndusG.Web/dist/js/pages/dashboard2.js
+Indus-G Solutions/IndusG.Web/dist/js/pages/dashboard3.js
+Indus-G Solutions/IndusG.Web/logs/2020-10-26.log
+Indus-G Solutions/IndusG.Web/logs/2020-10-27.log
+Indus-G Solutions/IndusG.Web/logs/2020-10-29.log
+Indus-G Solutions/IndusG.Web/logs/2021-02-02.log
+Indus-G Solutions/packages/Antlr.3.5.0.2/.signature.p7s
+Indus-G Solutions/packages/Antlr.3.5.0.2/Antlr.3.5.0.2.nupkg
+Indus-G Solutions/packages/AutoMapper.7.0.1/.signature.p7s
+Indus-G Solutions/packages/AutoMapper.7.0.1/AutoMapper.7.0.1.nupkg
+Indus-G Solutions/packages/AutoMapper.7.0.1/lib/net45/AutoMapper.xml
+Indus-G Solutions/packages/AutoMapper.7.0.1/lib/netcoreapp2.0/AutoMapper.xml
+Indus-G Solutions/packages/AutoMapper.7.0.1/lib/netstandard1.3/AutoMapper.xml
+Indus-G Solutions/packages/AutoMapper.7.0.1/lib/netstandard2.0/AutoMapper.xml
+Indus-G Solutions/packages/bootstrap.3.4.1/.signature.p7s
+Indus-G Solutions/packages/bootstrap.3.4.1/bootstrap.3.4.1.nupkg
+Indus-G Solutions/packages/bootstrap.3.4.1/LICENSE.txt
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap.css
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap.min.css
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap.min.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.css
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.min.css
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Content/bootstrap-theme.min.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.eot
+Indus-G Solutions/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.svg
+Indus-G Solutions/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.ttf
+Indus-G Solutions/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.woff
+Indus-G Solutions/packages/bootstrap.3.4.1/content/fonts/glyphicons-halflings-regular.woff2
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Scripts/bootstrap.js
+Indus-G Solutions/packages/bootstrap.3.4.1/content/Scripts/bootstrap.min.js
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.css
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.min.css
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap.min.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.css
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.min.css
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Content/bootstrap-theme.min.css.map
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.eot
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.svg
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.ttf
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.woff
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/fonts/glyphicons-halflings-regular.woff2
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Scripts/bootstrap.js
+Indus-G Solutions/packages/bootstrap.3.4.1/contentFiles/Scripts/bootstrap.min.js
+Indus-G Solutions/packages/EasyModbusTCP.5.6.0/.signature.p7s
+Indus-G Solutions/packages/EasyModbusTCP.5.6.0/EasyModbusTCP.5.6.0.nupkg
+Indus-G Solutions/packages/EasyModbusTCP.5.6.0/lib/net40/EasyModbus.xml
+Indus-G Solutions/packages/EntityFramework.6.4.4/.signature.p7s
+Indus-G Solutions/packages/EntityFramework.6.4.4/EntityFramework.6.4.4.nupkg
+Indus-G Solutions/packages/EntityFramework.6.4.4/Icon.png
+Indus-G Solutions/packages/EntityFramework.6.4.4/build/EntityFramework.DefaultItems.props
+Indus-G Solutions/packages/EntityFramework.6.4.4/build/EntityFramework.props
+Indus-G Solutions/packages/EntityFramework.6.4.4/build/EntityFramework.targets
+Indus-G Solutions/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.props
+Indus-G Solutions/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.targets
+Indus-G Solutions/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.props
+Indus-G Solutions/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.targets
+Indus-G Solutions/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.props
+Indus-G Solutions/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.targets
+Indus-G Solutions/packages/EntityFramework.6.4.4/content/net40/App.config.install.xdt
+Indus-G Solutions/packages/EntityFramework.6.4.4/content/net40/App.config.transform
+Indus-G Solutions/packages/EntityFramework.6.4.4/content/net40/Web.config.install.xdt
+Indus-G Solutions/packages/EntityFramework.6.4.4/content/net40/Web.config.transform
+Indus-G Solutions/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.SqlServer.xml
+Indus-G Solutions/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.xml
+Indus-G Solutions/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.SqlServer.xml
+Indus-G Solutions/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.xml
+Indus-G Solutions/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.xml
+Indus-G Solutions/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.xml
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/about_EntityFramework6.help.txt
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psd1
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psm1
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/EntityFramework6.psd1
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/EntityFramework6.psm1
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/init.ps1
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/install.ps1
+Indus-G Solutions/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.runtimeconfig.json
+Indus-G Solutions/packages/EPPlus.5.4.0/.signature.p7s
+Indus-G Solutions/packages/EPPlus.5.4.0/EPPlus.5.4.0.nupkg
+Indus-G Solutions/packages/EPPlus.5.4.0/EPPlusLogo.png
+Indus-G Solutions/packages/EPPlus.5.4.0/license.md
+Indus-G Solutions/packages/EPPlus.5.4.0/readme.txt
+Indus-G Solutions/packages/EPPlus.5.4.0/lib/net35/EPPlus.xml
+Indus-G Solutions/packages/EPPlus.5.4.0/lib/net40/EPPlus.xml
+Indus-G Solutions/packages/EPPlus.5.4.0/lib/net45/EPPlus.xml
+Indus-G Solutions/packages/EPPlus.5.4.0/lib/netstandard2.0/EPPlus.xml
+Indus-G Solutions/packages/EPPlus.5.4.0/lib/netstandard2.1/EPPlus.xml
+Indus-G Solutions/packages/jQuery.3.4.1/.signature.p7s
+Indus-G Solutions/packages/jQuery.3.4.1/jQuery.3.4.1.nupkg
+Indus-G Solutions/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.js
+Indus-G Solutions/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.js
+Indus-G Solutions/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.min.map
+Indus-G Solutions/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.js
+Indus-G Solutions/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.js
+Indus-G Solutions/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1.slim.min.map
+Indus-G Solutions/packages/jQuery.3.4.1/Content/Scripts/jquery-3.4.1-vsdoc.js
+Indus-G Solutions/packages/jQuery.3.4.1/Tools/common.ps1
+Indus-G Solutions/packages/jQuery.3.4.1/Tools/install.ps1
+Indus-G Solutions/packages/jQuery.3.4.1/Tools/jquery-3.4.1.intellisense.js
+Indus-G Solutions/packages/jQuery.3.4.1/Tools/uninstall.ps1
+Indus-G Solutions/packages/jQuery.Validation.1.17.0/.signature.p7s
+Indus-G Solutions/packages/jQuery.Validation.1.17.0/jQuery.Validation.1.17.0.nupkg
+Indus-G Solutions/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate.js
+Indus-G Solutions/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate.min.js
+Indus-G Solutions/packages/jQuery.Validation.1.17.0/Content/Scripts/jquery.validate-vsdoc.js
+Indus-G Solutions/packages/Microsoft.AspNet.Mvc.5.2.7/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.Mvc.5.2.7/Microsoft.AspNet.Mvc.5.2.7.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.Mvc.5.2.7/Content/Web.config.install.xdt
+Indus-G Solutions/packages/Microsoft.AspNet.Mvc.5.2.7/Content/Web.config.uninstall.xdt
+Indus-G Solutions/packages/Microsoft.AspNet.Mvc.5.2.7/lib/net45/System.Web.Mvc.xml
+Indus-G Solutions/packages/Microsoft.AspNet.Razor.3.2.7/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.Razor.3.2.7/Microsoft.AspNet.Razor.3.2.7.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.Razor.3.2.7/lib/net45/System.Web.Razor.xml
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.2.4.1/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.2.4.1/Microsoft.AspNet.SignalR.2.4.1.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.Core.2.4.1/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.Core.2.4.1/Microsoft.AspNet.SignalR.Core.2.4.1.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.Core.2.4.1/lib/net45/Microsoft.AspNet.SignalR.Core.xml
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.JS.2.4.1/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.JS.2.4.1/Microsoft.AspNet.SignalR.JS.2.4.1.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.JS.2.4.1/content/Scripts/jquery.signalR-2.4.1.js
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.JS.2.4.1/content/Scripts/jquery.signalR-2.4.1.min.js
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.SystemWeb.2.4.1/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.SystemWeb.2.4.1/Microsoft.AspNet.SignalR.SystemWeb.2.4.1.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.SignalR.SystemWeb.2.4.1/lib/net45/Microsoft.AspNet.SignalR.SystemWeb.xml
+Indus-G Solutions/packages/Microsoft.AspNet.Web.Optimization.1.1.3/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.Web.Optimization.1.1.3/Microsoft.AspNet.Web.Optimization.1.1.3.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/system.web.optimization.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.5.2.7/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.5.2.7/Microsoft.AspNet.WebApi.5.2.7.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Client.5.2.7/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Client.5.2.7/Microsoft.AspNet.WebApi.Client.5.2.7.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Client.5.2.7/lib/net45/System.Net.Http.Formatting.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Client.5.2.7/lib/netstandard2.0/System.Net.Http.Formatting.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Client.5.2.7/lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Core.5.2.7/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Core.5.2.7/Microsoft.AspNet.WebApi.Core.5.2.7.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Core.5.2.7/Content/web.config.transform
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.Core.5.2.7/lib/net45/System.Web.Http.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.WebHost.5.2.7/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.WebHost.5.2.7/Microsoft.AspNet.WebApi.WebHost.5.2.7.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.WebApi.WebHost.5.2.7/lib/net45/System.Web.Http.WebHost.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/.signature.p7s
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/Microsoft.AspNet.WebPages.3.2.7.nupkg
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/Content/Web.config.install.xdt
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/Content/Web.config.uninstall.xdt
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.Helpers.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Deployment.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.Razor.xml
+Indus-G Solutions/packages/Microsoft.AspNet.WebPages.3.2.7/lib/net45/System.Web.WebPages.xml
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/.signature.p7s
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.install.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.uninstall.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.install.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.uninstall.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.install.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.uninstall.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.install.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.uninstall.xdt
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/install.ps1
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/uninstall.ps1
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe.config
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.rsp
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.rsp
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CSharp.Core.targets
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.VisualBasic.Core.targets
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe.config
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.rsp
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe.config
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe.config
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.rsp
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe.config
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.rsp
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CSharp.Core.targets
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Managed.Core.targets
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe.config
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.rsp
+Indus-G Solutions/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe.config
+Indus-G Solutions/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/.signature.p7s
+Indus-G Solutions/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Microsoft.jQuery.Unobtrusive.Validation.3.2.11.nupkg
+Indus-G Solutions/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Content/Scripts/jquery.validate.unobtrusive.js
+Indus-G Solutions/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.11/Content/Scripts/jquery.validate.unobtrusive.min.js
+Indus-G Solutions/packages/Microsoft.Owin.2.1.0/.signature.p7s
+Indus-G Solutions/packages/Microsoft.Owin.2.1.0/Microsoft.Owin.2.1.0.nupkg
+Indus-G Solutions/packages/Microsoft.Owin.2.1.0/lib/net40/Microsoft.Owin.XML
+Indus-G Solutions/packages/Microsoft.Owin.2.1.0/lib/net45/Microsoft.Owin.XML
+Indus-G Solutions/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/.signature.p7s
+Indus-G Solutions/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/Microsoft.Owin.Host.SystemWeb.2.1.0.nupkg
+Indus-G Solutions/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/lib/net40/Microsoft.Owin.Host.SystemWeb.xml
+Indus-G Solutions/packages/Microsoft.Owin.Host.SystemWeb.2.1.0/lib/net45/Microsoft.Owin.Host.SystemWeb.xml
+Indus-G Solutions/packages/Microsoft.Owin.Security.2.1.0/.signature.p7s
+Indus-G Solutions/packages/Microsoft.Owin.Security.2.1.0/Microsoft.Owin.Security.2.1.0.nupkg
+Indus-G Solutions/packages/Microsoft.Owin.Security.2.1.0/lib/net45/Microsoft.Owin.Security.XML
+Indus-G Solutions/packages/Microsoft.Web.Infrastructure.1.0.0.0/.signature.p7s
+Indus-G Solutions/packages/Microsoft.Web.Infrastructure.1.0.0.0/Microsoft.Web.Infrastructure.1.0.0.0.nupkg
+Indus-G Solutions/packages/Modernizr.2.8.3/.signature.p7s
+Indus-G Solutions/packages/Modernizr.2.8.3/Modernizr.2.8.3.nupkg
+Indus-G Solutions/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js
+Indus-G Solutions/packages/Modernizr.2.8.3/Tools/common.ps1
+Indus-G Solutions/packages/Modernizr.2.8.3/Tools/install.ps1
+Indus-G Solutions/packages/Modernizr.2.8.3/Tools/uninstall.ps1
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/.signature.p7s
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/LICENSE.md
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/Newtonsoft.Json.12.0.2.nupkg
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/net20/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/net35/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/net40/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/net45/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.0/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/netstandard1.3/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/netstandard2.0/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml
+Indus-G Solutions/packages/Newtonsoft.Json.12.0.2/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml
+Indus-G Solutions/packages/NLog.4.7.5/.signature.p7s
+Indus-G Solutions/packages/NLog.4.7.5/NLog.4.7.5.nupkg
+Indus-G Solutions/packages/NLog.4.7.5/lib/monoandroid44/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/net35/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/net40-client/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/net45/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/netstandard1.3/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/netstandard1.5/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/netstandard2.0/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/sl4/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/sl5/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/wp8/NLog.xml
+Indus-G Solutions/packages/NLog.4.7.5/lib/xamarinios10/NLog.xml
+Indus-G Solutions/packages/NLog.Config.4.7.5/.signature.p7s
+Indus-G Solutions/packages/NLog.Config.4.7.5/NLog.Config.4.7.5.nupkg
+Indus-G Solutions/packages/NLog.Config.4.7.5/content/NLog.config
+Indus-G Solutions/packages/NLog.Config.4.7.5/contentFiles/any/any/NLog.config
+Indus-G Solutions/packages/NLog.Config.4.7.5/tools/Install.ps1
+Indus-G Solutions/packages/NLog.Schema.4.7.5/.signature.p7s
+Indus-G Solutions/packages/NLog.Schema.4.7.5/NLog.Schema.4.7.5.nupkg
+Indus-G Solutions/packages/NLog.Schema.4.7.5/content/NLog.xsd
+Indus-G Solutions/packages/NLog.Schema.4.7.5/contentFiles/any/any/NLog.xsd
+Indus-G Solutions/packages/Owin.1.0/.signature.p7s
+Indus-G Solutions/packages/Owin.1.0/Owin.1.0.nupkg
+Indus-G Solutions/packages/RestSharp.106.11.7/.signature.p7s
+Indus-G Solutions/packages/RestSharp.106.11.7/RestSharp.106.11.7.nupkg
+Indus-G Solutions/packages/RestSharp.106.11.7/restsharp.png
+Indus-G Solutions/packages/RestSharp.106.11.7/lib/net452/RestSharp.xml
+Indus-G Solutions/packages/RestSharp.106.11.7/lib/netstandard2.0/RestSharp.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/.signature.p7s
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/LICENSE.TXT
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/System.ComponentModel.Annotations.4.7.0.nupkg
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/THIRD-PARTY-NOTICES.TXT
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/useSharedDesignerContext.txt
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/version.txt
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/MonoAndroid10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/MonoTouch10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/net45/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/netstandard2.1/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/portable-net45+win8/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/win8/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarinios10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarinmac20/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarintvos10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/lib/xamarinwatchos10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/MonoAndroid10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/MonoTouch10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/net45/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/net461/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/de/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/es/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/it/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard2.0/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/netstandard2.1/System.ComponentModel.Annotations.xml
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/portable-net45+win8/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/win8/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarinios10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarinmac20/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarintvos10/_._
+Indus-G Solutions/packages/System.ComponentModel.Annotations.4.7.0/ref/xamarinwatchos10/_._
+Indus-G Solutions/packages/System.Linq.Dynamic.1.0.8/.signature.p7s
+Indus-G Solutions/packages/System.Linq.Dynamic.1.0.8/System.Linq.Dynamic.1.0.8.nupkg
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/.signature.p7s
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/LICENSE.TXT
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/version.txt
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._
+Indus-G Solutions/packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._
+Indus-G Solutions/packages/WebGrease.1.6.0/.signature.p7s
+Indus-G Solutions/packages/WebGrease.1.6.0/WebGrease.1.6.0.nupkg
+MeasurementDataService/packages/EntityFramework.6.4.4/.signature.p7s
+MeasurementDataService/packages/EntityFramework.6.4.4/EntityFramework.6.4.4.nupkg
+MeasurementDataService/packages/EntityFramework.6.4.4/Icon.png
+MeasurementDataService/packages/EntityFramework.6.4.4/build/EntityFramework.DefaultItems.props
+MeasurementDataService/packages/EntityFramework.6.4.4/build/EntityFramework.props
+MeasurementDataService/packages/EntityFramework.6.4.4/build/EntityFramework.targets
+MeasurementDataService/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.props
+MeasurementDataService/packages/EntityFramework.6.4.4/build/netcoreapp3.0/EntityFramework.targets
+MeasurementDataService/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.props
+MeasurementDataService/packages/EntityFramework.6.4.4/buildTransitive/EntityFramework.targets
+MeasurementDataService/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.props
+MeasurementDataService/packages/EntityFramework.6.4.4/buildTransitive/netcoreapp3.0/EntityFramework.targets
+MeasurementDataService/packages/EntityFramework.6.4.4/content/net40/App.config.install.xdt
+MeasurementDataService/packages/EntityFramework.6.4.4/content/net40/App.config.transform
+MeasurementDataService/packages/EntityFramework.6.4.4/content/net40/Web.config.install.xdt
+MeasurementDataService/packages/EntityFramework.6.4.4/content/net40/Web.config.transform
+MeasurementDataService/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.SqlServer.xml
+MeasurementDataService/packages/EntityFramework.6.4.4/lib/net40/EntityFramework.xml
+MeasurementDataService/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.SqlServer.xml
+MeasurementDataService/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.xml
+MeasurementDataService/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.SqlServer.xml
+MeasurementDataService/packages/EntityFramework.6.4.4/lib/netstandard2.1/EntityFramework.xml
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/about_EntityFramework6.help.txt
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psd1
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/EntityFramework6.PS2.psm1
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/EntityFramework6.psd1
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/EntityFramework6.psm1
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/init.ps1
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/install.ps1
+MeasurementDataService/packages/EntityFramework.6.4.4/tools/netcoreapp3.0/any/ef6.runtimeconfig.json
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/.signature.p7s
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/LICENSE.md
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/Newtonsoft.Json.12.0.3.nupkg
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/packageIcon.png
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/net20/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/net35/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/net40/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/net45/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/netstandard1.0/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/netstandard1.3/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/netstandard2.0/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml
+MeasurementDataService/packages/Newtonsoft.Json.12.0.3/lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml
+MeasurementDataService/packages/NLog.4.7.2/.signature.p7s
+MeasurementDataService/packages/NLog.4.7.2/NLog.4.7.2.nupkg
+MeasurementDataService/packages/NLog.4.7.2/lib/monoandroid44/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/net35/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/net40-client/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/net45/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/netstandard1.3/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/netstandard1.5/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/netstandard2.0/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/sl4/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/sl5/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/wp8/NLog.xml
+MeasurementDataService/packages/NLog.4.7.2/lib/xamarinios10/NLog.xml
+MeasurementDataService/packages/NLog.Config.4.7.2/.signature.p7s
+MeasurementDataService/packages/NLog.Config.4.7.2/NLog.Config.4.7.2.nupkg
+MeasurementDataService/packages/NLog.Config.4.7.2/content/NLog.config
+MeasurementDataService/packages/NLog.Config.4.7.2/contentFiles/any/any/NLog.config
+MeasurementDataService/packages/NLog.Config.4.7.2/tools/Install.ps1
+MeasurementDataService/packages/NLog.Schema.4.7.2/.signature.p7s
+MeasurementDataService/packages/NLog.Schema.4.7.2/NLog.Schema.4.7.2.nupkg
+MeasurementDataService/packages/NLog.Schema.4.7.2/content/NLog.xsd
+MeasurementDataService/packages/NLog.Schema.4.7.2/contentFiles/any/any/NLog.xsd
+MeasurementDataService/packages/RestSharp.106.11.4/.signature.p7s
+MeasurementDataService/packages/RestSharp.106.11.4/RestSharp.106.11.4.nupkg
+MeasurementDataService/packages/RestSharp.106.11.4/restsharp.png
+MeasurementDataService/packages/RestSharp.106.11.4/lib/net452/RestSharp.xml
+MeasurementDataService/packages/RestSharp.106.11.4/lib/netstandard2.0/RestSharp.xml
