@@ -1,0 +1,369 @@
+﻿
+@{
+    ViewBag.Title = "Cấu Hình";
+    ViewBag.ActiveMenu = "Setting";
+    ViewBag.PlantName = "ĐAK HNOL";
+    ViewBag.SystemName = "HỆ THỐNG QUAN TRẮC THỦY VĂN";
+}
+@model IndusG.Models.SettingModel
+<link href="~/plugins/toggle/bootstrap-toggle.min.css" rel="stylesheet" />
+
+<!-- Main row -->
+<div class="row">
+    <!-- Left col -->
+    <section class="col-12 connectedSortable">
+        <div class="card bg-gradient-gray">
+            <div class="card-header">
+                <h3 class="card-title">
+                    <i class="fas fa-server mr-1"></i>
+                    &nbsp; KẾT NỐI PLC
+                </h3>
+            </div>
+            <div class="card-body">
+
+                @using (Html.BeginForm("SavePLCConnection", "Setting", FormMethod.Post, new { id = "formPLCConnection" }))
+                {
+                    <div class="row col-12">
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.PLCLiveBit, new { @class = "col-lg-3" })
+                                <div id="LiveBit" class=@(Model.PLCLiveBit ? "plcOnBit" : "plcOffBit")></div>
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12 row">
+                            <div class="col-lg-3"></div>
+                            <div class="row disabled col-lg-9">
+                                @Html.CheckBoxFor(m => m.DCTT_Toggle, new { id = "ToggleDisplay", data_toggle = "toggle", disabled="disabled" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.PLCSetting.CPUType, new { @class = "col-lg-3" })
+                                @Html.EnumDropDownListFor(
+                                        x => x.PLCSetting.CPUType,
+                                        "Select CPU Type",
+                                        new { id = "CPUType", @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.PLCSetting.Rack, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                        x => x.PLCSetting.Rack, new { id = "Rack", @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.PLCSetting.Slot, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                        x => x.PLCSetting.Slot, new { id = "Slot", @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.PLCSetting.IPAddress, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                        x => x.PLCSetting.IPAddress, new { id = "IPAddress", @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+            <div class="card-footer">
+                <div class="buttonGroup">
+                    @*<button id="testConnection" type="button" class="btn btn-warning btn-responsive" style="margin-right:10px;">Test Connection</button>*@
+                    @if (IndusG.Service.WorkContext.IsAdmin())
+                    {
+                        <button id="saveConnection" type="button" class="btn btn-primary btn-responsive">Save</button>
+                    }
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    @{
+        if (IndusG.Service.WorkContext.IsAdmin() || IndusG.Service.WorkContext.IsOperator())
+        {
+            <section class="col-12 connectedSortable">
+                <div class="card bg-gradient-olive">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            <i class="fas fa-cog mr-1"></i>
+                            &nbsp; THÔNG SỐ CÀI ĐẶT
+                        </h3>
+                    </div>
+
+                    <div class="card-body">
+                        @using (Html.BeginForm("SaveParameters", "Setting", FormMethod.Post, new { id = "formParameters" }))
+                        {
+                            <div class="row col-12">
+                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                {
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.CaoTrinhNguongTran, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.CaoTrinhNguongTran, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.K_ChuaCoHep, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.K_ChuaCoHep, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.ChieuDaiDapTran, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.ChieuDaiDapTran, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.K_CoHepNgang, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.K_CoHepNgang, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.CaoTrinhNguongKenhXa, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.CaoTrinhNguongKenhXa, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.K_CoHepDung, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.K_CoHepDung, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.ChieuRongKenhXa, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.ChieuRongKenhXa, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.K_LuuLuong, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.K_LuuLuong, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.DungTichHuuIch1, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.DungTichHuuIch1, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.H_MayPhat, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.H_MayPhat, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.MucNuocChet, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.MucNuocChet, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.H_CoKhi, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.H_CoKhi, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.DungTichHoMNC, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.DungTichHoMNC, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.H_Turbine, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.H_Turbine, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.DCTT_QuyDinh, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.DCTT_QuyDinh, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.K_DCTT, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.K_DCTT, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.DungTichHuuIch2, new { @class = "col-lg-7" })
+                                            @Html.TextBoxFor(
+                                                    x => x.DungTichHuuIch2, new { @class = "form-control col-lg-5" })
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (IndusG.Service.WorkContext.IsAdmin() || IndusG.Service.WorkContext.IsOperator())
+                                {
+                                    <div class="form-group col-lg-6 col-md-12">
+                                        <div class="row">
+                                            @Html.LabelFor(m => m.DCTT_Toggle, new { @class = "col-lg-7" })
+                                            @Html.CheckBoxFor(
+                                                    x => x.DCTT_Toggle, new { @class = "form-control col-lg-5", data_toggle = "toggle" })
+                                        </div>
+                                    </div>
+                                }
+
+                            </div>
+                        }
+
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="buttonGroup">
+                            <button id="saveParameters" type="button" class="btn btn-primary btn-responsive">Save</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        }
+    }
+
+    <!-- right col -->
+</div>
+
+@section scripts{
+    <script src="~/plugins/toggle/bootstrap-toggle.min.js"></script>
+
+    <script>
+        var username = '@(IndusG.Service.WorkContext.CurrentUser != null ? IndusG.Service.WorkContext.CurrentUser.Username : "")';
+
+        $(function () {
+            function UpdatePLCLiveBit() {
+                $.ajax({
+                type: "POST",
+                url: "@Url.Action("CheckServiceRunning", "ServiceManagement")",
+                success: function (response) {
+                    if (response.IsServiceRunning) {
+                        if (response.IsPLCAvailable) {
+                            $('#LiveBit').removeClass('plcOffBit');
+                            $('#LiveBit').addClass('plcOnBit');
+                            $('#plcDisconnectNotification').hide();
+                        } else {
+                            $('#LiveBit').removeClass('plcOnBit');
+                            $('#LiveBit').addClass('plcOffBit');
+                            $('#plcDisconnectNotification').show();
+                        }
+                    }
+                },
+                error: function () {
+                }
+                });
+            }
+            setInterval(UpdatePLCLiveBit, 1000);
+
+            $('#testConnection').click(function () {
+                var data = { CPUType: $('#CPUType').val(), Rack: $('#Rack').val(), Slot: $('#Slot').val(), IPAddress: $('#IPAddress').val()}
+                showLoading();
+                $.ajax({
+                    type: 'POST',
+                    data: data,
+                    url: '@Url.Action("TestConnection", "Setting")',
+                    success: function (response) {
+                        if (response.Result == true) {
+                            displaySuccessAlert(response.Message);
+                        } else {
+                            displayErrorAlert(response.Message, 5000);
+                        }
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                    },
+                    complete: function () {
+                        hideLoading();
+
+                    }
+                });
+            });
+
+            $('#saveConnection').click(function () {
+                var data = { CPUType: $('#CPUType').val(), Rack: $('#Rack').val(), Slot: $('#Slot').val(), IPAddress: $('#IPAddress').val()}
+                showLoading();
+                $.ajax({
+                    type: 'POST',
+                    data: data,
+                    url: '@Url.Action("SavePLCConnection", "Setting")',
+                    success: function (response) {
+                        if (response.Result == true) {
+                            displaySuccessAlert(response.Message);
+                        } else {
+                            displayErrorAlert(response.Message, 5000);
+                        }
+                        $("#plcDisconnectNotification").load(window.location.href + " #plcDisconnectNotification");
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                    },
+                    complete: function () {
+                        hideLoading();
+                    }
+                });
+            });
+
+            $('#saveParameters').click(function () {
+                var data = $('#formParameters').serialize();
+                showLoading();
+                $.ajax({
+                    type: 'POST',
+                    data: data,
+                    url: '@Url.Action("SaveParameters", "Setting")',
+                    success: function (response) {
+                        if (response.Result == true) {
+                            displaySuccessAlert(response.Message);
+                        } else {
+                            displayErrorAlert(response.Message, 5000);
+                        }
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                    },
+                    complete: function () {
+                        hideLoading();
+                    }
+                });
+            });
+
+            $('#DCTT_Toggle').change(function () {
+                $('#ToggleDisplay').removeAttr('disabled');
+
+                if ($('#DCTT_Toggle').parent().hasClass('off')) {
+                    $('#ToggleDisplay').bootstrapToggle('off');
+                } else {
+                    $('#ToggleDisplay').bootstrapToggle('on');
+                }
+                $('#ToggleDisplay').attr('disabled', true);
+            });
+        });
+    </script>
+}

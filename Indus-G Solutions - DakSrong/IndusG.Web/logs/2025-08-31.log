@@ -1,0 +1,250 @@
+2025-08-31 14:48:37.3499 ERROR Error while init PLC driver. Thread was being aborted.
+2025-08-31 18:49:22.2177 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:49:54.9392 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:50:27.6869 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:51:00.3556 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:51:33.0403 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:52:05.6677 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:52:38.3306 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:53:11.0154 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:53:43.6906 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:54:16.3871 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:54:49.1276 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:55:21.8247 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:55:57.9171 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:56:53.6867 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:57:52.6710 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:58:59.4512 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 18:59:32.1778 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:00:05.1506 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:00:37.8428 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:01:10.5581 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:01:43.3401 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:02:16.0095 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:02:48.7115 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:03:22.8364 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:04:01.4406 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:04:41.5254 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:05:21.6034 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:06:01.6884 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:06:34.4000 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:07:07.1202 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:07:39.8379 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:08:12.6096 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:08:45.2539 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:09:18.0259 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:09:50.7600 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:10:23.4398 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:10:56.1611 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:11:28.8843 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:12:01.5743 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:12:34.2142 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:13:06.8962 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:13:39.5775 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:14:12.2551 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:14:44.9264 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:15:35.2658 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 19:52:31.3575 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:03:52.8649 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:05:29.3483 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:07:18.0201 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:10:11.6522 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:13:34.5228 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:18:25.4723 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:19:57.3283 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:20:40.2215 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:21:12.9720 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:21:45.7837 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:22:18.5177 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:23:01.2111 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:23:34.1215 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:24:06.9669 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:24:39.6417 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:25:12.3375 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:25:45.0585 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:26:17.8926 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:26:54.0124 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:27:30.1086 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:28:02.9246 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:28:35.6358 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:29:08.5208 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:29:41.3251 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:30:14.0697 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:30:46.8329 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:31:19.6610 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:33:33.6406 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:34:06.4380 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:34:39.2307 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:35:11.8678 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:35:44.7400 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:36:17.4353 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:36:50.4828 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:37:23.2810 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:37:55.9703 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:38:28.8652 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:39:03.1647 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:39:36.1530 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:40:09.1128 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:40:42.0838 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:41:14.9781 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:41:49.2539 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:42:22.3384 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:42:55.4111 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:43:28.2831 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:44:04.5411 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:44:37.4342 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:45:10.4745 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:45:43.2861 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:46:16.3198 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:46:52.5719 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:47:25.5444 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:48:05.8142 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:48:45.9851 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:49:18.9180 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:49:51.6506 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:50:24.3747 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:50:57.3401 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:51:30.1810 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:52:03.0796 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:52:41.9320 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:53:14.9358 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:53:48.0059 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 20:54:21.0747 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:00:42.1134 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:03:23.4812 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:56:16.4865 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:56:49.2596 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:57:22.0650 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:57:55.1136 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:58:27.9782 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:59:01.0082 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 21:59:34.1260 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:00:07.0465 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:00:41.3102 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:00:55.2494 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:01:28.0402 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:02:01.0175 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:02:37.9673 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:03:11.0069 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:03:49.8658 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:04:30.0776 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:05:03.1494 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:05:37.4536 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:06:10.4256 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:06:46.7202 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:07:19.4282 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:07:52.5190 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:08:28.7678 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:09:01.6854 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:09:34.7155 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:10:07.5853 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:10:40.4556 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:11:13.2527 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:11:47.4396 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:12:20.2884 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:12:53.1699 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:13:31.9477 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:14:04.7457 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:14:37.6362 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:15:10.3792 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:15:43.2759 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:16:16.0857 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:16:49.1996 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:17:22.0711 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:17:54.7874 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:18:27.5969 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:19:00.5779 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:19:33.5226 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:20:07.6692 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:20:40.5518 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:21:13.4957 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:21:46.2674 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:22:19.0756 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:22:51.9147 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:23:24.9152 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:24:01.2288 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:24:44.4665 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-08-31 22:25:14.5813 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:25:14.5813 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:25:45.1283 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:25:45.1283 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:26:15.1581 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:26:15.1881 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:26:45.2088 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:26:45.2088 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:27:15.2293 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:27:15.2293 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:27:45.2389 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:27:45.2389 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:28:15.2554 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:28:15.2554 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:28:45.2985 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:28:45.2985 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:29:15.3291 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:29:15.3291 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:29:45.3537 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:29:45.3537 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:30:15.3594 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:30:15.3594 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:30:45.3679 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:30:45.3679 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:31:15.3977 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:31:15.3977 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:31:45.4342 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:31:45.4342 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:32:19.0036 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:32:19.0036 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:32:49.0169 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:32:49.0169 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:33:19.0433 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:33:19.0433 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:33:49.0570 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:33:49.0570 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:34:19.0805 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:34:19.0805 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:34:49.1039 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:34:49.1039 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-08-31 22:35:21.0992 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-08-31 22:35:21.1933 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip

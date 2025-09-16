@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="QuantracModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DB_DakHnol">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="UpstreamWaterLevel_m" Type="float" />
+          <Property Name="DownstreamWaterLevel_m" Type="float" />
+          <Property Name="Qve_Ho" Type="float" />
+          <Property Name="Qoverflow" Type="float" />
+          <Property Name="QcmH1H2H3" Type="float" />
+          <Property Name="Qminflow" Type="float" />
+          <Property Name="Qve_Hadu" Type="float" />
+          <Property Name="Drain_Level1" Type="float" />
+          <Property Name="Qve_HoDB" Type="float" />
+          <Property Name="Reserve_Water" Type="float" />
+          <Property Name="Qminflow_TT" Type="float" />
+          <Property Name="H1_MW" Type="float" />
+          <Property Name="H2_MW" Type="float" />
+          <Property Name="H3_MW" Type="float" />
+          <Property Name="QcmH1" Type="float" />
+          <Property Name="QcmH2" Type="float" />
+          <Property Name="QcmH3" Type="float" />
+          <Property Name="DeltaQsb" Type="float" />
+          <Property Name="IsPushedToTNMT" Type="bit" />
+          <Property Name="IsPushedToBitexco" Type="bit" />
+          <Property Name="IsSync" Type="bit" />
+          <Property Name="Minutes" Type="nvarchar" MaxLength="3" />
+          <Property Name="Qve_TT" Type="float" />
+          <Property Name="Qve_TB" Type="float" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolMeasurement">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="UpstreamWaterLevel_m" Type="float" />
+          <Property Name="DownstreamWaterLevel_m" Type="float" />
+          <Property Name="Qve_Ho" Type="float" />
+          <Property Name="Qoverflow" Type="float" />
+          <Property Name="QcmH1H2H3" Type="float" />
+          <Property Name="Qminflow" Type="float" />
+          <Property Name="Qve_Hadu" Type="float" />
+          <Property Name="Drain_Level1" Type="float" />
+          <Property Name="Qve_HoDB" Type="float" />
+          <Property Name="Reserve_Water" Type="float" />
+          <Property Name="Qminflow_TT" Type="float" />
+          <Property Name="H1_MW" Type="float" />
+          <Property Name="H2_MW" Type="float" />
+          <Property Name="H3_MW" Type="float" />
+          <Property Name="QcmH1" Type="float" />
+          <Property Name="QcmH2" Type="float" />
+          <Property Name="QcmH3" Type="float" />
+          <Property Name="DeltaQsb" Type="float" />
+          <Property Name="Qve_TT" Type="float" />
+          <Property Name="Qve_TB" Type="float" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolParameter">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="K_ChuaCoHep" Type="float" />
+          <Property Name="K_CoHepNgang" Type="float" />
+          <Property Name="K_CoHepDung" Type="float" />
+          <Property Name="K_LuuLuong" Type="float" />
+          <Property Name="H_MayPhat" Type="float" />
+          <Property Name="H_CoKhi" Type="float" />
+          <Property Name="H_Turbine" Type="float" />
+          <Property Name="CaoTrinhNguongTran" Type="float" />
+          <Property Name="ChieuDaiDapTran" Type="float" />
+          <Property Name="CaoTrinhNguongKenhXa" Type="float" />
+          <Property Name="ChieuRongKenhXa" Type="float" />
+          <Property Name="DungTichHuuIch1" Type="float" />
+          <Property Name="DungTichHuuIch2" Type="float" />
+          <Property Name="MucNuocChet" Type="float" />
+          <Property Name="DungTichHoMNC" Type="float" />
+          <Property Name="K_DCTT" Type="float" />
+          <Property Name="DCTT_QuyDinh" Type="float" />
+          <Property Name="Nhamay" Type="nchar" MaxLength="10" />
+          <Property Name="DCTT_Toggle" Type="bit" />
+          <Property Name="Timestamp" Type="timestamp" StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolPLCConfiguration">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IPAddress" Type="varchar" MaxLength="20" />
+          <Property Name="CPUType" Type="int" />
+          <Property Name="Rack" Type="int" />
+          <Property Name="Slot" Type="int" />
+          <Property Name="Status" Type="bit" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolService">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ServiceStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="DB_IAMO_Configuration">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SlaveID1" Type="smallint" Nullable="false" />
+          <Property Name="AddressP1" Type="int" Nullable="false" />
+          <Property Name="AddressQ1" Type="int" Nullable="false" />
+          <Property Name="TiSoP1" Type="decimal" Precision="18" Scale="6" />
+          <Property Name="TiSoQ1" Type="decimal" Precision="18" Scale="6" />
+          <Property Name="HieuSuatMayPhat" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="HieuSuatCoKhi" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="HieuSuatTurbine" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="CotAp" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="BasedOnTiSo" Type="bit" Nullable="false" />
+          <Property Name="Portname" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Baudrate" Type="int" Nullable="false" />
+          <Property Name="SlaveID2" Type="smallint" Nullable="false" />
+          <Property Name="AddressP2" Type="int" Nullable="false" />
+          <Property Name="AddressQ2" Type="int" Nullable="false" />
+          <Property Name="TiSoP2" Type="decimal" Precision="18" Scale="6" />
+          <Property Name="TiSoQ2" Type="decimal" Precision="18" Scale="6" />
+          <Property Name="Timestamp" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DB_IAMO_Measurement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Date" Type="datetime" />
+          <Property Name="H1_ActivePower" Type="decimal" Precision="18" Scale="3" />
+          <Property Name="H2_ActivePower" Type="decimal" Precision="18" Scale="3" />
+          <Property Name="H1_ReactivePower" Type="decimal" Precision="18" Scale="3" />
+          <Property Name="H2_ReactivePower" Type="decimal" Precision="18" Scale="3" />
+          <Property Name="QcmH1" Type="decimal" Precision="18" Scale="3" />
+          <Property Name="QcmH2" Type="decimal" Precision="18" Scale="3" />
+          <Property Name="IsPushedToThuyLoi" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="QuantracModelStoreContainer">
+          <EntitySet Name="DB_DakHnol" EntityType="Self.DB_DakHnol" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_DakHnolMeasurement" EntityType="Self.DB_DakHnolMeasurement" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_DakHnolParameter" EntityType="Self.DB_DakHnolParameter" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_DakHnolPLCConfiguration" EntityType="Self.DB_DakHnolPLCConfiguration" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_DakHnolService" EntityType="Self.DB_DakHnolService" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_IAMO_Configuration" EntityType="Self.DB_IAMO_Configuration" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DB_IAMO_Measurement" EntityType="Self.DB_IAMO_Measurement" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QuantracModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="QuantracEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DB_DakHnol" EntityType="QuantracModel.DB_DakHnol" />
+          <EntitySet Name="DB_DakHnolMeasurement" EntityType="QuantracModel.DB_DakHnolMeasurement" />
+          <EntitySet Name="DB_DakHnolParameter" EntityType="QuantracModel.DB_DakHnolParameter" />
+          <EntitySet Name="DB_DakHnolPLCConfiguration" EntityType="QuantracModel.DB_DakHnolPLCConfiguration" />
+          <EntitySet Name="DB_DakHnolService" EntityType="QuantracModel.DB_DakHnolService" />
+          <EntitySet Name="DB_IAMO_Measurement" EntityType="QuantracModel.DB_IAMO_Measurement" />
+          <EntitySet Name="DB_IAMO_Configuration" EntityType="QuantracModel.DB_IAMO_Configuration" />
+          </EntityContainer>
+        <EntityType Name="DB_DakHnol">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UpstreamWaterLevel_m" Type="Double" />
+          <Property Name="DownstreamWaterLevel_m" Type="Double" />
+          <Property Name="Qve_Ho" Type="Double" />
+          <Property Name="Qoverflow" Type="Double" />
+          <Property Name="QcmH1H2H3" Type="Double" />
+          <Property Name="Qminflow" Type="Double" />
+          <Property Name="Qve_Hadu" Type="Double" />
+          <Property Name="Drain_Level1" Type="Double" />
+          <Property Name="Qve_HoDB" Type="Double" />
+          <Property Name="Reserve_Water" Type="Double" />
+          <Property Name="Qminflow_TT" Type="Double" />
+          <Property Name="H1_MW" Type="Double" />
+          <Property Name="H2_MW" Type="Double" />
+          <Property Name="H3_MW" Type="Double" />
+          <Property Name="QcmH1" Type="Double" />
+          <Property Name="QcmH2" Type="Double" />
+          <Property Name="QcmH3" Type="Double" />
+          <Property Name="DeltaQsb" Type="Double" />
+          <Property Name="IsPushedToTNMT" Type="Boolean" />
+          <Property Name="IsPushedToBitexco" Type="Boolean" />
+          <Property Name="IsSync" Type="Boolean" />
+          <Property Name="Minutes" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="Qve_TT" Type="Double" />
+          <Property Name="Qve_TB" Type="Double" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolMeasurement">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UpstreamWaterLevel_m" Type="Double" />
+          <Property Name="DownstreamWaterLevel_m" Type="Double" />
+          <Property Name="Qve_Ho" Type="Double" />
+          <Property Name="Qoverflow" Type="Double" />
+          <Property Name="QcmH1H2H3" Type="Double" />
+          <Property Name="Qminflow" Type="Double" />
+          <Property Name="Qve_Hadu" Type="Double" />
+          <Property Name="Drain_Level1" Type="Double" />
+          <Property Name="Qve_HoDB" Type="Double" />
+          <Property Name="Reserve_Water" Type="Double" />
+          <Property Name="Qminflow_TT" Type="Double" />
+          <Property Name="H1_MW" Type="Double" />
+          <Property Name="H2_MW" Type="Double" />
+          <Property Name="H3_MW" Type="Double" />
+          <Property Name="QcmH1" Type="Double" />
+          <Property Name="QcmH2" Type="Double" />
+          <Property Name="QcmH3" Type="Double" />
+          <Property Name="DeltaQsb" Type="Double" />
+          <Property Name="Qve_TT" Type="Double" />
+          <Property Name="Qve_TB" Type="Double" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolParameter">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="K_ChuaCoHep" Type="Double" />
+          <Property Name="K_CoHepNgang" Type="Double" />
+          <Property Name="K_CoHepDung" Type="Double" />
+          <Property Name="K_LuuLuong" Type="Double" />
+          <Property Name="H_MayPhat" Type="Double" />
+          <Property Name="H_CoKhi" Type="Double" />
+          <Property Name="H_Turbine" Type="Double" />
+          <Property Name="CaoTrinhNguongTran" Type="Double" />
+          <Property Name="ChieuDaiDapTran" Type="Double" />
+          <Property Name="CaoTrinhNguongKenhXa" Type="Double" />
+          <Property Name="ChieuRongKenhXa" Type="Double" />
+          <Property Name="DungTichHuuIch1" Type="Double" />
+          <Property Name="DungTichHuuIch2" Type="Double" />
+          <Property Name="MucNuocChet" Type="Double" />
+          <Property Name="DungTichHoMNC" Type="Double" />
+          <Property Name="K_DCTT" Type="Double" />
+          <Property Name="DCTT_QuyDinh" Type="Double" />
+          <Property Name="Nhamay" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="DCTT_Toggle" Type="Boolean" />
+          <Property Name="Timestamp" Type="Binary" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolPLCConfiguration">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IPAddress" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CPUType" Type="Int32" />
+          <Property Name="Rack" Type="Int32" />
+          <Property Name="Slot" Type="Int32" />
+          <Property Name="Status" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="DB_DakHnolService">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ServiceStatus" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="DB_IAMO_Measurement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Precision="3" />
+          <Property Name="H1_ActivePower" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="H2_ActivePower" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="H1_ReactivePower" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="H2_ReactivePower" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="QcmH1" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="QcmH2" Type="Decimal" Precision="18" Scale="3" />
+          <Property Name="IsPushedToThuyLoi" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="DB_IAMO_Configuration">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SlaveID1" Type="Int16" Nullable="false" />
+          <Property Name="AddressP1" Type="Int32" Nullable="false" />
+          <Property Name="AddressQ1" Type="Int32" Nullable="false" />
+          <Property Name="TiSoP1" Type="Decimal" Precision="18" Scale="6" />
+          <Property Name="TiSoQ1" Type="Decimal" Precision="18" Scale="6" />
+          <Property Name="HieuSuatMayPhat" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="HieuSuatCoKhi" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="HieuSuatTurbine" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="CotAp" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="BasedOnTiSo" Type="Boolean" Nullable="false" />
+          <Property Name="Portname" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Baudrate" Type="Int32" Nullable="false" />
+          <Property Name="SlaveID2" Type="Int16" Nullable="false" />
+          <Property Name="AddressP2" Type="Int32" Nullable="false" />
+          <Property Name="AddressQ2" Type="Int32" Nullable="false" />
+          <Property Name="TiSoP2" Type="Decimal" Precision="18" Scale="6" />
+          <Property Name="TiSoQ2" Type="Decimal" Precision="18" Scale="6" />
+          <Property Name="Timestamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QuantracModelStoreContainer" CdmEntityContainer="QuantracEntities">
+          <EntitySetMapping Name="DB_DakHnol">
+            <EntityTypeMapping TypeName="QuantracModel.DB_DakHnol">
+              <MappingFragment StoreEntitySet="DB_DakHnol">
+                <ScalarProperty Name="Qve_TB" ColumnName="Qve_TB" />
+                <ScalarProperty Name="Qve_TT" ColumnName="Qve_TT" />
+                <ScalarProperty Name="Minutes" ColumnName="Minutes" />
+                <ScalarProperty Name="IsSync" ColumnName="IsSync" />
+                <ScalarProperty Name="IsPushedToBitexco" ColumnName="IsPushedToBitexco" />
+                <ScalarProperty Name="IsPushedToTNMT" ColumnName="IsPushedToTNMT" />
+                <ScalarProperty Name="DeltaQsb" ColumnName="DeltaQsb" />
+                <ScalarProperty Name="QcmH3" ColumnName="QcmH3" />
+                <ScalarProperty Name="QcmH2" ColumnName="QcmH2" />
+                <ScalarProperty Name="QcmH1" ColumnName="QcmH1" />
+                <ScalarProperty Name="H3_MW" ColumnName="H3_MW" />
+                <ScalarProperty Name="H2_MW" ColumnName="H2_MW" />
+                <ScalarProperty Name="H1_MW" ColumnName="H1_MW" />
+                <ScalarProperty Name="Qminflow_TT" ColumnName="Qminflow_TT" />
+                <ScalarProperty Name="Reserve_Water" ColumnName="Reserve_Water" />
+                <ScalarProperty Name="Qve_HoDB" ColumnName="Qve_HoDB" />
+                <ScalarProperty Name="Drain_Level1" ColumnName="Drain_Level1" />
+                <ScalarProperty Name="Qve_Hadu" ColumnName="Qve_Hadu" />
+                <ScalarProperty Name="Qminflow" ColumnName="Qminflow" />
+                <ScalarProperty Name="QcmH1H2H3" ColumnName="QcmH1H2H3" />
+                <ScalarProperty Name="Qoverflow" ColumnName="Qoverflow" />
+                <ScalarProperty Name="Qve_Ho" ColumnName="Qve_Ho" />
+                <ScalarProperty Name="DownstreamWaterLevel_m" ColumnName="DownstreamWaterLevel_m" />
+                <ScalarProperty Name="UpstreamWaterLevel_m" ColumnName="UpstreamWaterLevel_m" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_DakHnolMeasurement">
+            <EntityTypeMapping TypeName="QuantracModel.DB_DakHnolMeasurement">
+              <MappingFragment StoreEntitySet="DB_DakHnolMeasurement">
+                <ScalarProperty Name="Qve_TB" ColumnName="Qve_TB" />
+                <ScalarProperty Name="Qve_TT" ColumnName="Qve_TT" />
+                <ScalarProperty Name="DeltaQsb" ColumnName="DeltaQsb" />
+                <ScalarProperty Name="QcmH3" ColumnName="QcmH3" />
+                <ScalarProperty Name="QcmH2" ColumnName="QcmH2" />
+                <ScalarProperty Name="QcmH1" ColumnName="QcmH1" />
+                <ScalarProperty Name="H3_MW" ColumnName="H3_MW" />
+                <ScalarProperty Name="H2_MW" ColumnName="H2_MW" />
+                <ScalarProperty Name="H1_MW" ColumnName="H1_MW" />
+                <ScalarProperty Name="Qminflow_TT" ColumnName="Qminflow_TT" />
+                <ScalarProperty Name="Reserve_Water" ColumnName="Reserve_Water" />
+                <ScalarProperty Name="Qve_HoDB" ColumnName="Qve_HoDB" />
+                <ScalarProperty Name="Drain_Level1" ColumnName="Drain_Level1" />
+                <ScalarProperty Name="Qve_Hadu" ColumnName="Qve_Hadu" />
+                <ScalarProperty Name="Qminflow" ColumnName="Qminflow" />
+                <ScalarProperty Name="QcmH1H2H3" ColumnName="QcmH1H2H3" />
+                <ScalarProperty Name="Qoverflow" ColumnName="Qoverflow" />
+                <ScalarProperty Name="Qve_Ho" ColumnName="Qve_Ho" />
+                <ScalarProperty Name="DownstreamWaterLevel_m" ColumnName="DownstreamWaterLevel_m" />
+                <ScalarProperty Name="UpstreamWaterLevel_m" ColumnName="UpstreamWaterLevel_m" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_DakHnolParameter">
+            <EntityTypeMapping TypeName="QuantracModel.DB_DakHnolParameter">
+              <MappingFragment StoreEntitySet="DB_DakHnolParameter">
+                <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+                <ScalarProperty Name="DCTT_Toggle" ColumnName="DCTT_Toggle" />
+                <ScalarProperty Name="Nhamay" ColumnName="Nhamay" />
+                <ScalarProperty Name="DCTT_QuyDinh" ColumnName="DCTT_QuyDinh" />
+                <ScalarProperty Name="K_DCTT" ColumnName="K_DCTT" />
+                <ScalarProperty Name="DungTichHoMNC" ColumnName="DungTichHoMNC" />
+                <ScalarProperty Name="MucNuocChet" ColumnName="MucNuocChet" />
+                <ScalarProperty Name="DungTichHuuIch2" ColumnName="DungTichHuuIch2" />
+                <ScalarProperty Name="DungTichHuuIch1" ColumnName="DungTichHuuIch1" />
+                <ScalarProperty Name="ChieuRongKenhXa" ColumnName="ChieuRongKenhXa" />
+                <ScalarProperty Name="CaoTrinhNguongKenhXa" ColumnName="CaoTrinhNguongKenhXa" />
+                <ScalarProperty Name="ChieuDaiDapTran" ColumnName="ChieuDaiDapTran" />
+                <ScalarProperty Name="CaoTrinhNguongTran" ColumnName="CaoTrinhNguongTran" />
+                <ScalarProperty Name="H_Turbine" ColumnName="H_Turbine" />
+                <ScalarProperty Name="H_CoKhi" ColumnName="H_CoKhi" />
+                <ScalarProperty Name="H_MayPhat" ColumnName="H_MayPhat" />
+                <ScalarProperty Name="K_LuuLuong" ColumnName="K_LuuLuong" />
+                <ScalarProperty Name="K_CoHepDung" ColumnName="K_CoHepDung" />
+                <ScalarProperty Name="K_CoHepNgang" ColumnName="K_CoHepNgang" />
+                <ScalarProperty Name="K_ChuaCoHep" ColumnName="K_ChuaCoHep" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_DakHnolPLCConfiguration">
+            <EntityTypeMapping TypeName="QuantracModel.DB_DakHnolPLCConfiguration">
+              <MappingFragment StoreEntitySet="DB_DakHnolPLCConfiguration">
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Slot" ColumnName="Slot" />
+                <ScalarProperty Name="Rack" ColumnName="Rack" />
+                <ScalarProperty Name="CPUType" ColumnName="CPUType" />
+                <ScalarProperty Name="IPAddress" ColumnName="IPAddress" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_DakHnolService">
+            <EntityTypeMapping TypeName="QuantracModel.DB_DakHnolService">
+              <MappingFragment StoreEntitySet="DB_DakHnolService">
+                <ScalarProperty Name="ServiceStatus" ColumnName="ServiceStatus" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_IAMO_Measurement">
+            <EntityTypeMapping TypeName="QuantracModel.DB_IAMO_Measurement">
+              <MappingFragment StoreEntitySet="DB_IAMO_Measurement">
+                <ScalarProperty Name="IsPushedToThuyLoi" ColumnName="IsPushedToThuyLoi" />
+                <ScalarProperty Name="QcmH2" ColumnName="QcmH2" />
+                <ScalarProperty Name="QcmH1" ColumnName="QcmH1" />
+                <ScalarProperty Name="H2_ReactivePower" ColumnName="H2_ReactivePower" />
+                <ScalarProperty Name="H1_ReactivePower" ColumnName="H1_ReactivePower" />
+                <ScalarProperty Name="H2_ActivePower" ColumnName="H2_ActivePower" />
+                <ScalarProperty Name="H1_ActivePower" ColumnName="H1_ActivePower" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DB_IAMO_Configuration">
+            <EntityTypeMapping TypeName="QuantracModel.DB_IAMO_Configuration">
+              <MappingFragment StoreEntitySet="DB_IAMO_Configuration">
+                <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+                <ScalarProperty Name="TiSoQ2" ColumnName="TiSoQ2" />
+                <ScalarProperty Name="TiSoP2" ColumnName="TiSoP2" />
+                <ScalarProperty Name="AddressQ2" ColumnName="AddressQ2" />
+                <ScalarProperty Name="AddressP2" ColumnName="AddressP2" />
+                <ScalarProperty Name="SlaveID2" ColumnName="SlaveID2" />
+                <ScalarProperty Name="Baudrate" ColumnName="Baudrate" />
+                <ScalarProperty Name="Portname" ColumnName="Portname" />
+                <ScalarProperty Name="BasedOnTiSo" ColumnName="BasedOnTiSo" />
+                <ScalarProperty Name="CotAp" ColumnName="CotAp" />
+                <ScalarProperty Name="HieuSuatTurbine" ColumnName="HieuSuatTurbine" />
+                <ScalarProperty Name="HieuSuatCoKhi" ColumnName="HieuSuatCoKhi" />
+                <ScalarProperty Name="HieuSuatMayPhat" ColumnName="HieuSuatMayPhat" />
+                <ScalarProperty Name="TiSoQ1" ColumnName="TiSoQ1" />
+                <ScalarProperty Name="TiSoP1" ColumnName="TiSoP1" />
+                <ScalarProperty Name="AddressQ1" ColumnName="AddressQ1" />
+                <ScalarProperty Name="AddressP1" ColumnName="AddressP1" />
+                <ScalarProperty Name="SlaveID1" ColumnName="SlaveID1" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

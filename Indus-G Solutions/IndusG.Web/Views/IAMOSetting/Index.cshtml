@@ -1,0 +1,339 @@
+﻿
+@{
+    ViewBag.Title = "Cấu Hình";
+    ViewBag.ActiveMenu = "IAMO Setting";
+    ViewBag.PlantName = "IA MƠR";
+    ViewBag.SystemName = "HỆ THỐNG GIÁM SÁT";
+}
+@model IndusG.Models.IAMOConfigurationModel
+<link href="~/plugins/toggle/bootstrap-toggle.min.css" rel="stylesheet" />
+<div class="row">
+    <section class="col-12 connectedSortable">
+        <div class="card bg-gradient-secondary">
+            <div class="card-header">
+                <h3 class="card-title">
+                    <i class="fas fa-server mr-1"></i>
+                    &nbsp; CẤU HÌNH
+                </h3>
+            </div>
+            <div class="card-body">
+                <form id="configurationForm" method="post">
+                    <div class="row col-12">
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.HieuSuatMayPhat, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                       x => x.HieuSuatMayPhat, new { @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.HieuSuatCoKhi, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                       x => x.HieuSuatCoKhi, new { @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.HieuSuatTurbine, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                       x => x.HieuSuatTurbine, new { @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.CotAp, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                       x => x.CotAp, new { @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.Portname, new { @class = "col-lg-3" })
+                                @Html.TextBoxFor(
+                                      x => x.Portname, new { @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+                        <div class="form-group col-lg-6 col-md-12">
+                            <div class="row">
+                                @Html.LabelFor(m => m.Baudrate, new { @class = "col-lg-3" })
+                                @Html.DropDownListFor(x => x.Baudrate, new List<SelectListItem>
+                                    {
+                                                        new SelectListItem() {Text = "230400", Value="230400"},
+                                                        new SelectListItem() {Text = "115200", Value="115200"},
+                                                        new SelectListItem() {Text = "57600", Value="57600"},
+                                                        new SelectListItem() {Text = "38400", Value="38400"},
+                                                        new SelectListItem() {Text = "19200", Value="19200"},
+                                                        new SelectListItem() {Text = "9600", Value="9600"},
+                                    }, new { @class = "form-control col-lg-9" })
+                            </div>
+                        </div>
+
+                        @if (IndusG.Service.WorkContext.IsAdmin())
+                        {
+                            <div class="form-group col-lg-6 col-md-12 ">
+                                <div class="row">
+                                    @Html.LabelFor(m => m.BasedOnTiSo, new { @class = "col-lg-3" })
+                                    @Html.CheckBoxFor(
+                                           x => x.BasedOnTiSo,
+                                           new { @class = "form-control col-lg-9", data_toggle = "toggle" })
+
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+
+                    @if (IndusG.Service.WorkContext.IsAdmin())
+                    {
+                        <section class="col-12 connectedSortable">
+                            <div class="card bg-gradient-info">
+                                <div class="card-header">
+                                    <h3 class="card-title">
+                                        <i class="fas fa-server mr-1"></i>
+                                        &nbsp; TỔ MÁY H1
+                                    </h3>
+                                </div>
+                                <div class="card-body">
+
+                                    <div class="row col-12">
+
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.SlaveID1, new { @class = "col-lg-3" })
+                                                @Html.TextBoxFor(
+                                                       x => x.SlaveID1, new { @class = "form-control col-lg-9" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.AddressP1, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressP1, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressP1, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.AddressQ1, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressQ1, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressQ1, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.TiSoP1, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoP1, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoP1, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.TiSoQ1, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoQ1, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoQ1, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+
+                        <section class="col-12 connectedSortable">
+                            <div class="card bg-gradient-success">
+                                <div class="card-header">
+                                    <h3 class="card-title">
+                                        <i class="fas fa-server mr-1"></i>
+                                        &nbsp; TỔ MÁY H2
+                                    </h3>
+                                </div>
+                                <div class="card-body">
+
+                                    <div class="row col-12">
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.SlaveID2, new { @class = "col-lg-3" })
+                                                @Html.TextBoxFor(
+                                                       x => x.SlaveID2, new { @class = "form-control col-lg-9" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.AddressP2, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressP2, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressP2, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.AddressQ2, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressQ2, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.AddressQ2, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.TiSoP2, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoP2, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoP2, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12">
+                                            <div class="row">
+                                                @Html.LabelFor(m => m.TiSoQ2, new { @class = "col-lg-3" })
+                                                @if (IndusG.Service.WorkContext.IsAdmin())
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoQ2, new
+                                                                { @class = "form-control col-lg-9" })
+                                                }
+                                                else
+                                                {
+                                                    @Html.TextBoxFor(
+                                                           x => x.TiSoQ2, new
+                                                                { disabled = "disabled", @class = "form-control col-lg-9" })
+                                                }
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </section>
+                    }
+
+                </form>
+            </div>
+            <div class="card-footer">
+                <div class="buttonGroup">
+                    @if (IndusG.Service.WorkContext.CanConfigHieuSuatIamo())
+                    {
+                        <button id="saveConfiguration" type="button" class="btn btn-primary btn-responsive">Save</button>
+                    }
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</div>
+
+@section scripts{
+    <script src="~/plugins/toggle/bootstrap-toggle.min.js"></script>
+    <script>
+        $(function () {
+            $('#saveConfiguration').click(function () {
+                var data = $('#configurationForm').serialize();
+                showLoading();
+                $.ajax({
+                    type: 'POST',
+                    data: data,
+                    url: '@Url.Action("SaveConfiguration", "IAMOSetting")',
+                    success: function (response) {
+                        if (response.Result == true) {
+                            displaySuccessAlert(response.Message);
+                        } else {
+                            displayErrorAlert(response.Message, 5000);
+                        }
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                    },
+                    complete: function () {
+                        hideLoading();
+                    }
+                });
+            });
+
+            $('#DCTT_Toggle').change(function () {
+                $('#ToggleDisplay').removeAttr('disabled');
+
+                if ($('#DCTT_Toggle').parent().hasClass('off')) {
+                    $('#ToggleDisplay').bootstrapToggle('off');
+                } else {
+                    $('#ToggleDisplay').bootstrapToggle('on');
+                }
+                $('#ToggleDisplay').attr('disabled', true);
+            });
+        });
+    </script>
+}

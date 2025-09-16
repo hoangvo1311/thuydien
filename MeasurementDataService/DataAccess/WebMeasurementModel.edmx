@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="thuydienbitexcotaynguyen_com_vn_Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Measurements">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="Date" Type="datetime" Nullable="false" />
+          <Property Name="Luongmua" Type="float" />
+          <Property Name="UpstreamWaterLevel_m" Type="float" />
+          <Property Name="DownstreamWaterLevel_m" Type="float" />
+          <Property Name="Qve_Ho" Type="float" />
+          <Property Name="Qoverflow" Type="float" />
+          <Property Name="QcmH1H2H3" Type="float" />
+          <Property Name="Qminflow" Type="float" />
+          <Property Name="Qve_Hadu" Type="float" />
+          <Property Name="Drain_Level" Type="float" />
+          <Property Name="Qve_HoDB" Type="float" />
+          <Property Name="Reserve_Water" Type="float" />
+          <Property Name="Qminflow_TT" Type="float" />
+          <Property Name="H1_MW" Type="float" />
+          <Property Name="H2_MW" Type="float" />
+          <Property Name="H3_MW" Type="float" />
+          <Property Name="QcmH1" Type="float" />
+          <Property Name="QcmH2" Type="float" />
+          <Property Name="QcmH3" Type="float" />
+          <Property Name="DeltaQsb" Type="float" />
+          <Property Name="Minutes" Type="nvarchar" MaxLength="3" />
+          <Property Name="PlantID" Type="int" />
+        </EntityType>
+        <EntityContainer Name="thuydienbitexcotaynguyen_com_vn_ModelStoreContainer">
+          <EntitySet Name="Measurements" EntityType="Self.Measurements" Schema="thu89357_thuydienadmin" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="thuydienbitexcotaynguyen_com_vn_Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="WebTayNguyen" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Measurements" EntityType="thuydienbitexcotaynguyen_com_vn_Model.Measurement" />
+        </EntityContainer>
+        <EntityType Name="Measurement">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Luongmua" Type="Double" />
+          <Property Name="UpstreamWaterLevel_m" Type="Double" />
+          <Property Name="DownstreamWaterLevel_m" Type="Double" />
+          <Property Name="Qve_Ho" Type="Double" />
+          <Property Name="Qoverflow" Type="Double" />
+          <Property Name="QcmH1H2H3" Type="Double" />
+          <Property Name="Qminflow" Type="Double" />
+          <Property Name="Qve_Hadu" Type="Double" />
+          <Property Name="Drain_Level" Type="Double" />
+          <Property Name="Qve_HoDB" Type="Double" />
+          <Property Name="Reserve_Water" Type="Double" />
+          <Property Name="Qminflow_TT" Type="Double" />
+          <Property Name="H1_MW" Type="Double" />
+          <Property Name="H2_MW" Type="Double" />
+          <Property Name="H3_MW" Type="Double" />
+          <Property Name="QcmH1" Type="Double" />
+          <Property Name="QcmH2" Type="Double" />
+          <Property Name="QcmH3" Type="Double" />
+          <Property Name="DeltaQsb" Type="Double" />
+          <Property Name="Minutes" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="PlantID" Type="Int32" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="thuydienbitexcotaynguyen_com_vn_ModelStoreContainer" CdmEntityContainer="WebTayNguyen">
+          <EntitySetMapping Name="Measurements">
+            <EntityTypeMapping TypeName="thuydienbitexcotaynguyen_com_vn_Model.Measurement">
+              <MappingFragment StoreEntitySet="Measurements">
+                <ScalarProperty Name="PlantID" ColumnName="PlantID" />
+                <ScalarProperty Name="Minutes" ColumnName="Minutes" />
+                <ScalarProperty Name="DeltaQsb" ColumnName="DeltaQsb" />
+                <ScalarProperty Name="QcmH3" ColumnName="QcmH3" />
+                <ScalarProperty Name="QcmH2" ColumnName="QcmH2" />
+                <ScalarProperty Name="QcmH1" ColumnName="QcmH1" />
+                <ScalarProperty Name="H3_MW" ColumnName="H3_MW" />
+                <ScalarProperty Name="H2_MW" ColumnName="H2_MW" />
+                <ScalarProperty Name="H1_MW" ColumnName="H1_MW" />
+                <ScalarProperty Name="Qminflow_TT" ColumnName="Qminflow_TT" />
+                <ScalarProperty Name="Reserve_Water" ColumnName="Reserve_Water" />
+                <ScalarProperty Name="Qve_HoDB" ColumnName="Qve_HoDB" />
+                <ScalarProperty Name="Drain_Level" ColumnName="Drain_Level" />
+                <ScalarProperty Name="Qve_Hadu" ColumnName="Qve_Hadu" />
+                <ScalarProperty Name="Qminflow" ColumnName="Qminflow" />
+                <ScalarProperty Name="QcmH1H2H3" ColumnName="QcmH1H2H3" />
+                <ScalarProperty Name="Qoverflow" ColumnName="Qoverflow" />
+                <ScalarProperty Name="Qve_Ho" ColumnName="Qve_Ho" />
+                <ScalarProperty Name="DownstreamWaterLevel_m" ColumnName="DownstreamWaterLevel_m" />
+                <ScalarProperty Name="UpstreamWaterLevel_m" ColumnName="UpstreamWaterLevel_m" />
+                <ScalarProperty Name="Luongmua" ColumnName="Luongmua" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

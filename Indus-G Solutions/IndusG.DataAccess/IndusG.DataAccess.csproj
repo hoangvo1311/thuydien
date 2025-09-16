@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E8C555F5-A822-4E39-A7CD-8B6610483BA1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IndusG.DataAccess</RootNamespace>
+    <AssemblyName>IndusG.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DakSrong4NM_DBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DakSrong4NM_DBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DakSrong4NM_DBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DakSrong4NM_DBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DakSrong4NM_DBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DakSrong4NM_DBModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DakSrongDBModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DakSrongDBModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DakSrongDBModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DakSrongDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DakSrongDBModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DakSrongDBModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DB_DakHnol.cs">
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_DakHnolMeasurement.cs">
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_DakHnolParameter.cs">
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_DakHnolPLCConfiguration.cs">
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_DakHnolService.cs">
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_IAMO_Configuration.cs">
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_IAMO_Measurement.cs">
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Sesan.cs">
+      <DependentUpon>DakSrong4NM_DBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_SesanMeasurement.cs">
+      <DependentUpon>DakSrongDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_SesanParameter.cs">
+      <DependentUpon>DakSrongDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_SesanPLCConfiguration.cs">
+      <DependentUpon>DakSrongDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_SesanService.cs">
+      <DependentUpon>DakSrongDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DB_Sesan_2PLC.cs">
+      <DependentUpon>DakSrongDBModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Measurement.cs">
+      <DependentUpon>NM4A.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NM4A.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NM4A.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NM4A.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NM4A.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NM4A.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NM4A.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuanTracModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanTracModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuanTracModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanTracModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuanTracModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanTracModel.edmx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EntityDeploy Include="NM4A.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>NM4A.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="DakSrongDBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DakSrongDBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="DakSrong4NM_DBModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DakSrong4NM_DBModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DakSrong4NM_DBModel.edmx.diagram">
+      <DependentUpon>DakSrong4NM_DBModel.edmx</DependentUpon>
+    </None>
+    <None Include="DakSrongDBModel.edmx.diagram">
+      <DependentUpon>DakSrongDBModel.edmx</DependentUpon>
+    </None>
+    <None Include="NM4A.edmx.diagram">
+      <DependentUpon>NM4A.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <EntityDeploy Include="QuanTracModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QuanTracModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="QuanTracModel.edmx.diagram">
+      <DependentUpon>QuanTracModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DakSrong4NM_DBModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DakSrong4NM_DBModel.edmx</DependentUpon>
+      <LastGenOutput>DakSrong4NM_DBModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DakSrong4NM_DBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DakSrong4NM_DBModel.edmx</DependentUpon>
+      <LastGenOutput>DakSrong4NM_DBModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="DakSrongDBModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DakSrongDBModel.edmx</DependentUpon>
+      <LastGenOutput>DakSrongDBModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DakSrongDBModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DakSrongDBModel.edmx</DependentUpon>
+      <LastGenOutput>DakSrongDBModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="NM4A.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NM4A.edmx</DependentUpon>
+      <LastGenOutput>NM4A.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="NM4A.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>NM4A.edmx</DependentUpon>
+      <LastGenOutput>NM4A.cs</LastGenOutput>
+    </Content>
+    <Content Include="QuanTracModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QuanTracModel.edmx</DependentUpon>
+      <LastGenOutput>QuanTracModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="QuanTracModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QuanTracModel.edmx</DependentUpon>
+      <LastGenOutput>QuanTracModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>

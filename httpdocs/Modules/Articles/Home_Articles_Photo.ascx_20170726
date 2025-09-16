@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Home_Articles_Photo.ascx.cs" Inherits="Modules_Articles_HomeArticles" %>
+

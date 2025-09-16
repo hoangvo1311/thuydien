@@ -1,0 +1,4 @@
+2022-04-29 22:02:06.5394 ERROR String was not recognized as a valid DateTime. 
+    at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at IndusG.Service.DataService.LoadData(DataTableQueryModel queryModel, String from, String to) in D:\Dakrosa\Cty Trang Duc\Dakrosa\IndusG.Service\DataService.cs:line 26
+   at IndusG.Web.Controllers.DataController.Load(String fromDate, String toDate) in D:\Dakrosa\Cty Trang Duc\Dakrosa\IndusG.Web\Controllers\DataController.cs:line 27

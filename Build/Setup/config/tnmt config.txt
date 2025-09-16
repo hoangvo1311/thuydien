@@ -1,0 +1,3 @@
+ <connectionStrings>
+    <add name="PLCEntities" connectionString="metadata=res://*/PLCMeasurementModel.csdl|res://*/PLCMeasurementModel.ssdl|res://*/PLCMeasurementModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=[SQLDataSource];initial catalog=quantrac;persist security info=True;user id=[SQLUsername];password=[SQLPassword];MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings>

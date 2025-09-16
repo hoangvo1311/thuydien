@@ -1,0 +1,795 @@
+﻿
+@{
+    ViewBag.Title = "Điều Khiển";
+    ViewBag.ActiveMenu = "Operation";
+    ViewBag.PlantName = "ĐAKSRÔNG";
+    ViewBag.SystemName = "HỆ THỐNG QUAN TRẮC THỦY VĂN";
+
+    string initMode = "OFF";
+    if (Model.RemoteBit)
+    {
+        initMode = "REMOTE";
+    }
+    else if (Model.ManBit)
+    {
+        initMode = "MAN";
+    }
+}
+@model IndusG.Models.Setting.PLCMonitoringModel
+<link href="~/plugins/toggle/bootstrap-toggle.min.css" rel="stylesheet" />
+
+<!-- Main row -->
+<div class="row">
+    <!-- Left col -->
+    <section class="col-12 connectedSortable">
+        <div class="card bg-gradient-gray">
+            <div class="card-header">
+                <h3 class="card-title col-3" style="margin-top: 5px;">
+                    <i class="fas fa-server mr-1"></i>
+                    &nbsp;TÍN HIỆU KẾT NỐI PLC
+
+                </h3>
+                <DIV id="LiveBit" class="@(Model.PLCLiveBit ? "plcOnBit" : "plcOffBit")"></DIV>
+
+
+            </div>
+            <div class="card-body">
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="row">
+                            <!-- Toggle Remote -->
+                            <div class="col-12 text-center">
+
+                                @Html.CheckBoxFor(m => m.RemoteBit, new
+                                {
+                                    id = "ToggleRemoteControl",
+                                    style = "display:none;",
+                                    data_mode = initMode   // set theo Model
+                                })
+
+                                <!-- Button hiển thị toggle 3 trạng thái -->
+                                <div class="three-way-switch my-3" style="max-width:300px; margin:0 auto; min-height:60px;">
+                                    <input type="radio" name="remoteMode" id="modeOff" value="OFF">
+                                    <label for="modeOff">OFF</label>
+
+                                    <input type="radio" name="remoteMode" id="modeMan" value="MAN">
+                                    <label for="modeMan">MAN</label>
+
+                                    <input type="radio" name="remoteMode" id="modeRemote" value="REMOTE">
+                                    <label for="modeRemote">REMOTE</label>
+
+                                    <div class="switch-thumb"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Qminflow hiển thị cùng label -->
+                            <div class="col-12 d-flex justify-content-center align-items-center">
+                                <label for="txtDisplayQminflow"
+                                       class="me-2 fw-bold"
+                                       style="font-size:20px;color: black;">
+                                    Lưu lượng xả tối thiểu (m³/s)&nbsp;
+                                </label>
+                                <input id="txtDisplayQminflow"
+                                       type="number"
+                                       class="form-control form-control-lg text-center"
+                                       style="background:black; color:lime; width:120px; font-size:24px;"
+                                       readonly />
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <label class="col-form-label d-flex justify-content-center align-items-center fs-5 fw-bold" style="color:black;font-weight:bold">
+                                        CỬA XẢ 1 (cm)
+                                    </label>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button id="btnDown1" type="button" class="btn btn-primary btn-lg">▼</button>
+                                        @Html.TextBoxFor(x => x.DrainLevel1, new
+                                        {
+                                            id = "txtDisplayDrainLevel1",
+                                            type = "number",
+                                            @class = "form-control form-control-lg mx-3 text-center",
+                                            value = "0",
+                                            style = "background:black; color:lime; width:120px; font-size:24px;",
+                                            @readonly = "readonly"
+                                        })
+                                        <button id="btnUp1" type="button" class="btn btn-primary btn-lg">▲</button>
+                                        <input id="txtInputDrainLevel1" class="form-control form-control-lg mx-3 text-center"
+                                               style="width:120px; display:none; font-size:24px;" />
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <table class="table text-center mb-0" style="border-collapse:collapse; border:none;">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center" style="border:none;">CV1 Dưới cùng</th>
+                                                    <th class="text-center" style="border:none;">CV1 Quá tải</th>
+                                                    <th class="text-center" style="border:none;">CV1 Hoạt động</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td style="border:none;"><div id="cv1Bottom" class="@(Model.CV1Bottom ? "plcOnBit" : "plcOffBit")"></div></td>
+                                                    <td style="border:none;"><div id="cv1Overload" class="@(Model.CV1Overload ? "plcOnBit" : "plcOffBit")"></div></td>
+                                                    <td style="border:none;"><div id="cv1Running" class="@(Model.CV1Running ? "plcOnBit" : "plcOffBit")"></div></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-12">
+                                <div class="form-group">
+                                    <label class="col-form-label d-flex justify-content-center align-items-center fs-5 fw-bold" style="color: black; font-weight: bold ">
+                                        CỬA XẢ 2 (cm)
+                                    </label>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <button id="btnDown2" type="button" class="btn btn-primary btn-lg">▼</button>
+                                        @Html.TextBoxFor(x => x.DrainLevel2, new
+                                        {
+                                            id = "txtDisplayDrainLevel2",
+                                            type = "number",
+                                            @class = "form-control form-control-lg mx-3 text-center",
+                                            style = "background:black; color:lime; width:120px; font-size:24px;",
+                                            @readonly = "readonly"
+                                        })
+                                        <button id="btnUp2" type="button" class="btn btn-primary btn-lg">▲</button>
+                                        <input id="txtInputDrainLevel2" class="form-control form-control-lg mx-3 text-center"
+                                               style="width:120px; display:none; font-size:24px;" />
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <table class="table text-center mb-0" style="border-collapse:collapse; border:none;">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center" style="border:none;">CV2 Dưới cùng</th>
+                                                    <th class="text-center" style="border:none;">CV2 Quá tải</th>
+                                                    <th class="text-center" style="border:none;">CV2 Hoạt động</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td style="border:none;"><div id="cv2Bottom" class="@(Model.CV2Bottom ? "plcOnBit" : "plcOffBit")"></div></td>
+                                                    <td style="border:none;"><div id="cv2Overload" class="@(Model.CV2Overload ? "plcOnBit" : "plcOffBit")"></div></td>
+                                                    <td style="border:none;"><div id="cv2Running" class="@(Model.CV2Running ? "plcOnBit" : "plcOffBit")"></div></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        @if (IndusG.Service.WorkContext.CanChangeSimulation())
+                        {
+                            <div class="row mt-3">
+                                <div class="col-12">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <h5 class="fw-bold mb-0" style="color:black;font-weight:bold">SIMULATION</h5>
+                                        @Html.CheckBoxFor(m => m.SimulationBit, new
+                                         {
+                                             id = "ToggleSimulation",
+                                             data_toggle = "toggle",
+                                             data_on = "SIM ON",
+                                             data_off = "SIM OFF",
+                                             data_width = "140",
+                                             data_height = "34",
+                                             data_onstyle = "success",
+                                             data_offstyle = "danger"
+                                         })
+                                    </div>
+                                    <table class="table table-bordered text-center m-0">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width:80px;" class="@(Model.KU1 ? "bg-success text-white" : "bg-danger text-white")">
+                                                    KU1
+                                                </td>
+                                                <td class="text-start">Nâng cửa DCTT1</td>
+                                                <td style="width:120px;">
+                                                    <button id="KC1Btn"
+                                                            type="button"
+                                                            class="btn btn-sm w-100 sim-btn @(Model.KU1_SIM ? "btn-success" : "btn-danger")"
+                                                            data-kc="KC1">
+                                                        @(Model.KU1_SIM ? "ON" : "OFF")
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="@(Model.KD1 ? "bg-success text-white" : "bg-danger text-white")">
+                                                    KD1
+                                                </td>
+                                                <td class="text-start">Hạ cửa DCTT1</td>
+                                                <td>
+                                                    <button id="KC2Btn"
+                                                            type="button"
+                                                            class="btn btn-sm w-100 sim-btn @(Model.KD1_SIM ? "btn-success" : "btn-danger")"
+                                                            data-kc="KC2">
+                                                        @(Model.KD1_SIM ? "ON" : "OFF")
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="@(Model.KU2 ? "bg-success text-white" : "bg-danger text-white")">
+                                                    KU2
+                                                </td>
+                                                <td class="text-start">Nâng cửa DCTT2</td>
+                                                <td>
+                                                    <button id="KC3Btn"
+                                                            type="button"
+                                                            class="btn btn-sm w-100 sim-btn @(Model.KU2_SIM ? "btn-success" : "btn-danger")"
+                                                            data-kc="KC3">
+                                                        @(Model.KU2_SIM ? "ON" : "OFF")
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="@(Model.KD2 ? "bg-success text-white" : "bg-danger text-white")">
+                                                    KD2
+                                                </td>
+                                                <td class="text-start">Hạ cửa DCTT2</td>
+                                                <td>
+                                                    <button id="KC4Btn"
+                                                            type="button"
+                                                            class="btn btn-sm w-100 sim-btn @(Model.KD2_SIM ? "btn-success" : "btn-danger")"
+                                                            data-kc="KC4">
+                                                        @(Model.KD2_SIM ? "ON" : "OFF")
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</div>
+
+<style>
+    /* ==== 3-nấc switch ==== */
+    .three-way-switch {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 44px;
+        background: #e9ecef;
+        border-radius: 28px;
+        overflow: hidden;
+        align-items: center;
+        user-select: none;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+    }
+
+        .three-way-switch input {
+            display: none;
+        }
+
+        .three-way-switch label {
+            flex: 1;
+            text-align: center;
+            z-index: 2;
+            cursor: pointer;
+            font-weight: 600;
+            line-height: 44px;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .three-way-switch .switch-thumb {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            width: calc(33.3333% - 8px);
+            height: calc(100% - 8px);
+            border-radius: 22px;
+            transition: left .18s ease, background .18s ease;
+            z-index: 1;
+            background: #6c757d; /* OFF color */
+        }
+
+    /* vị trí thumb theo checked */
+    #modeOff:checked ~ .switch-thumb {
+        left: 4px;
+        background: #6c757d;
+    }
+    /* gray */
+    #modeMan:checked ~ .switch-thumb {
+        left: calc(33.3333% + 4px);
+        background: #ffc107;
+    }
+    /* yellow */
+    #modeRemote:checked ~ .switch-thumb {
+        left: calc(66.6666% + 4px);
+        background: #28a745;
+    }
+    /* green */
+
+    /* highlight label khi active */
+    .three-way-switch label {
+        color: #000;
+    }
+
+    .btn-group .btn {
+        font-size: 1.5rem !important; /* chữ bự */
+        font-weight: bold;
+        color: black !important; /* chữ đen */
+        min-width: 120px; /* bự hơn */
+        border-width: 2px;
+        border-radius: 12px !important;
+    }
+
+        .btn-group .btn.active {
+            background-color: #ffc107 !important; /* màu nổi bật khi chọn */
+            color: black !important;
+        }
+</style>
+@section scripts{
+    <script src="~/plugins/toggle/bootstrap-toggle.min.js"></script>
+
+    <script>
+        var username = '@(IndusG.Service.WorkContext.CurrentUser != null ? IndusG.Service.WorkContext.CurrentUser.Username : "")';
+         var initMode = "@initMode";
+        function setRemoteMode(mode) {
+            if (mode === "OFF") {
+                // Disable hết, ẩn ô trắng
+                $("#txtInputDrainLevel1, #txtInputDrainLevel2").hide();
+                $("#btnUp1, #btnDown1, #btnUp2, #btnDown2").prop("disabled", true);
+            }
+            else if (mode === "MAN") {
+                // Enable các nút ▲▼, ẩn ô trắng
+                $("#txtInputDrainLevel1, #txtInputDrainLevel2").hide();
+                $("#btnUp1, #btnDown1, #btnUp2, #btnDown2").prop("disabled", false);
+            }
+            else if (mode === "REMOTE") {
+                // Disable nút ▲▼, hiển thị ô trắng để nhập giá trị
+                $("#txtInputDrainLevel1, #txtInputDrainLevel2").show();
+                $("#btnUp1, #btnDown1, #btnUp2, #btnDown2").prop("disabled", true);
+            }
+        }
+
+
+        function throttleButton(btn, delayMs) {
+            btn.prop("disabled", true);
+            setTimeout(() => {
+                // Chỉ enable lại nếu đang ở MAN mode
+                let currentMode = $("#ToggleRemoteButton").text();
+                if (currentMode === "MAN") {
+                    btn.prop("disabled", false);
+                }
+            }, delayMs);
+        }
+
+        $(function () {
+            $('#ToggleSimulation').bootstrapToggle();
+
+            // helper đổi trạng thái nút simulation
+            function setSimButtonState($btn, isOn) {
+                if (isOn) {
+                    $btn.removeClass('btn-danger').addClass('btn-success').text('ON');
+                } else {
+                    $btn.removeClass('btn-success').addClass('btn-danger').text('OFF');
+                }
+            }
+
+            let suppressSimulationChange = false;
+
+            $('#ToggleSimulation').change(function () {
+                if (suppressSimulationChange) return;
+
+                const simOn = $(this).prop('checked');
+                showLoading();
+                $.ajax({
+                    url: '@Url.Action("SaveSimulationBit", "Operation")',
+                    type: 'POST',
+                    data: { simulationBit: simOn },
+                    success: function (response) {
+                        if (response.Result === true) {
+                            $('.sim-btn').prop('disabled', !simOn);
+
+                            if (!simOn) {
+                                // Khi OFF simulation thì tất cả sim-btn cũng OFF giao diện
+                                $('.sim-btn').each(function () {
+                                    $(this)
+                                        .removeClass('btn-success')
+                                        .addClass('btn-danger')
+                                        .text('OFF');
+                                });
+                            }
+                        } else {
+                            displayErrorAlert(response.Message, 5000);
+
+                            // rollback mà không trigger lại handler
+                            suppressSimulationChange = true;
+                            $('#ToggleSimulation').prop('checked', !simOn).trigger("change");
+                            suppressSimulationChange = false;
+                        }
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                    },
+                    complete: function () {
+                        hideLoading();
+                    }
+                });
+            });
+
+            // Khởi tạo disable dựa trên trạng thái toggle lúc load
+            $('.sim-btn').prop('disabled', !$('#ToggleSimulation').prop('checked'));
+
+         let activeBtn = null;
+            let isMouseDown = false; // flag để tránh gọi nhiều lần
+
+            $('.sim-btn')
+                .off("mousedown") // clear binding cũ
+                .on("mousedown", function () {
+                    if (isMouseDown) return; // đã nhấn rồi thì bỏ qua
+                    isMouseDown = true;
+
+                    const $btn = $(this);
+                    const btnId = $btn.data('kc');
+                    if ($btn.prop('disabled')) return;
+
+                    activeBtn = $btn; // ghi nhớ nút đang nhấn
+
+                    setSimButtonState($btn, true); // UI update
+                    sendKUKDChange(btnId, true, $btn); // gửi request ON
+                });
+
+            // khi nhả chuột ở bất cứ đâu
+            $(document)
+                .off("mouseup") // clear binding cũ
+                .on("mouseup", function () {
+                    if (!isMouseDown || !activeBtn) return;
+                    isMouseDown = false;
+
+                    const $btn = activeBtn;
+                    const btnId = $btn.data('kc');
+
+                    if (!$btn.prop('disabled')) {
+                        setSimButtonState($btn, false); // UI update
+                        sendKUKDChange(btnId, false, $btn); // gửi request OFF
+                    }
+
+                    activeBtn = null; // reset
+                });
+
+            // helper: API call for sim button
+            function sendKUKDChange(btnId, state, $btn) {
+                $.ajax({
+                    url: '@Url.Action("SaveKUKDState", "Operation")',
+                    type: 'POST',
+                    data: { kc: btnId, state: state },
+                    success: function (response) {
+                        if (!response.Result) {
+                            displayErrorAlert(response.Message, 5000);
+                            // rollback UI if failed
+                            setSimButtonState($btn, !state);
+                        }
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                        setSimButtonState($btn, !state);
+                    },
+                    complete: function () {
+                        hideLoading();
+                    }
+                });
+            }
+
+
+
+            function UpdatePLCLiveBit() {
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("CheckServiceRunning", "ServiceManagement")",
+                    success: function (response) {
+                        if (response.IsServiceRunning) {
+                            if (response.IsPLCAvailable) {
+                                $('#LiveBit').removeClass('plcOffBit').addClass('plcOnBit');
+                                $('#plcDisconnectNotification').hide();
+                            } else {
+                                $('#LiveBit').removeClass('plcOnBit').addClass('plcOffBit');
+                                $('#plcDisconnectNotification').show();
+                            }
+
+                            $('#txtDisplayQminflow').val(response.Qminflow);
+
+                            if (response.PLCMonitoring) {
+                                var plc = response.PLCMonitoring;
+
+                                // Drain levels
+                                $("#txtDisplayDrainLevel1").val(plc.DrainLevel1);
+                                $("#txtDisplayDrainLevel2").val(plc.DrainLevel2);
+
+
+                                //// Remote toggle
+                                //$("#ToggleRemoteControl").prop("checked", plc.RemoteBit).change();
+
+                                //// Simulation toggle
+                                //$("#ToggleSimulation").prop("checked", plc.SimulationBit).change();
+
+                                // CV1 + CV2 indicators
+                                setBitState("#cv1Bottom", plc.CV1Bottom);
+                                setBitState("#cv1Overload", plc.CV1Overload);
+                                setBitState("#cv1Running", plc.CV1Running);
+                                setBitState("#cv2Bottom", plc.CV2Bottom);
+                                setBitState("#cv2Overload", plc.CV2Overload);
+                                setBitState("#cv2Running", plc.CV2Running);
+
+                                //// KU/KD simulation buttons
+                                //setSimButtonState($("#KC1Btn"), plc.KU1_SIM);
+                                //setSimButtonState($("#KC2Btn"), plc.KD1_SIM);
+                                //setSimButtonState($("#KC3Btn"), plc.KU2_SIM);
+                                //setSimButtonState($("#KC4Btn"), plc.KD2_SIM);
+
+                                // KU/KD text background (real values, not simulation)
+                                setCellState("KU1", plc.KU1);
+                                setCellState("KD1", plc.KD1);
+                                setCellState("KU2", plc.KU2);
+                                setCellState("KD2", plc.KD2);
+                            }
+                        } else {
+                            $('#LiveBit').removeClass('plcOnBit').addClass('plcOffBit');
+                            $('#plcDisconnectNotification').show();
+                        }
+                    },
+                    error: function () {
+                        $('#LiveBit').removeClass('plcOnBit').addClass('plcOffBit');
+                        $('#plcDisconnectNotification').show();
+                    }
+                });
+            }
+
+            // Helper: update ON/OFF indicator div
+            function setBitState(selector, state) {
+                $(selector).toggleClass("plcOnBit", state).toggleClass("plcOffBit", !state);
+            }
+
+            // Helper: update simulation button state
+            function setSimButtonState($btn, isOn) {
+                if (isOn) {
+                    $btn.removeClass("btn-danger").addClass("btn-success").text("ON");
+                } else {
+                    $btn.removeClass("btn-success").addClass("btn-danger").text("OFF");
+                }
+            }
+
+            // Helper: update table cell background (KU/KD real values)
+            function setCellState(cellText, isOn) {
+                $(`td:contains('${cellText}')`).removeClass("bg-success bg-danger")
+                    .addClass(isOn ? "bg-success text-white" : "bg-danger text-white");
+            }
+
+            setInterval(UpdatePLCLiveBit, 1000);
+
+
+
+
+            const modes = ["OFF", "MAN", "REMOTE"];
+            const modeColors = { "OFF": "btn-secondary", "MAN": "btn-warning", "REMOTE": "btn-success" };
+
+            let suppressRemoteChange = false;
+
+            const $checkbox = $("#ToggleRemoteControl");
+
+            $(`input[name=remoteMode][value='${initMode}']`)
+                .prop("checked", true)
+                .trigger("change");
+
+            $checkbox.prop("checked", initMode === "REMOTE").data("mode", initMode);
+            setRemoteMode(initMode);
+
+            // --- Handler: chọn mode bất kỳ ---
+            $("input[name=remoteMode]").on("change", function () {
+                  console.log("Change event fired!", $(this).val()); // 🔥 TEST
+                if (suppressRemoteChange) return;
+
+                const prevMode = $checkbox.data("mode") || initMode;
+                const nextMode = $(this).val();
+                if (nextMode === prevMode) return; // không đổi
+
+                suppressRemoteChange = true;
+                showLoading();
+
+                $.ajax({
+                    url: '@Url.Action("SaveRemoteMode", "Operation")',
+                    type: 'POST',
+                    data: { mode: nextMode },
+                    success: function (response) {
+                        if (response.Result === true) {
+                            $checkbox.prop("checked", nextMode === "REMOTE").data("mode", nextMode);
+                            setRemoteMode(nextMode); // update UI
+                        } else {
+                            displayErrorAlert(response.Message, 5000);
+                            rollbackMode(prevMode);
+                        }
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                        rollbackMode(prevMode);
+                    },
+                    complete: function () {
+                        hideLoading();
+                        suppressRemoteChange = false;
+                    }
+                });
+            });
+
+            function rollbackMode(mode) {
+                $(`input[name=remoteMode][value='${mode}']`).prop("checked", true);
+                setRemoteMode(mode);
+            }
+
+            // --- Throttle function cập nhật theo mode hiện tại ---
+            window.throttleButton = function (btn, delayMs) {
+                btn.prop("disabled", true);
+                setTimeout(() => {
+                    const currentMode = $checkbox.data("mode") || initMode;
+                    if (currentMode === "MAN") {
+                        btn.prop("disabled", false);
+                    }
+                }, delayMs);
+            };
+
+
+             function UpdateDrainLevel1(val) {
+                 var data = { drainLevel: val}
+                 showLoading();
+                 $.ajax({
+                     type: 'POST',
+                     data: data,
+                     url: '@Url.Action("SaveDrainLevel1", "Operation")',
+                     success: function (response) {
+                         if (!response.Result) {
+                             displayErrorAlert(response.Message, 5000);
+                         }
+                     },
+                     error: function () {
+                         displayErrorMessage();
+                     },
+                     complete: function () {
+                         hideLoading();
+                     }
+                 });
+             }
+
+
+
+            function UpdateDrainLevel2(val) {
+                var data = { drainLevel: val}
+                showLoading();
+                $.ajax({
+                    type: 'POST',
+                    data: data,
+                    url: '@Url.Action("SaveDrainLevel2", "Operation")',
+                    success: function (response) {
+                        if (!response.Result) {
+                            displayErrorAlert(response.Message, 5000);
+                        }
+                    },
+                    error: function () {
+                        displayErrorMessage();
+                    },
+                    complete: function () {
+                        hideLoading();
+                    }
+                });
+            }
+
+            $("[id^=txtInputDrainLevel]").on("keydown", function (e) {
+                if (e.which === 13) { // Enter
+                    let val = parseFloat($(this).val());
+                    if (!isNaN(val)) {
+                        if (this.id === "txtInputDrainLevel1") {
+                            UpdateDrainLevel1(val);
+                        } else if (this.id === "txtInputDrainLevel2") {
+                            UpdateDrainLevel2(val);
+                        }
+                    }
+                    $(this).blur();
+                    e.preventDefault(); // chặn form submit
+                }
+            });
+
+            // Nút ▲▼ CỬA XẢ 1 -> chỉ thay đổi ô đen
+            $("#btnUp1").click(function () {
+                 $.ajax({
+                     type: 'POST',
+                     url: '@Url.Action("SetK1Up", "Operation")',
+                     success: function (response) {
+                         if (!response.Result) {
+                             displayErrorAlert(response.Message, 5000);
+                         }
+                     },
+                     error: function () {
+                         displayErrorMessage();
+                     },
+                     complete: function () {
+                     }
+                 });
+                throttleButton($("#btnUp1"), 2000);
+
+            });
+
+            $("#btnDown1").click(function () {
+                 $.ajax({
+                     type: 'POST',
+                     url: '@Url.Action("SetK1Down", "Operation")',
+                     success: function (response) {
+                         if (!response.Result) {
+                             displayErrorAlert(response.Message, 5000);
+                         }
+                     },
+                     error: function () {
+                         displayErrorMessage();
+                     },
+                     complete: function () {
+                     }
+                 });
+                throttleButton($("#btnDown1"), 2000);
+
+            });
+
+            // Nút ▲▼ CỬA XẢ 2 -> chỉ thay đổi ô đen
+            $("#btnUp2").click(function () {
+                 $.ajax({
+                     type: 'POST',
+                     url: '@Url.Action("SetK2Up", "Operation")',
+                     success: function (response) {
+                         if (!response.Result) {
+                             displayErrorAlert(response.Message, 5000);
+                         }
+                     },
+                     error: function () {
+                         displayErrorMessage();
+                     },
+                     complete: function () {
+                     }
+                 });
+                throttleButton($("#btnUp2"), 2000);
+
+
+            });
+
+            $("#btnDown2").click(function () {
+                  $.ajax({
+                      type: 'POST',
+                      url: '@Url.Action("SetK2Down", "Operation")',
+                      success: function (response) {
+                          if (!response.Result) {
+                              displayErrorAlert(response.Message, 5000);
+                          }
+                      },
+                      error: function () {
+                          displayErrorMessage();
+                      },
+                      complete: function () {
+                      }
+                  });
+                throttleButton($("#btnDown2"), 2000);
+
+            });
+        });
+    </script>
+}

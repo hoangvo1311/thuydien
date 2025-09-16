@@ -1,0 +1,196 @@
+﻿@{
+    ViewBag.Title = "Trang Chủ";
+    ViewBag.ActiveMenu = "IAMO Dashboard";
+    ViewBag.PlantName = "IA MƠR";
+    ViewBag.SystemName = "HỆ THỐNG GIÁM SÁT";
+}
+
+@model IndusG.Models.IAMO_MeasurementModel
+
+<div>
+    <div class="row">
+        <div class="col-lg-12 col-12">
+            <div class="row">
+                <div class="col-lg-6 col-6">
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            @Html.LabelFor(m => m.H1_ActivePower, new { @class = "measurementName" })
+                            <div class="measurementValue">
+                                <span id="H1_ActivePower">@Html.DisplayFor(m => m.H1_ActivePower)</span> <span class="measurementUnit">KW</span>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="ion">
+                                <img class="measurementImage" src="~/Content/icons/congsuat.png">
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-6">
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            @Html.LabelFor(m => m.H2_ActivePower, new { @class = "measurementName" })
+                            <div class="measurementValue">
+                                <span id="H2_ActivePower">@Html.DisplayFor(m => m.H2_ActivePower)</span> <span class="measurementUnit">KW</span>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="ion">
+                                <img class="measurementImage" src="~/Content/icons/congsuat.png">
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-6">
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            @Html.LabelFor(m => m.H1_ReactivePower, new { @class = "measurementName" })
+                            <div class="measurementValue">
+                                <span id="H1_ReactivePower">@Html.DisplayFor(m => m.H1_ReactivePower)</span> <span class="measurementUnit">KVAR</span>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="ion">
+                                <img class="measurementImage" src="~/Content/icons/congsuat.png">
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-6">
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            @Html.LabelFor(m => m.H2_ReactivePower, new { @class = "measurementName" })
+                            <div class="measurementValue">
+                                <span id="H2_ReactivePower">@Html.DisplayFor(m => m.H2_ReactivePower)</span> <span class="measurementUnit">KVAR</span>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="ion">
+                                <img class="measurementImage" src="~/Content/icons/congsuat.png">
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-6">
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            @Html.LabelFor(m => m.QcmH1, new { @class = "measurementName" })
+                            <div class="measurementValue">
+                                <span id="QcmH1">@Html.DisplayFor(m => m.QcmH1)</span> <span class="measurementUnit">m<sup>3</sup>/s</span>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="ion">
+                                <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-6">
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            @Html.LabelFor(m => m.QcmH2, new { @class = "measurementName" })
+                            <div class="measurementValue">
+                                <span id="QcmH2">@Html.DisplayFor(m => m.QcmH2)</span> <span class="measurementUnit">m<sup>3</sup>/s</span>
+
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="ion">
+                                <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-6">
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            @Html.LabelFor(m => m.QcmH1H2, new { @class = "measurementName" })
+                            <div class="measurementValue">
+                                <span id="QcmH1H2">@Html.DisplayFor(m => m.QcmH1H2)</span> <span class="measurementUnit">m<sup>3</sup>/s</span>
+                            </div>
+                        </div>
+                        <div class="icon">
+                            <i class="ion">
+                                <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                            </i>
+                        </div>
+
+                    </div>
+                </div>
+
+                @if (IndusG.Service.WorkContext.CanConfigHieuSuatIamo())
+                {
+                    <div class="col-lg-6 col-6">
+                        <div class="small-box bg-danger">
+                            <div class="inner">
+                                @Html.LabelFor(m => m.CotAp, new { @class = "measurementName" })
+                                <div class="measurementValue">
+                                    <span id="CotAp">@Html.DisplayFor(m => m.CotAp)</span> <span class="measurementUnit">m</span>
+                                </div>
+                            </div>
+                            <div class="icon">
+                                <i class="ion">
+                                    <img class="measurementImage" src="~/Content/icons/water-pump.png">
+                                </i>
+                            </div>
+
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts {
+    <script>
+        $(function () {
+            function UpdateMeasurementData() {
+                //$("#MeasurementData").load(window.location.href + " #MeasurementData");
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("GetLatestMeasurement", "IAMODashboard")',
+                    success: function (response) {
+                        if (response.H1_ActivePower != "") {
+                            $("#H1_ActivePower").text(response.H1_ActivePower);
+                        }
+                        if (response.H1_ReactivePower != "") {
+                            $("#H1_ReactivePower").text(response.H1_ReactivePower);
+                        }
+                        if (response.H2_ActivePower != "") {
+                            $("#H2_ActivePower").text(response.H2_ActivePower);
+                        }
+                        if (response.H2_ReactivePower != "") {
+                            $("#H2_ReactivePower").text(response.H2_ReactivePower);
+                        }
+                        if (response.QcmH1 != "") {
+                            $("#QcmH1").text(response.QcmH1);
+                        }
+                        if (response.QcmH2 != "") {
+                            $("#QcmH2").text(response.QcmH2);
+                        }
+                        if (response.QcmH1H2 != "") {
+                            $("#QcmH1H2").text(response.QcmH1H2);
+                        }
+                        if (response.CotAp != "") {
+                            $("#CotAp").text(response.CotAp);
+                        }
+                    },
+                    error: function () {
+                    }
+                });
+            };
+
+            setInterval(UpdateMeasurementData, 1000);
+        })
+    </script>
+}

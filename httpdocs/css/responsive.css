@@ -1,0 +1,255 @@
+/*------------------------------------------------------------------------------------------
+2. MEDIA QUERIES
+------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------
+We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices:
+@media (max-width: @screen-xs-max) { }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { }
+@media (min-width: @screen-lg-min) { }
+-------------------------------------------------------------------------------------------------------------------*/
+
+/* Large devices (large desktops, 1200px and up) */
+/* Container = 1170 */
+@media (min-width: 1367px) { 
+	
+}
+@media (min-width: 1200px) {
+    .container { width:1070px; }    
+}
+@media (max-width: 1024px) {    
+    .container-outer { width:100% !important; }
+}
+/* Container = 970 */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .menuzord-brand img { width:230px; }
+	.menuzord-menu > li > a { padding:10px 10px; }
+
+	.subpage-left { width:25%; }
+	.subpage-content { width:75%; padding-left:3%; }    
+}
+
+/* Medium devices (desktops, 992px and up) */
+/* Container = 750 */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .menuzord { height:30px; padding:0; }
+    .menuzord-brand img { width:230px; }
+    .menuzord-responsive .showhide { margin-top:0px; }
+    .menuzord-menu { width:100%; padding-bottom:0 !important; }
+    .menuzord-menu > li > a { padding:10px 10px; }
+    .menuzord-menu ul.dropdown li { border:0; }
+    .menuzord-menu ul.dropdown li:last-child a { border:0; }
+    .menuzord-menu li .indicator * { top:15px; }
+		
+	#homeCarousel .carousel-caption .caption-big,
+	#homeCarousel .carousel-caption .caption-desc { padding:1em; }
+	#homeCarousel .carousel-caption .caption-big { padding-bottom:0.3em; }	
+	#homeCarousel.carousel .carousel-control { display:none; }
+
+    /* Categories Module */
+	#footer-nav { padding-top:2em; padding-bottom:2em; }	
+	
+	/* Footer Copyright */
+	#footer-copyright { padding-top:1em; padding-bottom:1em; }
+    #footer .text-right { text-align:left !important; }
+
+    #col-left, #col-center, #col-right { float:none; display:block; width:100%; padding:0; padding-bottom:1em; }
+	
+	.subpage-left { width:30%; }
+	.subpage-content { width:70%; padding-left:3%; }		
+    .nav-side-menu { display:none; }
+}
+
+@media (min-width:767px) and (max-width: 790px) {
+    .nav-side-menu .menu-list .menu-content { display:block; }
+    .menuzord-menu ul.dropdown li { border:0; }
+    .menuzord-menu ul.dropdown, 
+    .menuzord-menu ul.dropdown li ul.dropdown { background-color:rgba(244,244,244,1); box-shadow:none; }    
+    .menuzord-menu ul.dropdown li { border:0; }
+    .menuzord-menu ul.dropdown li:last-child a { border:0; }
+    .menuzord-menu li .indicator * { top:15px; }
+}
+
+@media (max-width:800px) {
+    .subpage-left { width:100%; margin-bottom:1em; }
+	.subpage-content { width:100%; padding-left:0%; }
+    #col-left, #col-center, #col-right { float:none; display:block; width:100%; padding:0; padding-bottom:1em; }
+	/*.nav-side-menu { display:none; }*/
+}
+
+@media (width:768px) {    
+}
+
+@media (min-width:767px) {
+    .nav-side-menu .menu-list .menu-content {
+        display:block;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Container = None (auto) */
+@media (max-width: 767px) {	
+
+    .menuzord { height:30px; background:none; }
+	.menuzord-brand img { width:230px; }
+	.menuzord-responsive .showhide { margin-top:0px; }
+    .menuzord .showhide em { background:#fff; }
+	
+	/* Menu items */
+	.menuzord-responsive .menuzord-menu > li > a { padding: 12px 20px !important; border-bottom-width: 1px; }
+    .menuzord-menu ul.dropdown li { border:0; }
+    .menuzord-menu ul.dropdown, 
+    .menuzord-menu ul.dropdown li ul.dropdown { background-color:rgba(244,244,244,1); box-shadow:none; }
+    .menuzord-menu ul.dropdown li { border:0; }
+    .menuzord-menu ul.dropdown li:last-child a { border:0; }
+
+    .menuzord-responsive .menuzord-menu li .indicator { border-left-color:transparent; }
+    .menuzord-menu li .indicator * { top:15px; }
+	
+	#homeCarousel .carousel-caption { left:5%; right:0%; bottom:10px; }
+	#homeCarousel .carousel-caption .caption-big,
+	#homeCarousel .carousel-caption .caption-desc { padding:1em; }	
+	#homeCarousel.carousel .carousel-control { display:none; }
+
+    #footer .text-right { text-align:left !important; }
+
+    #col-left, #col-center, #col-right { float:none; display:block; width:100%; padding:0; padding-bottom:1em; }
+	
+	.page_scrollup { bottom:0px; right:0px; }
+	
+	.subpage-left { width:100%; margin-bottom:1em; }
+	.subpage-content { width:100%; padding-left:0%; }    
+	.nav-side-menu { display:none; }	
+
+    ul.headline-section { float:none; width:99%; height:initial; }
+    ul.headline-section li { font-size:1.2em; overflow:initial; height:auto; min-height:60px; padding-bottom:10px; margin-bottom:10px; border-bottom:solid 1px #ddd; }
+    ul.headline-section li img { width:80px !important; height:50px !important; /*width:100%; min-width:100%; height:auto; display:block;*/ margin-right:1em; float:left; margin-top:0; }
+    ul.section-recent { margin-left:0%; width:99%; float:none; height:initial; overflow:initial; margin-bottom:20px; }
+    ul.section-recent li { display:inline-block; width:99%; margin-left:0%; height:initial; min-height:60px; float:none; font-size:1.2em; }
+    ul.headline-section li a, ul.headline-section li a:link, ul.headline-section li a:visited { font-size:1.2em; line-height:1.2em; margin-top:0; }
+    ul.section-recent li a, 
+    ul.section-recent li a:link, 
+    ul.section-recent li a:visited a { font-size:1.2em; line-height:1.2em; margin-top:5px; }
+    ul.section-recent li:nth-child(2n+1) { margin-left:0 !important; }
+    ul.section-recent li:last-child { border-bottom:0; }
+    .news-section .mod-title .pul-sub.pull-right { display:none; }
+    .news-section { margin-top:0; }
+    ul.section-recent li img { margin-right:1em; }
+    
+    #home-headline #big-headline img { height:auto !important; }
+    #home-headline #big-headline h3 { font-size:1.3em; }
+
+    #home-headline .headline-section { margin-top:30px; }
+    #home-headline .headline-section li { height:initial; display:inline-block; width:100%; min-height:60px; padding-bottom:10px; font-size:1em; }        
+    #home-headline .headline-section a { height:initial; overflow:initial; }
+    #home-headline .headline-section li img { width:80px !important; min-width:80px !important; height:50px; float:left; display:inline-block; }  
+
+    #headlineCarousel.carousel .item { height:250px; background-color:#111; }
+    #latest-annoucement li, #latest-document li { font-size:1.2em; }
+}
+
+
+@media (max-width: 640px) {  
+    ul.headline-section { float:none; width:99%; height:initial; }
+    ul.headline-section li { font-size:1.2em; overflow:initial; height:auto; min-height:60px; padding-bottom:10px; margin-bottom:10px; border-bottom:solid 1px #ddd; }
+    ul.headline-section li img { width:80px !important; height:50px !important; /*width:100%; min-width:100%; height:auto; display:block;*/ margin-right:1em; float:left; margin-top:0; }
+    ul.section-recent { margin-left:0%; width:99%; float:none; height:initial; overflow:initial; margin-bottom:20px; }
+    ul.section-recent li { display:inline-block; width:99%; margin-left:0%; height:initial; min-height:60px; float:none; font-size:1.2em; }
+    ul.headline-section li a, ul.headline-section li a:link, ul.headline-section li a:visited { font-size:1.2em; line-height:1.2em; margin-top:0; }
+    ul.section-recent li a, 
+    ul.section-recent li a:link, 
+    ul.section-recent li a:visited a { font-size:1.2em; line-height:1.2em; margin-top:5px; }
+    ul.section-recent li:nth-child(2n+1) { margin-left:0 !important; }
+    ul.section-recent li:last-child { border-bottom:0; }
+    .news-section .mod-title .pul-sub.pull-right { display:none; }
+    .news-section { margin-top:0; }
+    ul.section-recent li img { margin-right:1em; }
+    
+    #home-headline #big-headline img { height:auto !important; }
+    #home-headline #big-headline h3 { font-size:1.3em; }
+
+    #home-headline .headline-section { margin-top:30px; }
+    #home-headline .headline-section li { height:initial; display:inline-block; width:100%; min-height:60px; padding-bottom:10px; font-size:1em; }        
+    #home-headline .headline-section a { height:initial; overflow:initial; }
+    #home-headline .headline-section li img { width:80px !important; min-width:80px !important; height:50px; float:left; display:inline-block; }  
+
+    #headlineCarousel.carousel .item { height:250px; background-color:#111; }
+    #latest-annoucement li, #latest-document li { font-size:1.2em; }
+
+    .news-section .mod-title .red-bar { margin-bottom:-2px; }
+    #article-detail,
+    #article-detail p,
+    #article-detail span { font-size:1.2em !important; line-height:1.3em !important; }
+}
+
+/* Small devices (mobiles, 480px and up) */
+/* Container = None (auto) */
+@media (max-width: 480px) {
+	.hidden-xs { display:none; }
+	
+	#language-option { margin-left:0.7em; }
+	section#topnav .glyphicon { margin-left:0.5em; }
+    .gen-module { padding-bottom:0; }
+
+    #tdtn-topnav { position:relative; height:30px; }
+    
+    .menuzord-responsive .menuzord-brand { margin:0px; }
+    .menuzord-brand img { width:200px; }
+	
+	#homeCarousel,
+	#homeCarousel.carousel .item	{ height:200px; }
+	#homeCarousel .product-photo,
+	#homeCarousel .product-photo.photo1	{ max-width:320px; min-width:90%; width:90% !important; height:auto; }
+	#homeCarousel .carousel-caption { left:0%; right:0%; bottom:20px; /*font-size:0.8em;*/ }
+	#homeCarousel .carousel-caption .caption-big,
+	#homeCarousel .carousel-caption .caption-desc { padding:1em; }
+	#homeCarousel .carousel-caption .caption-big { /*padding-bottom:0.3em;*/ }	
+	#homeCarousel.carousel .carousel-control { display:none; }
+
+    ul.headline-section { float:none; width:99%; height:initial; }
+    ul.headline-section li { overflow:initial; height:auto; padding-bottom:10px; margin-bottom:10px; border-bottom:solid 1px #ddd; }
+    ul.headline-section li img { /*width:80px; min-width:80px; height:auto; display:block; margin-bottom:10px;*/ }
+    ul.section-recent { margin-left:0%; width:99%; float:none; height:initial; overflow:initial; margin-bottom:10px; }
+    ul.section-recent li { display:block; width:99%; margin-left:0% !important; height:auto; padding-bottom:10px; float:none; }
+    ul.section-recent li:nth-child(2n+1) { margin-left:0 !important; }
+    .news-section .mod-title .pul-sub.pull-right { display:none; }
+    .news-section { margin-top:0; }
+
+    #home-headline #big-headline img { height:auto !important; }
+    #home-headline #big-headline h3 { font-size:1.3em; }
+
+    #home-headline .headline-section li { height:auto; display:block; width:100%; min-height:60px; }        
+    #home-headline .headline-section li img { width:80px !important; min-width:80px !important; height:50px; float:left; display:inline-block; margin-right:1em; }
+    #home-headline .headline-section a { overflow:initial; height:auto; font-size:1.2em; line-height:1.2em; }
+    #latest-document .list-unstyled,
+    #latest-annoucement .list-unstyled { font-size:1.2em; line-height:1.2em; }
+    #latest-photos2 img { margin-left:auto; margin-right:auto; }
+
+    /* Footer Copyright */
+	#footer-copyright { padding-top:1em; padding-bottom:1em; }
+
+    .subpage-content>.title { margin-bottom:0; }
+
+    .article-list .article-item { width:100%; min-height:initial; margin-bottom:2em; }
+    .article-list .article-item .article-desc img { float:none; max-width:100%; margin-right:0em; margin-bottom:0.5em; }
+
+}
+
+@media screen and (max-width:400px) {
+    /* Fix for Windows Phone Browsers */
+    @-ms-viewport{
+        width:320px;
+    }
+}
+
+/* Small devices (mobiles, 320px and up) */
+/* Container = None (auto) */
+@media (max-width: 320px) {
+    
+}
+
+/* Small devices (mobiles, 240px and up) */
+/* Container = None (auto) */
+@media (max-width: 240px) {
+    
+}

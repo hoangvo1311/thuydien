@@ -1,0 +1,5 @@
+ <connectionStrings>        
+        <add name="ModbusSesan.Properties.Settings.QuantracConnectionString"
+            connectionString="Data Source=[SQLDataSource];Initial Catalog=Quantrac;Persist Security Info=True;User ID=[SQLUsername];Password=[SQLPassword]"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>

@@ -1,0 +1,137 @@
+﻿
+.titleQuanTrac {
+    color: blue;
+    font-size: 1.6rem;
+    margin-top: 0.7rem;
+    font-weight: bold;
+}
+
+.measurementName .measurementValue .measurementUpdatedTime {
+    margin-bottom: 0.3rem;
+    font-family: inherit;
+    line-height: 0.4;
+    color: inherit;
+}
+
+.bg-warning .measurementName {
+    color: black !important;
+}
+
+.bg-warning .measurementUnit {
+    color: black !important;
+}
+
+.bg-warning .measurementValue {
+    color: black !important;
+}
+
+.measurementName {
+    font-size: 1rem;
+    color: white;
+}
+
+.measurementUnit {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.measurementValue {
+    font-size: 1.45rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+.measurementUpdatedTime {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.pagetitle {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+}
+
+.dataTableSearchGroup {
+    border: groove;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.buttonGroup {
+    float: right;
+    margin-right: 20px;
+}
+
+.notificationMessage {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.measurementImage {
+    opacity: 0.4;
+    width: 100%;
+    height: auto;
+}
+
+.multiselect-container {
+    width: 300px;
+}
+
+.btn-group {
+    max-width: 50px;
+    width: 60%;
+    /*min-width: 300px !important;*/
+}
+
+.small-box label {
+    margin-bottom: 0.2rem !important;
+    line-height: 1.1 !important;
+    font-weight: 100 !important;
+}
+
+.truncate {
+    max-width: 85px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.plcOffBit {
+    height: 42px;
+    width: 42px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.plcOnBit {
+    height: 42px;
+    width: 42px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.cvOffBit {
+    height: 32px;
+    width: 32px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cvOnBit {
+    height: 32px;
+    width: 32px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+}

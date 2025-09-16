@@ -1,0 +1,336 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="News.master.cs" Inherits="News" %>
+<%@ Register Src="Modules/Categories/HorizalMenu.ascx" TagName="HorizalMenu" TagPrefix="uc13" %>
+<%@ Register Src="Modules/Categories/RightMenu.ascx" TagName="RightMenu" TagPrefix="uc9" %>
+<%@ Register Src="Modules/Video/Youtube.ascx" TagName="Youtube" TagPrefix="uc12" %>
+<%@ Register Src="Modules/Ads/RightAds.ascx" TagName="RightAds" TagPrefix="uc11" %>
+<%@ Register Src="Modules/Articles/Home_VanBanMoi.ascx" TagName="Home_VanBanMoi" TagPrefix="uc3" %>
+<%@ Register Src="Modules/Articles/Home_LichCongTac.ascx" TagName="Home_LichCongTac" TagPrefix="uc10" %>
+<%@ Register Src="Modules/Links/LinksBox.ascx" TagName="LinksBox" TagPrefix="uc7" %>
+<%@ Register Src="Modules/Counter/Counter.ascx" TagName="Counter" TagPrefix="uc5" %>
+<%@ Register Src="Modules/Ads/LeftAds.ascx" TagName="LeftAds" TagPrefix="uc4" %>
+<%@ Register Src="Modules/Ads/SubMain.ascx" TagName="SubMain" TagPrefix="uc2" %>
+<%--<%@ Register Src="Modules/Categories/VerticalMenu.ascx" TagName="VerticalMenu" TagPrefix="uc1" %>--%>
+<%@ Register Src="Modules/Gallery/NewPhotoList.ascx" TagName="PhotoList" TagPrefix="uc14" %>
+<%--<%@ Register Src="Modules/Polls/Poll.ascx" TagName="Poll" TagPrefix="uc15" %>--%>
+<%--<%@ Register Src="Modules/Misc/Misc_Info.ascx" TagName="Misc_Info" TagPrefix="uc16" %>
+<%@ Register Src="Modules/Misc/HitCounter.ascx" TagName="HitCounter" TagPrefix="uc17" %>--%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="no-js">
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+
+<head runat="server">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>    
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title><%= MMC.VTT.Properties.WEB_CONFIG.ApplicationName %></title>
+
+    <meta name="robots" content="index, follow">
+	<meta name="description" content=<%= MMC.VTT.Properties.WEB_CONFIG.ApplicationDesc %> />
+	<meta name="keywords" content=<%= MMC.VTT.Properties.WEB_CONFIG.ApplicationKeyword %> />
+
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="css/menuzord.css">    
+    <link rel="stylesheet" href="css/custom.css">		
+    <link rel="stylesheet" href="css/responsive.css">	    
+    <link rel="stylesheet" type="text/css" href="css/fancybox.css" media="screen" />
+
+    <link href="https://fonts.googleapis.com/css?family=Tinos:400,700" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="libs/html5shiv.js"></script>
+      <script type="text/javascript" src="libs/respond.min.js"></script>
+    <![endif]-->
+      <script>
+          (function () {
+              if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                  var msViewportStyle = document.createElement("style");
+                  msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+                  document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+              }
+          })();
+      </script>    
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="container-outer">
+
+        <!-- HEADER -->
+        <header id="header" class="clearfix">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul id="tdtn-topnav" class="list-unstyled list-inline pull-right" style="padding-top:5px;margin-bottom:0;">
+                            <li><a href="<%= MMC.VTT.Properties.WEB_CONFIG.ApplicationPath %>">Trang chủ</a></li><li>|</li>
+                            <li><a href="ContactUs.aspx">Liên hệ</a></li><li>|</li>
+                            <li><a href="Sitemap.aspx">Sitemap</a></li><li>|</li>
+                            <li class="hidden-xs"><a target="_blank" href="<%= MMC.VTT.Properties.WEB_CONFIG.ApplicationPath %>/admin/">Webmaster</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- LOGO -->
+                        <a id="logo" href="<%= MMC.VTT.Properties.WEB_CONFIG.ApplicationPath %>"><img src="images/banner1.png" class="img-responsive" /></a>
+                        <!-- /LOGO -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- HORIZONTAL MENU -->
+            <div id="hnav" class="clearfix">
+                <div class="container">                
+                    <uc13:HorizalMenu ID="HorizalMenu2" runat="server" />
+                </div>
+            </div>
+            <!-- HORIZONTAL MENU -->
+
+        </header>
+        <!-- /HEADER -->
+        
+        <!-- MAIN CONTENT -->
+        <section id="main-content" class="clearfix gen-module">
+
+            <div class="container">
+                <uc2:SubMain ID="SubMain1" runat="server" />
+            </div>
+
+            <div class="container">
+                <aside id="col-left" class="clearfix hidden">
+
+                    <div class="mod-box">
+                        <%--<h4 class="mod-title title">
+                            <a class="pull-right visible-xs visible-sm" href="javascript:void(0)" onclick="$('.nav-side-menu').toggle();" ><span class="black-arrow"><i class="glyphicon glyphicon-option-vertical"></i></span></a>
+                            Menu chuyên mục
+                        </h4>--%>
+                        <!-- Left Navigation Menus -->
+				    <%--<div class="nav-side-menu">						
+					    <div class="menu-list">					  
+						    <uc1:VerticalMenu ID="VerticalMenu1" runat="server" />
+					    </div>
+				    </div>--%>
+				    <!-- /Left Navigation Menus -->
+                    </div>                    
+                    
+                    <%--<uc15:Poll ID="Poll1" runat="server" />--%>
+                    
+                    <%--<uc17:HitCounter ID="HitCounter1" runat="server" />--%>
+
+                </aside>
+
+                <div id="col-center" class="clearfix">
+
+                    <!-- Module HomeSlider -->
+                    <section class="clearfix">                                
+                        
+                        <div class="clearfix" style="background-color:#1f89df;display:none;">
+                            <marquee direction="left" scrollamount="3">
+	                            <div style="float:left; width:275px; height:28px; padding-left:2px; padding-top:2px">
+	                                <img src="images/chuchay.jpg" border="0" width="275" height="28" />
+	                            </div>
+	                        </marquee>
+                        </div>
+
+                    </section>
+                    <!-- /Module HomeSlider -->
+
+                    <div class="row gen-module">
+                        <div class="col-sm-12">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+
+                </div>                
+
+                <aside id="col-right" class="clearfix">
+                            <div id="searchbox" class="mod-box clearfix" style="padding-top:20px;">
+                                <h4 class="mod-title"><span>Tìm kiếm nhanh</span></h4>
+                                <div class="mod-content" style="font-weight:normal !important; font-size:13px !important;">                             
+                                    <%--<script>
+                                        (function () {
+                                            var cx = '000411856625146659626:mx3tehdmyqq';
+                                            var gcse = document.createElement('script');
+                                            gcse.type = 'text/javascript';
+                                            gcse.async = true;
+                                            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                                '//www.google.com/cse/cse.js?cx=' + cx;
+                                            var s = document.getElementsByTagName('script')[0];
+                                            s.parentNode.insertBefore(gcse, s);
+                                        })();
+					                </script>
+					                <gcse:search></gcse:search>--%>                         
+
+                                    <script>
+                                        (function () {
+                                            var cx = '000411856625146659626:mx3tehdmyqq';
+                                            var gcse = document.createElement('script');
+                                            gcse.type = 'text/javascript';
+                                            gcse.async = true;
+                                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                                            var s = document.getElementsByTagName('script')[0];
+                                            s.parentNode.insertBefore(gcse, s);
+                                        })();
+                                    </script>
+                                    <gcse:search></gcse:search>
+
+                                </div>
+                            </div>
+
+                            <%--<div id="right-nav" class="mod-box clearfix hidden">
+                                <div class="mod-content">
+                                    <uc9:RightMenu ID="RightMenu1" runat="server" />
+                                </div>                                
+                            </div>--%>
+                            
+                            <div id="latest-annoucement" class="mod-box mod-spacing clearfix">
+                                <h4 class="mod-title"><span>Thông báo mới</span></h4>
+                                <div class="mod-content">
+                                    <uc10:Home_LichCongTac ID="Home_LichCongTac1" runat="server" />
+                                </div>                                
+                            </div>
+
+                            <div id="latest-video" class="mod-box mod-spacing clearfix">
+                                <h4 class="mod-title"><span>Video Clip</span></h4>
+                                <%--<uc12:Player id="Player1" runat="server"></uc12:Player>--%>
+                                <uc12:Youtube ID="Youtube1" runat="server" />
+                            </div>
+                                                                                    
+                            <div id="latest-gallery" class="mod-box mod-spacing clearfix">
+                                <h4 class="mod-title"><span><a href="Gallery.aspx">Hình ảnh hoạt động</a></span></h4>
+                                <div class="mod-content" style="padding:0;">
+                                    <uc14:PhotoList ID="PhotoList" runat="server" />
+                                </div>
+                            </div>
+                            
+                            <uc3:Home_VanBanMoi ID="Home_VanBanMoi1" runat="server"></uc3:Home_VanBanMoi>
+
+                    <!-- left-ad -->
+                    <div class="mod-box mod-spacing clearfix">
+                        <h4 class="mod-title"><span>Đối tác kinh doanh</span></h4>
+                        <uc4:LeftAds ID="LeftAds1" runat="server" />
+                    </div>
+                    <!-- /left-ad -->
+
+                    <div id="mod-link" class="mod-box mod-spacing clearfix">
+                        <h4 class="mod-title"><span>Liên kết website</span></h4>
+                        <div class="mod-content clearfix" style="font-size:13px;">
+                            <uc7:LinksBox ID="LinksBox1" runat="server" />
+                        </div>
+                    </div>
+
+                    <div id="mod-counter" class="mod-box mod-spacing clearfix">
+                        <h4 class="mod-title"><span>Thống kê truy cập</span></h4>
+                        <div class="mod-content clearfix text-center" style="position:relative;">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true" style="position:absolute; font-size:1.8em; top:20px; left:20px; color:#aaa;"></span>
+                            Tổng truy cập: <uc5:Counter ID="Counter1" runat="server" /> <br/>
+                            Số người online: <asp:Label ID="lblVistorOnline" runat="server" Text="Label"></asp:Label>
+                        </div>
+                        
+                    </div>
+
+                            <%--<div class="clearfix">
+                                <uc16:Misc_Info ID="Misc_Info1" runat="server" />
+                            </div>--%>
+
+                            <!-- right-advertising -->
+                            <%--<div id="right-advertising" class="mod-spacing mod-ads clearfix hidden-xs hidden-sm hidden">
+                                <uc11:RightAds ID="RightAds1" runat="server" />
+                            </div>--%>
+                            <!-- /right-advertising -->
+                </aside>
+
+             </div>
+        </section>
+        <!-- /MAIN CONTENT -->
+
+        <!-- FOOTER -->
+        <footer id="footer" class="clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <strong>Cơ quan chủ quản: <%= MMC.VTT.Properties.WEB_CONFIG.ApplicationName %></strong><br />
+                        Địa chỉ: Tầng 3, Toà nhà Sê San 3A, 96 Phạm Văn Đồng, phường Hoa Lư, thành phố Pleiku, tỉnh Gia Lai<br />
+                        Điện thoại: 059.2222466 - Fax: 059.2XXXXXX - Email: hoatqg@gmail.com                      
+                    </div>
+                    <div class="col-md-6 text-right">
+                        &copy; 2015 <%= MMC.VTT.Properties.WEB_CONFIG.ApplicationName %><%-- - Truy cập: <uc5:Counter ID="Counter1" runat="server" />--%><br />
+                        <%= MMC.VTT.Properties.WEB_CONFIG.ApplicationAuthor %>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /FOOTER -->
+        </div>
+    </form>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        	
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+	<!-- Plugin so my website will work on older browsers -->
+	<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <!-- Load Fancy Box to view Pictures -->
+	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>	
+    
+	<!-- Customed script for this theme -->
+	<script type="text/javascript" src="js/theme_script.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>	
+	
+	<!-- Mega Navigation Menus -->
+	<script type="text/javascript" src="js/menuzord.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+		    jQuery("#menuzord").menuzord({
+		        align: "left", // float left, right
+		        effect: "slide", // fade, slide
+		        animation: "none", // none, flip, roll-in
+		        indicatorFirstLevel: "",
+		        indicatorSecondLevel: ""
+		    });
+		});
+	</script>
+
+    <script type="text/javascript">
+        //$('img[src^="/upload/"]').each(function () {
+        //    var currentUrl = $(this).attr("src");
+        //    var newUrl = "images/notloadimg.png";
+        //    var newUrl = "http://thuydientatrach.com.vn/" + currentUrl;
+        //    $(this).attr("src", newUrl);
+        //});
+        //$('img[src^="upload/"]').each(function () {
+        //    var currentUrl4 = $(this).attr("src");
+        //    var newUrl4 = "images/notloadimg.png";
+        //    var newUrl4 = "http://thuydientatrach.com.vn/" + currentUrl4;
+        //    $(this).attr("src", newUrl4);
+        //});
+
+
+        $('.section-recent li img').attr("onerror", "imgError(this);");
+        $('.headline-section li img').attr("onerror", "imgError(this);");
+
+        function imgError(image) {
+            image.onerror = "";
+            image.src = "images/notloadimg.png";
+            return true;
+        }
+
+    </script>
+    <script src="js/jquery.scroller.js" type="text/javascript"></script>
+    <script type="text/javascript"> $(document).ready(function () { $jScroller.add("#p_calendar1", "#p_calendar2", "up", 3, true); $jScroller.start(); }); </script>  
+</body>
+</html>

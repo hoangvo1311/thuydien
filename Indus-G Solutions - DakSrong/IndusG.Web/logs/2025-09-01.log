@@ -1,0 +1,1367 @@
+2025-09-01 08:29:22.6907 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:29:22.7322 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:29:52.7616 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:29:52.7684 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:30:22.7799 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:30:22.7799 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:31:15.5596 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:31:15.5800 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:31:33.9744 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:31:53.5974 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:31:53.6385 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:32:17.0907 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:32:23.6497 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:32:23.6583 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:35:42.2083 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:35:42.2585 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:36:15.8090 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:36:15.8222 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:36:45.8383 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:36:45.8471 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:37:15.8684 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:37:15.8684 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:37:29.3884 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:37:29.4119 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:37:45.8259 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:37:59.4343 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:37:59.4353 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:38:29.4485 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:38:29.4485 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:38:59.4515 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:38:59.4515 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:39:32.8269 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:39:32.8269 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:40:02.8513 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:40:02.8513 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:40:32.8722 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:40:32.8722 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:40:41.7684 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:40:41.7900 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:41:11.8085 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:41:11.8085 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:41:44.0983 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:41:44.0983 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:42:14.1207 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:42:14.1207 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:42:44.1337 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:42:44.1337 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:43:14.1690 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:43:14.1690 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:43:44.1855 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:43:44.1855 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:43:56.0373 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:43:56.0664 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:44:26.0713 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:44:26.0713 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:45:08.1406 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:45:08.1768 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:45:38.2118 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:45:38.2198 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:48:11.9463 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:48:11.9696 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:48:41.9843 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:48:41.9843 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:49:12.0016 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:49:12.0016 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:49:42.0095 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:49:42.0095 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:50:12.0297 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:50:12.0297 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:50:42.0482 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:50:42.0482 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:51:12.0558 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:51:12.0558 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:51:19.6882 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:51:19.7131 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:51:49.7231 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:51:49.7231 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:52:19.7410 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:52:19.7410 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:52:49.7783 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:52:49.7783 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:53:19.7917 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:53:19.7917 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:53:49.8285 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:53:49.8285 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:54:19.8328 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:54:19.8328 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:54:52.6898 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:54:52.6898 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:55:22.6983 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:55:22.7010 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:55:35.4754 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:55:35.4989 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:56:02.8246 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:56:02.8481 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:56:32.8547 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:56:32.8547 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:56:48.7088 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:56:48.7338 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:57:18.7395 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:57:18.7395 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:57:48.7484 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:57:48.7484 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:57:56.7414 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:57:56.7681 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:58:26.8039 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:58:26.8117 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:58:56.8317 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:58:56.8317 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:59:26.8717 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:59:26.8882 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 08:59:56.9110 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 08:59:56.9110 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:02:23.9579 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:02:23.9738 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:02:53.9859 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:02:53.9859 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:03:23.9909 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:03:23.9909 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:03:54.0056 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:03:54.0056 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:04:24.0292 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:04:24.0292 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:04:54.0321 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:04:54.0321 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:05:24.0488 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:05:24.0488 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:05:54.0793 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:05:54.0793 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:06:24.0954 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:06:24.0954 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:06:54.9033 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:06:54.9043 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:07:24.9118 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:07:24.9118 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:07:54.9181 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:07:54.9181 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:08:24.9287 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:08:24.9287 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:08:54.9460 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:08:54.9460 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:09:24.9820 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:09:24.9830 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:09:54.9998 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:09:54.9998 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:10:25.0059 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:10:25.0059 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:10:55.0220 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:10:55.0220 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:11:25.0533 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:11:25.0533 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:11:55.0660 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:11:55.0660 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:12:25.0954 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:12:25.0954 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:12:55.1064 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:12:55.1064 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:13:29.2708 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:13:29.2708 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:13:59.2793 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:13:59.2793 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:14:29.2826 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:14:29.2826 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:14:59.2958 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:14:59.2958 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:15:29.3008 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:15:29.3008 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:15:59.3180 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:15:59.3180 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:16:29.3419 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:16:29.3419 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:16:59.3800 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:16:59.3800 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:17:29.3885 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:17:29.3885 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:17:59.4422 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:17:59.4422 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:18:29.4598 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:18:29.4598 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:18:59.4956 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:18:59.4956 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:19:29.5049 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:19:29.5049 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:20:03.1620 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:20:03.1620 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:20:33.1793 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:20:33.1793 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:21:03.1853 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:21:03.1853 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:21:33.2133 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:21:33.2133 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:22:03.2274 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:22:03.2274 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:22:33.2567 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:22:33.2567 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:23:03.2631 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:23:03.2631 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:23:33.2960 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:23:33.2960 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:24:03.2994 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:24:03.2994 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:24:33.4076 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:24:33.4076 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:25:03.4223 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:25:03.4223 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:25:33.4517 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:25:33.4517 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:26:03.4663 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:26:03.4673 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:26:37.0848 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:26:37.0848 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:27:07.0958 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:27:07.0958 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:27:37.1043 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:27:37.1043 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:28:07.1348 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:28:07.1348 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:28:37.1494 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:28:37.1494 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:29:07.2005 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:29:07.2005 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:29:37.2139 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:29:37.2139 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:30:07.2519 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:30:07.2519 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:30:37.2636 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:30:37.2636 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:31:07.3220 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:31:07.3220 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:31:37.3318 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:31:37.3318 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:32:07.3705 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:32:07.3705 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:32:37.3832 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:32:37.3832 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:33:11.2031 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:33:11.2031 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:33:41.2160 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:33:41.2170 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:34:03.0419 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:34:03.0562 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:34:33.0918 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:34:33.0918 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:35:03.1018 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:35:03.1018 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:35:33.1305 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:35:33.1305 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:36:03.1465 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:36:03.1465 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:36:33.1636 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:36:33.1636 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:37:03.1796 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:37:03.1796 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:37:33.6922 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:37:33.6922 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:38:03.7056 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:38:03.7056 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:38:33.7155 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:38:33.7155 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:39:03.7383 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:39:03.7383 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:39:33.7618 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:39:33.7618 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:40:03.7821 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:40:03.7821 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:40:16.8020 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:40:16.8219 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:40:50.8399 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:40:50.8399 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:41:20.8523 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:41:20.8523 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:41:50.8624 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:41:50.8624 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:42:20.8751 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:42:20.8751 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:42:50.8837 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:42:50.8837 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:43:20.9121 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:43:20.9121 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:43:50.9257 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:43:50.9257 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:44:20.9618 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:44:20.9618 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:44:50.9736 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:44:50.9736 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:45:21.0118 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:45:21.0118 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:45:51.0257 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:45:51.0257 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:46:21.0519 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:46:21.0519 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:46:51.0719 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:46:51.0719 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:47:24.8119 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:47:24.8119 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:47:54.8169 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:47:54.8169 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:48:24.8268 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:48:24.8268 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:48:54.8717 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:48:54.8717 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:49:24.8899 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:49:24.8899 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:49:54.9471 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:49:54.9471 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:50:03.4179 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:50:03.4338 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:50:33.4415 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:50:33.4415 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:51:03.4733 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:51:03.4733 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:51:33.4803 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:51:33.4803 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:52:00.1218 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:52:00.1418 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:52:30.1636 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:52:30.1636 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:53:00.2067 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:53:00.2067 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:53:30.2294 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:53:30.2294 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:54:00.2717 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:54:00.2717 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:54:30.2817 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:54:30.2817 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:04.3171 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:04.3171 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:14.4004 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:14.4229 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:17.9571 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:17.9782 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:20.3202 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:20.3403 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:50.3437 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:50.3437 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:56.4400 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:55:56.4657 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:56:26.4727 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:56:26.4727 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:56:56.4890 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:56:56.4890 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:57:26.5115 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:57:26.5115 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:57:56.5296 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:57:56.5296 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:58:10.3556 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:58:26.5446 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:58:26.5446 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:58:55.2690 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:58:55.2915 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:59:26.9187 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:59:26.9197 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 09:59:56.9224 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 09:59:56.9224 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:00:26.9281 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:00:26.9281 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:00:56.9444 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:00:56.9444 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:01:26.9569 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:01:26.9569 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:01:42.7701 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:01:42.7945 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:01.3437 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:01.3714 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:03.0121 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:03.0366 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:08.8402 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:08.8670 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:43.9393 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:43.9393 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:43.9676 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:02:43.9687 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:03:13.9963 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:03:13.9963 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:03:44.0049 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:03:44.0049 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:04:14.0358 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:04:14.0358 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:04:44.0515 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:04:44.0515 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:05:14.0714 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:05:14.0714 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:05:44.0851 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:05:44.0851 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:06:14.1062 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:06:14.1062 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:06:44.1100 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:06:44.1100 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:07:14.1415 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:07:14.1415 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:07:44.1601 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:07:44.1601 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:08:14.1766 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:08:14.1766 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:08:44.1871 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:08:44.1871 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:09:17.4783 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:09:17.4783 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:09:47.4841 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:09:47.4841 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:10:17.4915 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:10:17.4915 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:10:47.5123 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:10:47.5136 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:11:17.5282 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:11:17.5295 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:11:47.5443 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:11:47.5453 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:12:17.5530 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:12:17.5530 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:12:47.5800 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:12:47.5800 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:13:17.5916 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:13:17.5916 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:13:47.5969 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:13:47.5969 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:13:55.7716 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:13:55.7914 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:14:30.2178 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:14:30.2439 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:14:51.5730 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:14:51.5972 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:15:00.1128 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:15:00.1318 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:15:30.1423 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:15:30.1423 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:16:00.1731 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:16:00.1731 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:16:30.1876 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:16:30.1876 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:17:00.2150 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:17:00.2206 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:17:30.2370 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:17:30.2370 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:18:03.2443 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:18:03.2443 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:18:33.2675 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:18:33.2675 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:19:03.2824 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:19:03.2824 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:19:33.3244 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:19:33.3244 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:20:03.3313 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:20:03.3313 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:20:33.3676 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:20:33.3676 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:21:03.3887 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:21:03.3887 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:21:33.4314 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:21:33.4314 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:21:56.8716 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:21:56.8912 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:22:26.9215 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:22:26.9215 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:22:56.9529 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:22:56.9529 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:23:32.0661 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:23:32.0661 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:24:02.0716 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:24:02.0716 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:24:32.0761 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:24:32.0761 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:25:02.0927 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:25:02.0927 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:25:32.0948 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:25:32.0948 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:26:02.1011 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:26:02.1011 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:26:32.1211 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:26:32.1211 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:27:02.1702 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:27:02.1702 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:27:32.1853 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:27:32.1853 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:02.2069 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:02.2069 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:24.1369 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:24.1583 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:26.5427 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:26.5627 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:36.5280 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:36.5500 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:38.4127 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:28:38.4331 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:08.4636 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:08.4636 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:35.5015 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:35.5244 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:38.4514 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:38.4747 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:41.4713 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:41.4912 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:48.5568 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:29:48.5730 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:30:18.6020 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:30:18.6020 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:30:48.6114 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:30:48.6114 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:31:18.6512 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:31:18.6512 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:31:48.6630 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:31:48.6630 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:32:18.7018 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:32:18.7018 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:32:48.7173 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:32:48.7173 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:33:22.8052 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:33:22.8052 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:33:52.8215 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:33:52.8215 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:34:22.8315 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:34:22.8315 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:34:52.8526 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:34:52.8526 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:35:22.8735 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:35:22.8735 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:35:52.8986 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:35:52.8986 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:36:22.9173 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:36:22.9173 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:36:52.9331 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:36:52.9331 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:37:22.9660 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:37:22.9670 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:37:52.9956 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:37:52.9956 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:38:23.0090 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:38:23.0090 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:38:34.7945 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:38:34.8244 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:39:04.8353 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:39:04.8353 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:39:34.8449 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:39:34.8449 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:54:44.4289 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:54:44.4289 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:55:14.4451 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:55:14.4451 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:55:44.4527 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:55:44.4527 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:56:14.4817 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:56:14.4871 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:56:44.5008 ERROR Error while init PLC driver. IP address must valid.
+Parameter name: ip
+2025-09-01 10:56:44.5008 ERROR Error in PLC background task: IP address must valid.
+Parameter name: ip
+2025-09-01 10:57:35.5512 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 10:58:26.5970 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 10:59:17.6647 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:00:08.7079 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:00:59.7617 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:01:50.8349 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:02:41.9288 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:03:32.9847 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:04:25.7699 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:05:16.8705 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:06:07.9367 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:06:58.9873 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:07:50.0464 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:08:41.1136 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:09:32.1542 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:10:23.1809 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:11:14.2387 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:12:05.2988 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:12:56.3328 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:13:47.3717 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:14:38.4194 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 11:18:04.3563 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:44:46.4996 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:45:37.5479 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:46:28.6044 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:47:19.6427 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:48:10.7115 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:49:10.5026 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:50:01.6097 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:50:52.6364 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:51:43.6760 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:52:34.7066 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:53:25.7470 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:54:16.7924 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:55:07.8647 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:55:58.9008 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:56:49.9549 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:57:41.0051 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:58:32.0565 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 13:59:23.1095 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:00:14.1449 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:01:05.2003 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:01:56.2367 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:02:57.7370 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:03:48.8415 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:04:39.8858 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:05:30.9389 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:06:21.9876 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:07:13.0335 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:08:04.0795 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:08:55.1199 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:09:46.1584 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:10:37.2057 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:11:28.2576 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:12:19.2845 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:13:10.3269 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:14:01.3718 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:14:52.4434 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:15:43.4862 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:16:34.5344 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:17:25.5991 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:18:16.8099 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:19:39.7431 ERROR Error while init PLC driver. An error occurred while preparing the command definition. See the inner exception for details.
+2025-09-01 14:19:39.7816 ERROR Error in PLC background task: An error occurred while preparing the command definition. See the inner exception for details.
+2025-09-01 14:20:09.8029 ERROR Error while init PLC driver. An error occurred while preparing the command definition. See the inner exception for details.
+2025-09-01 14:20:09.8029 ERROR Error in PLC background task: An error occurred while preparing the command definition. See the inner exception for details.
+2025-09-01 14:20:38.6138 ERROR Error while init PLC driver. The entity type DB_SesanPLCConfiguration is not part of the model for the current context.
+2025-09-01 14:20:38.6534 ERROR Error in PLC background task: The entity type DB_SesanPLCConfiguration is not part of the model for the current context.
+2025-09-01 14:21:08.6673 ERROR Error while init PLC driver. The entity type DB_SesanPLCConfiguration is not part of the model for the current context.
+2025-09-01 14:21:08.6673 ERROR Error in PLC background task: The entity type DB_SesanPLCConfiguration is not part of the model for the current context.
+2025-09-01 14:22:55.3876 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:24:09.8888 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:25:01.0786 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:25:52.1308 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:26:43.2116 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:27:52.1186 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:28:43.2460 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:29:34.2909 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:30:25.3458 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:31:16.4018 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:32:07.4541 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:32:58.5268 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:33:47.8441 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:34:39.0109 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:35:30.0791 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:36:21.1309 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:37:12.1903 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:38:03.2639 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:38:54.3080 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:39:45.3584 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:40:36.4244 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:41:27.4948 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:42:18.5284 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:43:09.5838 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:44:00.6374 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:44:51.7102 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:45:42.7658 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:46:33.8372 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:47:24.9160 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:48:15.9717 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:49:07.0216 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:52:06.5766 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:52:57.6937 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:53:56.6695 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:55:00.2142 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:55:51.3161 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:58:04.3153 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:58:55.4123 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 14:59:46.4459 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:00:37.4979 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:01:28.5461 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:02:19.6107 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:03:10.6614 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:04:01.7215 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:04:52.7697 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:05:43.8171 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:06:34.8796 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:07:25.9442 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:09:01.1746 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:09:52.2428 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:10:43.2926 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:11:34.3206 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:13:00.2323 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:13:51.2991 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:14:42.3761 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:15:33.4314 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:16:24.5108 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:17:15.5688 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:18:06.6163 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:18:57.6548 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:19:48.7066 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:20:39.7385 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:21:30.7965 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:22:21.8823 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:23:12.9170 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:24:03.9825 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:24:55.0170 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:25:58.9448 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:26:50.0334 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:27:41.1033 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:28:32.1556 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:29:23.2021 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:30:14.2519 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:31:05.3017 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:31:56.3621 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:32:47.4046 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:33:38.4889 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 15:34:29.5319 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:00:34.0573 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:01:25.1180 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:02:16.1687 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:03:07.2154 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:03:58.2423 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:04:49.2915 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:05:40.3458 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:06:31.4133 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:07:22.4581 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:08:13.4883 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:09:04.5408 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:09:55.5882 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:10:46.6257 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:11:37.6981 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:12:28.7492 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:13:19.8100 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:14:10.8439 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:15:01.8790 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:15:52.9263 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:16:43.9752 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:17:35.0275 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:18:26.0640 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:19:17.1202 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:20:08.1729 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:20:59.2407 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:21:50.2678 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:22:41.3430 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:23:32.4040 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:24:23.4435 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:25:14.5132 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:26:05.5639 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:26:56.6060 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:27:47.6440 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:28:38.6979 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:29:29.7460 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:30:20.8068 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:31:11.8632 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:32:02.9147 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:32:53.9691 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:33:45.0293 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:34:36.1262 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:35:27.1757 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:36:18.2395 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:37:09.2934 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:38:00.3518 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:38:51.3987 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:39:42.4570 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:40:33.4931 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:41:24.5389 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:42:15.6088 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:43:06.6650 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:43:57.7157 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:44:48.7617 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:45:39.8148 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:46:30.8777 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:47:21.9348 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:48:12.9899 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:49:04.0450 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:49:55.0989 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:50:46.1495 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:51:37.2034 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:52:28.2635 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:53:19.3147 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:54:10.3759 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:55:01.4167 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:55:52.4480 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:56:43.4960 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:57:34.5428 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:58:25.5835 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 17:59:16.6579 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:00:07.7101 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:00:58.7545 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:01:49.8022 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:02:40.8573 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:03:31.9260 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:04:22.9775 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:05:14.0287 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:06:05.0640 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:06:56.1226 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:07:47.1756 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:08:38.2509 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:09:29.3031 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:10:20.3736 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:11:11.4273 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:12:02.4634 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:12:53.5267 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:13:44.5820 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:14:35.6595 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:15:26.7103 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:16:17.7813 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:17:08.8396 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:17:59.8946 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:18:50.9388 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:19:41.9645 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:20:33.0131 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:21:24.0684 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:22:15.1278 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:23:06.1701 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:23:57.2290 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:24:48.2734 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:25:39.3247 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:26:30.3787 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:27:21.4437 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:28:12.5035 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:29:03.5487 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:29:54.6113 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 18:30:45.6565 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 19:50:10.6139 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 19:51:01.6768 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 19:51:52.7261 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 19:52:43.7967 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 19:53:44.8623 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 19:54:44.0137 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 19:56:47.4771 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:05:04.0513 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:05:55.2370 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:06:46.2843 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:07:37.3615 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:08:28.4132 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:09:19.4770 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:10:10.5547 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:11:01.5973 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:11:52.6511 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:12:43.7131 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:13:34.7517 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:14:25.8090 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:15:16.8660 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:16:07.9048 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:16:58.9749 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:17:50.0222 ERROR Error in PLC background task: Unable to connect to PLC.
+2025-09-01 21:18:49.0086 ERROR Error in PLC background task: Unable to connect to PLC.

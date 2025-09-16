@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminVTT.master.cs" Inherits="Admin_AdminVTT" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="no-js">
+<!--[if IE 7]><html lang="en" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="en"><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="MobileOptimized" content="width"/>
+    <meta name="HandheldFriendly" content="true"/>
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+
+    <link href="css/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="scripts/js.js"></script>
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/jquery.MultiFile.js" type="text/javascript"></script>
+	<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+                            </asp:ContentPlaceHolder>
+    <!--[if lt IE 7]><link rel="stylesheet" href="css/ie6.css" type="text/css" /><![endif]-->    	
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="../libs/html5shiv.js"></script>
+      <script type="text/javascript" src="../libs/respond.min.js"></script>
+    <![endif]-->
+      <script>
+          (function () {
+              if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                  var msViewportStyle = document.createElement("style");
+                  msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));
+                  document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+              }
+          })();
+      </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section id="ad-user-info" class="dark-bg background-grd clearfix">
+            <div class="container">
+                <ul id="admin-user-infor-panel" class="list-inline pull-right">                        
+                        <li id="userinfo-home"><span class="icon icon-home"></span> <a href="http://thuydienbitexcotaynguyen.com.vn/">Trang chủ</a></li>
+                        <li id="userinfo-welcome">Xin chào <strong>
+                            <asp:Label ID="lblUserName" runat="server"></asp:Label></strong></li>
+                        <li id="userinfo-changepass"><span class="icon icon-change-pass"></span> <a href="ChangePassword.aspx">Đổi mật khẩu</a></li>
+                        <li id="userinfo-logout">
+                            <asp:LinkButton ID="linkLogOut" runat="server" CssClass="btn btn-success btn-sm" OnClick="linkLogOut_Click">Thoát hoàn toàn</asp:LinkButton>
+                        </li>                        
+                    </ul>
+            </div>
+        </section>
+
+        <section id="ad-welcome" class="gen-module clearfix">
+            <div class="container text-center">
+                <h1>
+				
+                <%= Request["CompanyID"] != null && Convert.ToInt32(Request["CompanyID"]) == 1 ?
+					"CÔNG TY CP THỦY ĐIỆN HOÀNG ANH TÔ NA" :
+					"CÔNG TY TNHH THỦY ĐIỆN TÂY NGUYÊN" %></h1>
+            </div>
+        </section>
+
+        <section class="gen-module clearfix">
+            <div class="container">
+                <div id="admin-module-content">
+                    <asp:ScriptManager ID="ScriptManager1" runat="server">
+                    </asp:ScriptManager>
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </div>
+                <!-- #div:admin-module-content -->
+            </div>
+        </section>
+
+        <!-- #div:container -->
+        <footer id="footer" class="clearfix">
+            <ul id="footer-text" class="clearfix">
+                <li>© 2015 <%= Request["CompanyID"] != null && Convert.ToInt32(Request["CompanyID"]) == 1 ?
+					"CÔNG TY CP THỦY ĐIỆN HOÀNG ANH TÔ NA" :
+					"CÔNG TY TNHH THỦY ĐIỆN TÂY NGUYÊN" %>. <%= MMC.VTT.Properties.WEB_CONFIG.ApplicationAuthor %></li>
+                <li>Điện thoại hỗ trợ: 054.3846869 - Email: <a href="mailto:buiminhduc@hue.vnn.vn">buiminhduc@hue.vnn.vn</a> - Hotline: 0914051234 (anh Đức)</li>
+                <%--<li></li>--%>
+            </ul>
+        </footer>
+        <!-- #div: footer -->
+    </form>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="../js/jquery.js"></script>	
+    <script type="text/javascript" src="../dist/js/bootstrap.min.js"></script>
+	<!-- Plugin so my website will work on older browsers -->
+	<script type="text/javascript" src="../js/jquery-migrate.min.js"></script>		
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="../js/ie10-viewport-bug-workaround.js"></script>	
+	<%--<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>--%>
+
+</body>
+</html>

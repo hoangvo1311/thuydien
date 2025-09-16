@@ -1,0 +1,60 @@
+a
+{
+	text-decoration:none;
+	color:#75D8F8;
+}
+.watermarked {
+background:#FFFFCC none repeat scroll 0 0;
+border:1px solid #FFCC00;
+color:gray;
+height:20px;
+padding:2px 0 0 2px;
+width:150px;
+}
+
+.grid
+{	
+	width:100%;
+	border:solid 1px #50a3cf;
+}
+.grid td
+{
+	border:solid 1px #50a3cf;
+}
+.gridHeader
+{
+	font-size: 11px;
+	font-family:Tahoma, Arial;
+	text-align:center;
+	background-color: #0668b3;
+	height:28px;
+	color:#85d8f8;
+	font-weight:bold;
+}
+.gridItem
+{
+	font-family: Tahoma, Arial;
+	font-size: 11px;
+	height:25px;
+	background-color: #ceeef9;
+	color:#383838;
+	text-indent:2px;
+	text-align:center;
+}
+.gridAltItem
+{	
+	font-family: Tahoma, Arial; 
+	font-size: 11px;
+	height:25px;
+	background-color: #85d8f8;
+	color:#383838;
+	text-indent:2px;
+	text-align:center;
+}
+.DongDuocChon
+{
+	background-color:#afa;
+	font-weight:bold;
+	padding:5px;
+	height:18px;
+}

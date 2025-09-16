@@ -1,0 +1,63 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/bin
+/obj
+/Build
+packages/
+bin/
+obj/
+Build/
+Tools/
+.vs/
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.vspscc
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+/Publish
+/Build
+*.pdb
+*.user
+*.trx
+node_modules/
+
+/01-Source/MicroServices/Services/Organisation/Microservice/tempkey.jwk
+coverage.opencover.xml
+/02-Linux/LinuxBuild/MicroService
+/01-Source/MicroServices/Services/Content/Microservice/upload/temp
+/01-Source/Indus.DataBase.Migration/Properties/PublishProfiles/FolderProfile.pubxml
+/01-Source/Setup/OutPut
+/01-Source/MicroServices/Core/Indus.Core/Utility/DbTransactionLocker.cs

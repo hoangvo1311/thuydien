@@ -1,0 +1,522 @@
+﻿@{
+    ViewBag.Title = "Trang Chủ";
+    ViewBag.ActiveMenu = "Dashboard";
+    ViewBag.PlantName = "ĐĂKSRÔNG 2";
+    ViewBag.SystemName = "HỆ THỐNG QUAN TRẮC THỦY VĂN";
+}
+@model IndusG.Models.MeasurementModel
+
+<!-- ChartJS -->
+<link href="~/plugins/chart.js/Chart.min.css" rel="stylesheet" />
+<link href="~/plugins/multiselect/multiselect.css" rel="stylesheet" />
+
+<div class="row">
+    <div class="col-lg-6 col-12">
+        <div class="row" id="MeasurementData">
+        <div class="col-lg-6 col-6">
+            <div class="small-box bg-info">
+                <div class="inner">
+                    @Html.LabelFor(m => m.Luongmua, new { @class = "measurementName" })
+                    <div class="measurementValue">
+                        @Html.DisplayFor(m => m.Luongmua) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="ion">
+                        <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                    </i>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-6 col-6">
+            <div class="small-box bg-success">
+                <div class="inner">
+                    @Html.LabelFor(m => m.Reserve_Water, new { @class = "measurementName" })
+                    <div class="measurementValue">
+                        @Html.DisplayFor(m => m.Reserve_Water)  <span class="measurementUnit">triệu m<sup>3</sup></span>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="ion">
+                        <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                    </i>
+                </div>
+
+            </div>
+        </div>
+
+           
+
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.Qoverflow, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.Qoverflow) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.Qminflow, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.Qminflow) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            
+        <div class="col-lg-6 col-6">
+            <div class="small-box bg-info">
+                <div class="inner">
+                    @Html.LabelFor(m => m.UpstreamWaterLevel_m, new { @class = "measurementName" })
+                    <div class="measurementValue">
+                        @Html.DisplayFor(m => m.UpstreamWaterLevel_m) <span class="measurementUnit">m</span>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="ion">
+                        <img class="measurementImage" src="~/Content/icons/mucnuoc.png">
+                    </i>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-6 col-6">
+            <div class="small-box bg-success">
+                <div class="inner">
+                    @Html.LabelFor(m => m.DownstreamWaterLevel_m, new { @class = "measurementName" })
+                    <div class="measurementValue">
+                        @Html.DisplayFor(m => m.DownstreamWaterLevel_m) <span class="measurementUnit">m</span>
+                    </div>
+                </div>
+                <div class="icon">
+                    <i class="ion">
+                        <img class="measurementImage" src="~/Content/icons/mucnuoc.png">
+                    </i>
+                </div>
+
+            </div>
+        </div>
+
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-info">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.Qve_Ho, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.Qve_Ho) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-success">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.Qve_HoDB, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.Qve_HoDB) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.H1_MW, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.H1_MW) <span class="measurementUnit">MW</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/congsuat.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.QcmH1, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.QcmH1) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.H2_MW, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.H2_MW) <span class="measurementUnit">MW</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/congsuat.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.QcmH2, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.QcmH2) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-warning">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.H3_MW, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.H3_MW) <span class="measurementUnit">MW</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/congsuat.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-6">
+                <div class="small-box bg-danger">
+                    <div class="inner">
+                        @Html.LabelFor(m => m.QcmH3, new { @class = "measurementName" })
+                        <div class="measurementValue">
+                            @Html.DisplayFor(m => m.QcmH3) <span class="measurementUnit">m<sup>3</sup>/s</span>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <i class="ion">
+                            <img class="measurementImage" src="~/Content/icons/luuluong.png">
+                        </i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-12">
+        <!-- AREA CHART -->
+        <div class="card card-primary">
+            <div class="card-header">
+                <div class="card-title">Biểu đồ dữ liệu theo thời gian</div>
+            </div>
+            <div class="card-body">
+                <div class="row" style="margin-left: 20px;">
+                    <div class="col-6"></div>
+                    <div class="col-6">
+                        <select id='legendSelect' multiple="multiple">
+                            <option value='0' selected disabled>Lưu lượng về hồ</option>
+                            <option value='1'>Lưu lượng về hạ du</option>
+                            <option value='2'>Công suất H1</option>
+                            <option value='3'>Công suất H2</option>
+                            <option value='4'>Công suất H3</option>
+                            <option value='5'>Mực nước thượng lưu</option>
+                            <option value='6'>Mực nước hạ lưu</option>
+                            <option value='7'>Lưu lượng qua xả tràn</option>
+                            <option value='8'>Lưu lượng xả tối thiểu</option>
+                            <option value='9'>Lưu lượng xả qua nhà máy</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="chart">
+                    <canvas id="areaChart" style="min-height: 420px; height: 420px; max-height: 950px; max-width: 100%;"></canvas>
+                </div>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+
+</div>
+
+
+@section scripts {
+    <script src="~/plugins/chart.js/Chart.min.js"></script>
+    <script src="~/plugins/multiselect/multiselect.min.js"></script>
+    <script>
+        Date.prototype.addMinutes = function (h) {
+            this.setMinutes(this.getMinutes() + h);
+            return this;
+        }
+        var selectedHour = 6;
+        var measurementCollection = [];
+
+        var chartMasterData = [
+            {
+                label: 'Lưu lượng về hồ',
+                backgroundColor: 'rgba(225,193,7,0.3)',
+                borderColor: 'rgba(225,193,7,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Lưu lượng về hạ du',
+                backgroundColor: 'rgba(191,63,63,0.3)',
+                borderColor: 'rgba(191,63,63,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Công suất H1',
+                backgroundColor: 'rgba(63,127,191,0.3)',
+                borderColor: 'rgba(63,127,191,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Công suất H2',
+                backgroundColor: 'rgba(119,35,203,0.3)',
+                borderColor: 'rgba(119,35,203,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Công suất H3',
+                backgroundColor: 'rgba(119,203,35,0.3)',
+                borderColor: 'rgba(119,203,35,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Mực nước thượng lưu',
+                backgroundColor: 'rgba(236,39,137,0.3)',
+                borderColor: 'rgba(236,39,137,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Mực nước hạ lưu',
+                backgroundColor: 'rgba(39,236,236,0.3)',
+                borderColor: 'rgba(39,236,236,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Lưu lượng qua xả tràn',
+                backgroundColor: 'rgba(255,165,30,0.3)',
+                borderColor: 'rgba(255,165,30,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Lưu lượng xả tối thiểu',
+                backgroundColor: 'rgba(3,17,5,0.3)',
+                borderColor: 'rgba(3,17,5,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            },
+            {
+                label: 'Lưu lượng xả qua nhà máy',
+                backgroundColor: 'rgba(3,123,19,0.3)',
+                borderColor: 'rgba(3,123,19,0.8)',
+                //pointRadius: true,
+                pointColor: '#3b8bba',
+                pointStrokeColor: 'rgba(60,141,188,1)',
+                //pointHighlightFill: '#fff',
+                pointHighlightStroke: 'rgba(60,141,188,1)'
+            }
+        ]
+
+        function GetChartData(callBack) {
+            $.ajax({
+            type: "POST",
+            url: "@Url.Action("GetMeasurementChartData", "Dashboard")",
+            data: { 'selectedHour': selectedHour },
+                success: function (response) {
+                if (callBack != null) {
+                    callBack(response);
+                }
+            },
+            error: function () {
+            }
+        });
+        }
+        var areaChart;
+
+        $(function () {
+            GetChartData(InitChart);
+            function UpdateMeasurementData() {
+                $("#MeasurementData").load(window.location.href + " #MeasurementData");
+            };
+
+            setInterval(UpdateMeasurementData, 1000);
+
+            setInterval(function () {
+                GetChartData(UpdateChartData);
+            }, 30000);
+
+            $('#legendSelect').multiselect();
+            $('#legendSelect').change(function () {
+                UpdateLegend();
+            });
+
+            function InitChart(masterData)
+            {
+                var areaChartCanvas = $('#areaChart').get(0).getContext('2d');
+
+                var config = {
+                    type: 'line',
+                    data: {
+                        datasets: [
+                            chartMasterData[0]
+                        ]
+                    },
+                    options: {
+                        maintainAspectRatio: false,
+                        responsive: true,
+                        elements: {
+                            point:{
+                                radius: 0
+                            }
+                        },
+                        tooltips: {
+                            mode: 'index',
+                        },
+                        hover: {
+                            mode: 'index'
+                        },
+                        scales: {
+                            xAxes: [{
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Thời Gian Đo'
+                                },
+                                ticks: {
+                                    display: false
+                                }
+                            }],
+                            yAxes: [{
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Giá Trị Đo'
+                                }
+                            }]
+                        }
+                    }
+                };
+                // This will get the first returned node in the jQuery collection.
+                areaChart = new Chart(areaChartCanvas, config);
+                UpdateChartData(masterData);
+            }
+
+            function UpdateChartData(masterData) {
+
+                var timeList = [];
+
+                $.each(masterData, function (key, value) {
+                    timeList.push(value.Date);
+                });
+
+                areaChart.config.data.labels = timeList;
+
+                $.each(chartMasterData, function (key, value) {
+                    value.data = [];
+                });
+
+                $.each(masterData, function (key, value) {
+                    chartMasterData[0].data.push(value.Qve_Ho.toString());
+                    chartMasterData[1].data.push(value.Qve_HaDu.toString());
+                    chartMasterData[2].data.push(value.H1_MW.toString());
+                    chartMasterData[3].data.push(value.H2_MW.toString());
+                    chartMasterData[4].data.push(value.H3_MW.toString());
+                    chartMasterData[5].data.push(value.UpstreamWaterLevel_m.toString());
+                    chartMasterData[6].data.push(value.DownstreamWaterLevel_m.toString());
+                    chartMasterData[7].data.push(value.Qoverflow.toString());
+                    chartMasterData[8].data.push(value.Qminflow.toString());
+                    chartMasterData[9].data.push(value.QcmH1H2H3.toString());
+                });
+                areaChart.update();
+            }
+
+            function UpdateLegend() {
+                areaChart.data.datasets = [];
+                $("#legendSelect option:selected").each(function () {
+                    var legendIndex = $(this).val();
+                    areaChart.data.datasets.push(chartMasterData[legendIndex]);
+                });
+                areaChart.update();
+            }
+        })
+    </script>
+
+}
+
+

@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+@model IndusG.Models.User.UserLoginModel
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập - Hệ Thống Quan Trắc Thủy Văn</title>
+    </head>
+<body>
+    <link href="~/Content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/fonts/iconic/css/material-design-iconic-font.min.css" rel="stylesheet" />
+    <link href="~/Content/vendor/animate/animate.css" rel="stylesheet" />
+    <link href="~/Content/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" />
+    <link href="~/Content/vendor/animsition/css/animsition.min.css" rel="stylesheet" />
+    <link href="~/Content/main.css" rel="stylesheet" />
+
+    <link href="~/Content/util.css" rel="stylesheet" />
+
+    <div class="limiter">
+        <div class="container-login100" style="background-image: url('../../Content/images/bg-01.jpg');
+    ">
+            <div class="wrap-login100">
+                @using (Html.BeginForm("Login", "User", FormMethod.Post, new { @class = "login100-form validate-form" }))
+                {
+                    <span class="login100-form-logo">
+                        <i class="zmdi zmdi-landscape">
+                            @*<img src="~/dist/img/Logo.png" alt="Indus-G Logo" class="brand-image img-circle elevation-3"
+                                style="opacity: .8">*@
+                        </i>
+
+                    </span>
+
+                    <span class="login100-form-title p-b-34 p-t-27">
+                        Log in
+                    </span>
+
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter username">
+                        @Html.TextBoxFor(m => m.UserName, new { @class = "input100", placeholder = "Username" })
+                        <span class="focus-input100" data-placeholder="&#xf207;"></span>
+                    </div>
+
+                    <div class="wrap-input100 validate-input" data-validate="Enter password">
+                        @Html.PasswordFor(m => m.Password, new { @class = "input100", placeholder = "Password" })
+                        <span class="focus-input100" data-placeholder="&#xf191;"></span>
+                    </div>
+
+                    <div class="container-login100-form-btn">
+                        <button type="submit" class="login100-form-btn">
+                            Login
+                        </button>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+    <script src="~/Content/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/Content/vendor/animsition/js/animsition.min.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/siteHelper.js"></script>
+
+</body>
+   
+</html>

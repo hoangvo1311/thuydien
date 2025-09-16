@@ -1,0 +1,860 @@
+﻿using IndusG.DataAccess;
+using IndusG.Service;
+using IndusG.Service.Helpers;
+using IndusG.ServiceFrameWork;
+using Newtonsoft.Json;
+using S7.Net;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
+using System.Linq;
+using System.ServiceProcess;
+using System.Threading;
+
+namespace IndusG.BackgroundServiceImplement.Service
+{
+    /// <summary>
+    /// The actual result service implementation goes here...
+    /// </summary>
+    [ServiceAttribute("IndusGReadPLCDaksrongService",
+        DisplayName = "IndusGReadPLCDaksrongService",
+        Description = "Service to read measurement value from Siemens and insert to SQL database",
+        StartMode = ServiceStartMode.Automatic)]
+    public class ReadPLC_DakSrongService : LiteServiceBase
+    {
+        private Plc _plcDriver1;
+        private Plc _plcDriver2;
+        private PlcService _plcService;
+        const int firstWaitTime = 500;
+        const int secondWaitTime = 60000;
+        private string webAppUrl = ConfigurationManager.AppSettings["WebAppUrl"] != null ?
+            ConfigurationManager.AppSettings["WebAppUrl"].ToString() : string.Empty;
+        public byte[] ParametersTimestamp;
+        // Data show on DataGridView
+        public static double Upstream, Downstream, Qve_Ho, Qoverflow, QcmH1H2H3, Qminflow, Qve_HaDu, Drainlevel1, Drainlevel2, Qve_HoDB, Reserve_Water, Qminflow_TT, H1_MW, H2_MW, H3_MW, QcmH1, QcmH2, QcmH3, DeltaQsb, Qve_TT, Qve_TB;
+        public static double Upstream_Prev = 326.3, Qve_Ho_Prev = 2.05, Upstream_15Prev = 326.3, Qve_Ho_15Prev = 4.69, Qve_HoDB_15Prev = 4.69, Qve_Ho_Temp = 2.05, Qve_Ho_Temp_15Prev = 57.49;
+        public static bool FlowNoLoadH1, FlowNoLoadH2, FlowNoLoadH3;
+        public static double QcmH1_15Prev, QcmH2_15Prev, QcmH3_15Prev;
+        public static double[] Qve_TT_Arr = new double[100];
+        public static double[] QcmH1H2H3_Prev = new double[5];
+        public static string Nhamay;
+        // Setting Constant on "SiemensSettingUC"
+        public static double K_ChuaCoHep = 0.953, K_CoHepNgang = 0.5093, K_CoHepDung = 0.622, K_LuuLuong = 0.9, H_MayPhat = 0.868, H_CoKhi = 1, H_Turbine = 1, CaoTrinhNguongTran = 327, ChieuDaiDapTran = 491.97, CaoTrinhNguongKenhXa = 322.5, ChieuRongKenhXa = 1.5, DungTichHuuIch = 753000, MucNuocChet = 326, DungTichHoMNC = 1405000, K_DCTT = 0.17, DCTT_QuyDinh = 1.05;
+        public static double DCTT_TrungGian = 1.05;
+        public static double LuuLuongKhongTaiH1 = 0.1;
+        public static double LuuLuongKhongTaiH2 = 0.1;
+        public static double LuuLuongKhongTaiH3 = 0.1;
+
+        public static double SampleSize = 4;
+
+        internal Plc PLCDriver1
+        {
+            get
+            {
+                if (_plcDriver1 == null)
+                {
+                    _plcDriver1 = _plcService.InitPLCDriver();
+                }
+
+                return _plcDriver1;
+            }
+        }
+
+        internal Plc PLCDriver2
+        {
+            get
+            {
+                if (_plcDriver2 == null)
+                {
+                    _plcDriver2 = _plcService.InitPLCDriver();
+                }
+
+                return _plcDriver2;
+            }
+        }
+
+        /// <summary>
+        /// Default constructor
+        /// </summary>
+        public ReadPLC_DakSrongService()
+        {
+            ServiceName = "IndusG - Read PLC Service";
+            _plcService = new PlcService();
+        }
+
+        /// <summary>
+        /// Start the result service for pushing data to database
+        /// </summary>
+        public override void Start()
+        {
+            try
+            {
+                LoggerHelper.Info("Start Read PLC Service!");
+
+                #region Start-up values for decrease error
+                Upstream_15Prev = 326.56;
+                Upstream_Prev = 326.54;
+
+                #endregion
+
+                _plcDriver1 = _plcService.InitPLCDriver();
+                _plcDriver2 = _plcService.InitPLCDriver();
+
+                try
+                {
+                    _plcDriver1.Open();
+                    _plcDriver2.Open();
+                }
+                catch
+                {
+                    // ignored
+                }
+
+                LoggerHelper.Info("Finish init PLC Service!");
+
+                try
+                {
+                    _plcService.SetServiceStatus(true);
+                    var runningServiceNotificationUrl = Path.Combine(webAppUrl, "api/Notification/NotifyServiceRunning");
+                    var response = RestAPIHelper.Post(runningServiceNotificationUrl);
+                }
+                catch (Exception ex)
+                {
+                    LoggerHelper.Error($"Error while notify service stopped. {ex.Message}");
+                }
+
+                LoggerHelper.Info("Get parameters value!");
+
+                var firstThread = new Thread(new ThreadStart(() =>
+                {
+                    while (true)
+                    {
+                        try
+                        {
+                            DoFirstBusiness();
+                        }
+                        catch (Exception ex)
+                        {
+                            LoggerHelper.Error(ex.Message);
+                            try
+                            {
+                                LoggerHelper.Error(ex.InnerException.InnerException.Message);
+                            }
+                            catch { }
+                        }
+
+                        Thread.Sleep(firstWaitTime);
+                    }
+                }));
+
+                firstThread.IsBackground = true;
+                firstThread.Start();
+
+                var secondThread = new Thread(new ThreadStart(() =>
+                {
+                    while (true)
+                    {
+                        try
+                        {
+                            LoggerHelper.Info("Reading PLC Data");
+                            DoSecondBusiness();
+                        }
+                        catch (Exception ex)
+                        {
+                            LoggerHelper.Error(ex.Message);
+                            try
+                            {
+                                LoggerHelper.Error(ex.InnerException.InnerException.Message);
+                            }
+                            catch
+                            {
+                                // ignored
+                            }
+                        }
+
+                        Thread.Sleep(secondWaitTime);
+                    }
+                }));
+
+                secondThread.IsBackground = true;
+                secondThread.Start();
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error(ex.Message);
+            }
+        }
+
+        public override void Stop()
+        {
+            LoggerHelper.Info("Stop Read PLC Service!");
+            try
+            {
+                if (_plcDriver1 != null && _plcDriver1.IsConnected)
+                {
+                    _plcDriver1.Close();
+                }
+                if (_plcDriver2 != null && _plcDriver2.IsConnected)
+                {
+                    _plcDriver2.Close();
+                }
+
+                _plcService.SetServiceStatus(false);
+
+                var stopServiceNotificationUrl = Path.Combine(webAppUrl, "api/Notification/NotifyServiceStopped");
+                var response = RestAPIHelper.Post(stopServiceNotificationUrl);
+                LoggerHelper.Info($"Notify Service Stopped");
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error($"Error while notify service stopped. {ex.Message}");
+            }
+
+        }
+
+        private void DoSecondBusiness()
+        {
+            using (var context = new DaksrongDBEntities())
+            {
+                var plcSetting = context.DB_SesanPLCConfiguration.FirstOrDefault();
+                if (plcSetting != null && (plcSetting.Rack != PLCDriver2.Rack || plcSetting.Slot != PLCDriver2.Slot
+                                                                              || plcSetting.IPAddress != PLCDriver2.IP
+                                                                              || _plcService.GetS7CPUType((Models.Enums.CPUType)plcSetting.CPUType) != PLCDriver2.CPU))
+                {
+                    _plcDriver2 = _plcService.InitPLCDriver();
+                }
+
+                if (!PLCDriver2.IsConnected || plcSetting.Status != true)
+                {
+                    try
+                    {
+                        PLCDriver2.Open();
+                        LoggerHelper.Info("Connected to PLC");
+                    }
+                    catch (Exception ex)
+                    {
+                        LoggerHelper.Error(ex.Message);
+                        DisconnectPLC2();
+                        return;
+                    }
+                }
+                if (plcSetting.Status != true)
+                {
+                    _plcService.UpdatePLCStatus(true);
+                }
+            }
+
+            GetParametersValue();
+
+            // Every 15 minutes
+            var currentMinute = DateTime.Now.Minute;
+            if (currentMinute % 15 == 0)
+            {
+                LoggerHelper.Info($"Current Minute: {currentMinute}. ReadAndCalculateData_15m");
+                ReadAndCalculateData_15m(PLCDriver2);
+                // Move Upstream to Upstream_Prev for calculate DeltaQsb
+                Upstream_15Prev = Upstream;
+                Qve_Ho_15Prev = Qve_Ho;
+                Qve_Ho_Temp_15Prev = Qve_Ho_Temp;
+                Qve_HoDB_15Prev = Qve_HoDB;
+                QcmH1_15Prev = QcmH1;
+                QcmH2_15Prev = QcmH2;
+                QcmH3_15Prev = QcmH3;
+            }
+            else
+            {
+                ReadAndCalculateData_1m(PLCDriver2);
+                // Move Upstream to Upstream_Prev for calculate DeltaQsb
+                Upstream_Prev = Upstream;
+                Qve_Ho_Prev = Qve_Ho;
+            }
+            InsertMeasurement();
+            UpdateLatestMeasurement();
+        }
+
+        private void DoFirstBusiness()
+        {
+            using (var context = new DaksrongDBEntities())
+            {
+                var plcSetting = context.DB_SesanPLCConfiguration.FirstOrDefault();
+                if (plcSetting.Rack != PLCDriver1.Rack || plcSetting.Slot != PLCDriver1.Slot
+                    || plcSetting.IPAddress != PLCDriver1.IP
+                    || _plcService.GetS7CPUType((Models.Enums.CPUType)plcSetting.CPUType) != PLCDriver1.CPU)
+                {
+                    _plcDriver1 = _plcService.InitPLCDriver();
+                }
+
+                if (!PLCDriver1.IsConnected || plcSetting.Status != true)
+                {
+                    try
+                    {
+                        PLCDriver1.Open();
+                        LoggerHelper.Info("Connected to PLC");
+                        _plcService.UpdatePLCStatus(true);
+                    }
+                    catch (Exception ex)
+                    {
+                        LoggerHelper.Error(ex.Message);
+                        DisconnectPLC1();
+                        return;
+                    }
+                }
+                if (plcSetting.Status != true)
+                {
+                    _plcService.UpdatePLCStatus(true);
+                }
+
+                GetParametersValue();
+                ReadAndCalculateData_1m(PLCDriver1);
+                UpdateLatestMeasurement();
+            }
+        }
+
+        private void DisconnectPLC1()
+        {
+            try
+            {
+                if (_plcDriver1 != null && _plcDriver1.IsConnected)
+                {
+                    _plcDriver1.Close();
+                }
+                _plcDriver1 = null;
+
+                _plcService.UpdatePLCStatus(false);
+
+                var plcDisconnectNotificationUrl = Path.Combine(webAppUrl, "api/Notification/NotifyPLCDisconnect");
+                var response = RestAPIHelper.Post(plcDisconnectNotificationUrl);
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error($"DisconnectPLC1. {ex.Message}");
+            }
+        }
+
+        private void DisconnectPLC2()
+        {
+
+            try
+            {
+                if (_plcDriver2 != null && _plcDriver2.IsConnected)
+                {
+                    _plcDriver2.Close();
+                }
+                _plcDriver2 = null;
+
+                _plcService.UpdatePLCStatus(false);
+
+                var plcDisconnectNotificationUrl = Path.Combine(webAppUrl, "api/Notification/NotifyPLCDisconnect");
+                var response = RestAPIHelper.Post(plcDisconnectNotificationUrl);
+            }
+            catch (Exception ex)
+            {
+                LoggerHelper.Error($"DisconnectPLC2. {ex.Message}");
+            }
+        }
+
+
+        private void ReadAndCalculateData_15m(Plc plcDriver)
+        {
+            // Data from PLC
+            Upstream = Math.Round(((uint)plcDriver.Read("DB5.DBD0")).ConvertToFloat(), 2);
+            Downstream = Math.Round(((uint)plcDriver.Read("DB5.DBD4")).ConvertToFloat(), 2);
+            H1_MW = Math.Round(((uint)plcDriver.Read("DB5.DBD16")).ConvertToFloat(), 2);
+            H2_MW = Math.Round(((uint)plcDriver.Read("DB5.DBD20")).ConvertToFloat(), 2);
+            H3_MW = Math.Round(((uint)plcDriver.Read("DB5.DBD24")).ConvertToFloat(), 2);
+
+            FlowNoLoadH1 = Convert.ToBoolean(plcDriver.Read("DB5.DBX45.4"));
+            FlowNoLoadH2 = Convert.ToBoolean(plcDriver.Read("DB5.DBX45.5"));
+            FlowNoLoadH3 = Convert.ToBoolean(plcDriver.Read("DB5.DBX45.6"));
+
+            #region Drainlevel           
+
+            Drainlevel1 = Math.Round(((uint)plcDriver.Read("DB5.DBD8")).ConvertToFloat(), 2);
+            #endregion
+
+            using (var context = new DaksrongDBEntities())
+            {
+                // Calculate base on Excel file    
+                #region QcmH1
+                if (H1_MW > 0)
+                {
+                    if (FlowNoLoadH1 && QcmH1_15Prev == 0)
+                    {
+                        QcmH1 = Math.Round(
+                            (H1_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream)))
+                            + LuuLuongKhongTaiH1, 2);
+                    }
+                    else
+                    {
+                        QcmH1 = Math.Round(
+                            (H1_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream))), 2);
+                    }
+                }
+                else
+                {
+                    QcmH1 = 0;
+                }
+                #endregion
+
+                #region QcmH2
+                if (H2_MW > 0)
+                {
+                    if (FlowNoLoadH2 && QcmH2_15Prev == 0)
+                    {
+                        QcmH2 = Math.Round(
+                            (H2_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream)))
+                            + LuuLuongKhongTaiH2, 2);
+                    }
+                    else
+                    {
+                        QcmH2 = Math.Round(
+                            (H2_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream))), 2);
+                    }
+                }
+                else
+                {
+                    QcmH2 = 0;
+                }
+                #endregion
+
+                #region QcmH3
+                if (H3_MW > 0)
+                {
+                    if (FlowNoLoadH3 && QcmH3_15Prev == 0)
+                    {
+                        QcmH3 = Math.Round(
+                            (H3_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream)))
+                            + LuuLuongKhongTaiH3, 2);
+                    }
+                    else
+                    {
+                        QcmH3 = Math.Round(
+                            (H3_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream))), 2);
+                    }
+                }
+                else
+                {
+                    QcmH3 = 0;
+                }
+                #endregion
+
+                #region QcmH1H2H3
+                //QcmH1H2H3 _ Qua nha may
+                QcmH1H2H3 = Math.Round(((QcmH1 + QcmH2 + QcmH3)), 2);
+                #endregion
+
+                #region Qoverflow
+                //Qoverflow
+                if (Upstream > CaoTrinhNguongTran && Upstream <= 330.1)
+                {
+                    Qoverflow = Math.Round(K_ChuaCoHep * K_CoHepNgang * ChieuDaiDapTran * Math.Sqrt(2 * 9.81) * Math.Pow((Upstream - CaoTrinhNguongTran), 1.5), 2);
+                }
+                else if (Upstream > 330.1)
+                {
+                    Qoverflow = Math.Round((Upstream - 330.1) * 2603.8 + 5773);
+                }
+                else
+                {
+                    Qoverflow = 0;
+                }
+                #endregion
+
+                #region Qminflow_TT
+                //Qminflow_TT
+                if (Drainlevel1 > 0 || Drainlevel2 > 0)
+                {
+                    Qminflow_TT = Math.Round((K_LuuLuong * K_CoHepDung * ChieuRongKenhXa * Drainlevel1 * Math.Sqrt(2 * 9.81 * ((Upstream - CaoTrinhNguongKenhXa) - K_CoHepDung * Drainlevel1)) + K_LuuLuong * K_CoHepDung * ChieuRongKenhXa * Drainlevel2 * Math.Sqrt(2 * 9.81 * ((Upstream - CaoTrinhNguongKenhXa) - K_CoHepDung * Drainlevel2))), 2);
+                }
+                else
+                {
+                    Qminflow_TT = 0;
+
+                }
+                #endregion
+
+
+                #region Qminflow
+                //Qminflow - updated on 02Aug20
+                var parameter = context.DB_SesanParameter.FirstOrDefault();
+
+                if (parameter.DCTT_Toggle == true)
+                {
+                    Qminflow = Qminflow_TT;
+
+                }
+                else
+                {
+                    if (QcmH1H2H3 > DCTT_QuyDinh)
+                    {
+                        Qminflow = 0;
+                    }
+                    else
+                    {
+                        Qminflow = DCTT_QuyDinh;
+                    }
+                }
+                #endregion
+
+                #region DeltaQsb
+                if (Upstream_15Prev > 325.5)
+                {
+                    LoggerHelper.Info($"Upstream {Upstream} - Upstream_15Prev {Upstream_15Prev} - DungTichHuuIch {DungTichHuuIch}");
+                    DeltaQsb = Math.Round(((Upstream - Upstream_15Prev) * (DungTichHuuIch / 900)), 2);
+                }
+                else
+                {
+                    DeltaQsb = 0;
+                }
+                #endregion
+
+                #region Modify Qve with Qve_TT & Qve_TB for sample 4 times
+
+                #region Qve_TT
+                // Qve_TT
+                Qve_TT = Math.Round(QcmH1H2H3 + Qoverflow + Qminflow + DeltaQsb, 2);
+                #endregion
+
+                #region Qve_TB
+
+                // Qve_TB
+              
+                double Qve_TB_Temp = 0;
+
+                for (int i = 1; i <= SampleSize - 1; i++)
+                {
+                    var timeAfter = DateTime.Now.AddMinutes(0.5 - i * 15);
+                    var timeBefore = DateTime.Now.AddMinutes(-0.5 - i * 15);
+
+                    var measurementValues = context.DB_Sesan_2PLC.Where(x => x.Date <= timeAfter && x.Date >= timeBefore);
+                    foreach (var measurement in measurementValues)
+                    {
+                        Qve_TT_Arr[i] = measurement.Qve_TT ?? 0;
+                        if (i < 5)
+                        {
+                            QcmH1H2H3_Prev[i] = measurement.QcmH1H2H3 ?? 0;
+                        }
+                    }
+
+                    Qve_TB_Temp += Qve_TT_Arr[i];
+                }
+                LoggerHelper.Info($"Qve_TT_Arr {JsonConvert.SerializeObject(Qve_TT_Arr)}");
+                Qve_TB = Math.Round((Qve_TB_Temp + Qve_TT) / SampleSize, 2);
+                LoggerHelper.Info($"Qve_TB_Temp {Qve_TB_Temp} - Qve_TB {Qve_TB}");
+                #endregion
+
+                #endregion
+
+                #region Qve_Ho
+                //Qve_Ho
+
+                if (Qve_TB == 0)
+                {
+                    Qve_Ho = Qve_TT - DCTT_TrungGian;
+                }
+                else if (Qve_TB > 0)
+                {
+                    Qve_Ho = Qve_TB - DCTT_TrungGian;
+                }
+
+
+                if (Qve_Ho <= 0)
+                {
+                    Qve_Ho = 0;
+                }
+
+
+                #endregion
+
+                #region Qve_HaDu
+                //Qve_DB
+                Qve_HaDu = QcmH1H2H3 + Qoverflow + Qminflow;
+                #endregion
+
+
+
+                #region Qve_HoDB
+
+                if ((QcmH1H2H3_Prev[4] * QcmH1H2H3_Prev[1] * QcmH1H2H3_Prev[2] * QcmH1H2H3_Prev[3]) > 0 && Qve_TT > Qve_TT_Arr[1] && Qve_TT_Arr[1] > Qve_TT_Arr[2] && Qve_TT_Arr[2] > Qve_TT_Arr[3])
+                {
+                    Qve_HoDB = Math.Round((Qve_TT + Qve_TT_Arr[1] + Qve_TT_Arr[2] + Qve_TT_Arr[3]) / 4, 2);
+                }
+                else
+                {
+                    Qve_HoDB = Qve_Ho;
+                }
+
+
+                if (Qve_HoDB <= 0)
+                {
+                    Qve_HoDB = 0;
+                }
+
+                #endregion
+
+                #region Reserve_Water
+                if (Upstream >= 326)
+                {
+                    Reserve_Water = Math.Round(((Upstream - MucNuocChet) * DungTichHuuIch) / 1000000, 3);
+                }
+                else
+                {
+                    Reserve_Water = 0;
+                }
+                #endregion
+            }
+
+        }
+
+        private void ReadAndCalculateData_1m(Plc plcDriver)
+        {
+            // Data from PLC
+            Upstream = Math.Round(((uint)plcDriver.Read("DB5.DBD0")).ConvertToFloat(), 2);
+            Downstream = Math.Round(((uint)plcDriver.Read("DB5.DBD4")).ConvertToFloat(), 2);
+            H1_MW = Math.Round(((uint)plcDriver.Read("DB5.DBD16")).ConvertToFloat(), 2);
+            H2_MW = Math.Round(((uint)plcDriver.Read("DB5.DBD20")).ConvertToFloat(), 2);
+            H3_MW = Math.Round(((uint)plcDriver.Read("DB5.DBD24")).ConvertToFloat(), 2);
+
+            #region Drainlevel           
+
+            Drainlevel1 = Math.Round(((uint)plcDriver.Read("DB5.DBD8")).ConvertToFloat(), 2);
+            Drainlevel2 = Math.Round(((uint)plcDriver.Read("DB5.DBD12")).ConvertToFloat(), 2);
+            #endregion
+
+
+            using (var context = new DaksrongDBEntities())
+            {
+                // Calculate base on Excel file    
+                #region QcmH1
+                //QcmH1
+                if (H1_MW > 0)
+                {
+                    QcmH1 = Math.Round((H1_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream))), 2);
+                }
+                else
+                {
+                    QcmH1 = 0;
+                }
+                #endregion
+
+                #region QcmH2
+                //QcmH2
+                if (H2_MW > 0)
+                {
+                    QcmH2 = Math.Round((H2_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream))), 2);
+                }
+                else
+                {
+                    QcmH2 = 0;
+                }
+                #endregion
+
+                #region QcmH3
+                //QcmH3
+                if (H3_MW > 0)
+                {
+                    QcmH3 = Math.Round((H3_MW * 1000 / (9.81 * H_MayPhat * H_Turbine * H_CoKhi * (Upstream - Downstream))), 2);
+                }
+                else
+                {
+                    QcmH3 = 0;
+                }
+                #endregion
+
+                #region QcmH1H2H3
+                //QcmH1H2H3 _ Qua nha may
+                QcmH1H2H3 = (QcmH1 + QcmH2 + QcmH3);
+                #endregion
+
+                #region Qoverflow
+                //Qoverflow
+                //Qoverflow
+                if (Upstream > CaoTrinhNguongTran && Upstream <= 330.1)
+                {
+                    Qoverflow = Math.Round(K_ChuaCoHep * K_CoHepNgang * ChieuDaiDapTran * Math.Sqrt(2 * 9.81) * Math.Pow((Upstream - CaoTrinhNguongTran), 1.5), 2);
+                }
+                else if (Upstream > 330.1)
+                {
+                    Qoverflow = Math.Round((Upstream - 330.1) * 2603.8 + 5773);
+                }
+                else
+                {
+                    Qoverflow = 0;
+                }
+                #endregion
+
+
+                #region Qminflow_TT
+                //Qminflow_TT
+                if (Drainlevel1 > 0 || Drainlevel2 > 0)
+                {
+                    Qminflow_TT = Math.Round((K_LuuLuong * K_CoHepDung * ChieuRongKenhXa * Drainlevel1 * Math.Sqrt(2 * 9.81 * ((Upstream - CaoTrinhNguongKenhXa) - K_CoHepDung * Drainlevel1)) + K_LuuLuong * K_CoHepDung * ChieuRongKenhXa * Drainlevel2 * Math.Sqrt(2 * 9.81 * ((Upstream - CaoTrinhNguongKenhXa) - K_CoHepDung * Drainlevel2))), 2);
+                }
+                else
+                {
+                    Qminflow_TT = 0;
+
+                }
+                #endregion
+
+
+                #region Qminflow
+                //Qminflow - updated on 02Aug20
+                var parameter = context.DB_SesanParameter.FirstOrDefault();
+
+                if (parameter.DCTT_Toggle == true)
+                {
+                    Qminflow = Qminflow_TT;
+                }
+                else
+                {
+                    if (QcmH1H2H3 > DCTT_QuyDinh)
+                    {
+                        Qminflow = 0;
+
+                    }
+                    else
+                    {
+                        Qminflow = DCTT_QuyDinh;
+                    }
+
+                }
+                #endregion
+
+                #region DeltaQsb
+                if (Upstream_Prev > 325.5)
+                {
+                    DeltaQsb = Math.Round(((Upstream - Upstream_Prev) * (DungTichHuuIch / 900)), 2);
+                }
+                else
+                {
+                    DeltaQsb = 0;
+                }
+                #endregion
+
+                #region Qve_HaDu
+                //Qve_DB
+                Qve_HaDu = QcmH1H2H3 + Qoverflow + Qminflow;
+                #endregion
+
+                #region Qve_Ho, Qve_HoDB
+
+                //Qve_Ho
+
+                Qve_Ho = Qve_Ho_15Prev;
+                Qve_HoDB = Qve_HoDB_15Prev;
+
+
+                #endregion
+
+
+
+                #region Reserve_Water
+                // Change to Dung tich huu ich 02Aug20
+                if (Upstream >= 326)
+                {
+                    Reserve_Water = Math.Round(((Upstream - MucNuocChet) * DungTichHuuIch) / 1000000, 3);
+                }
+                else
+                {
+                    Reserve_Water = 0;
+                }
+                #endregion
+            }
+
+
+
+        }
+
+        private void InsertMeasurement()
+        {
+            var measurementService = new MeasurementService();
+            var now = DateTime.Now;
+            var measurement = new DB_Sesan_2PLC
+            {
+                Time = new TimeSpan(now.Hour, now.Minute, now.Second),
+                Date = now,
+                UpstreamWaterLevel_m = Math.Round(Upstream, 2),
+                DownstreamWaterLevel_m = Math.Round(Downstream, 2),
+                Qve_Ho = Math.Round(Qve_Ho, 2),
+                Qoverflow = Math.Round(Qoverflow, 2),
+                QcmH1H2H3 = Math.Round(QcmH1H2H3, 2),
+                Qminflow = Math.Round(Qminflow, 2),
+                Qve_Hadu = Math.Round(Qve_HaDu, 2),
+                Drain_Level1 = Math.Round(Drainlevel1, 2),
+                Drain_Level2 = Math.Round(Drainlevel2, 2),
+                Qve_HoDB = Math.Round(Qve_HoDB, 2),
+                Reserve_Water = Math.Round(Reserve_Water, 3),
+                Qminflow_TT = Math.Round(Qminflow_TT, 2),
+                H1_MW = Math.Round(H1_MW, 2),
+                H2_MW = Math.Round(H2_MW, 2),
+                H3_MW = Math.Round(H3_MW, 2),
+                QcmH1 = Math.Round(QcmH1, 2),
+                QcmH2 = Math.Round(QcmH2, 2),
+                QcmH3 = Math.Round(QcmH3, 2),
+                DeltaQsb = Math.Round(DeltaQsb, 2),
+                Minutes = now.Minute.ToString(),
+                Qve_TT = Math.Round(Qve_TT, 2),
+                Qve_TB = Math.Round(Qve_TB, 2)
+            };
+            LoggerHelper.Info($"Insert data {JsonConvert.SerializeObject(measurement)}");
+
+            measurementService.InsertMeasurement(measurement);
+            LoggerHelper.Info("Inserted new measurement data!");
+        }
+
+        private void GetParametersValue()
+        {
+            using (var context = new DaksrongDBEntities())
+            {
+                var parameter = context.DB_SesanParameter.First();
+                if (ParametersTimestamp == null || parameter.Timestamp != ParametersTimestamp)
+                {
+                    K_ChuaCoHep = parameter.K_ChuaCoHep.Value;
+                    K_CoHepNgang = parameter.K_CoHepNgang.Value;
+                    K_CoHepDung = parameter.K_CoHepDung.Value;
+                    K_LuuLuong = parameter.K_LuuLuong.Value;
+                    H_MayPhat = parameter.H_MayPhat.Value;
+                    H_CoKhi = parameter.H_CoKhi.Value;
+                    H_Turbine = parameter.H_Turbine.Value;
+                    CaoTrinhNguongTran = parameter.CaoTrinhNguongTran.Value;
+                    ChieuDaiDapTran = parameter.ChieuDaiDapTran.Value;
+                    CaoTrinhNguongKenhXa = parameter.CaoTrinhNguongKenhXa.Value;
+                    ChieuRongKenhXa = parameter.ChieuRongKenhXa.Value;
+                    DungTichHuuIch = parameter.DungTichHuuIch.Value;
+                    MucNuocChet = parameter.MucNuocChet.Value;
+                    DungTichHoMNC = parameter.DungTichHoMNC.Value;
+                    DCTT_QuyDinh = parameter.DCTT_QuyDinh.Value;
+                    SampleSize = parameter.K_DCTT.Value;
+                    ParametersTimestamp = parameter.Timestamp;
+                }
+            }
+        }
+
+        private void UpdateLatestMeasurement()
+        {
+            var measurementService = new MeasurementService();
+
+            measurementService.UpdateLatestMeasurement(new DB_SesanMeasurement
+            {
+                Date = DateTime.Now,
+                UpstreamWaterLevel_m = Upstream,
+                DownstreamWaterLevel_m = Downstream,
+                DeltaQsb = DeltaQsb,
+                H1_MW = H1_MW,
+                H2_MW = H2_MW,
+                H3_MW = H3_MW,
+                QcmH1 = QcmH1,
+                QcmH2 = QcmH2,
+                QcmH3 = QcmH3,
+                QcmH1H2H3 = QcmH1H2H3,
+                Qve_Hadu = Qve_HaDu,
+                Qve_HoDB = Qve_HoDB,
+                Qve_Ho = Qve_Ho,
+                Qoverflow = Qoverflow,
+                Qminflow = Qminflow,
+                Reserve_Water = Reserve_Water
+            });
+        }
+    }
+}
